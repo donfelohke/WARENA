@@ -1,5 +1,7 @@
 # WARENA — Advanced Reproducible Extensible Networked Artefacts
 
+**Canonical principle: ONE CORPUS → MANY VIEWS → ONE PRACTICE.**
+
 **Purpose:** Build and document maintainable, reproducible, local-first computing systems and infrastructure.
 
 WARENA is the ecosystem's systems and enablement domain. It focuses on GNU/Linux environments, reproducible configurations, networking, recovery, and infrastructure that can be inspected, repaired, and handed over.
