@@ -1,6 +1,8 @@
 # WARENA — Advanced Reproducible Extensible Networked Artefacts
 
-**Canonical principle: ONE CORPUS → MANY VIEWS → ONE PRACTICE.**
+**Author:** Feloh Warena · [@donfelohke](https://github.com/donfelohke) · [X](https://x.com/donfelohke)  
+**Pillar:** GRIT · Freedom is a system  
+**Canonical principle:** ONE CORPUS → MANY VIEWS → ONE PRACTICE.
 
 **Purpose:** Build and document maintainable, reproducible, local-first computing systems and infrastructure.
 
@@ -32,8 +34,10 @@ This repository is a project baseline, not evidence that any system has already 
 - [GENJE](https://github.com/donfelohke/Genje) — creative technology and embodied practice.
 - [IKAI](https://github.com/donfelohke/Ikai) — reflexive-compute research.
 - [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN) — beauty craft and the transaction boundary.
+- [Gallery](https://github.com/donfelohke/Gallery) — curated assets.
 
-**Transaction boundary: ONLY NAKEBUSEN TRANSACTS.**
+**Transaction boundary: ONLY NAKEBUSEN TRANSACTS.**  
+Commercial enquiries: [WhatsApp 0719 635 415](https://wa.me/254719635415) via NAKEBUSEN channels only.
 
 ## Repository map
 
