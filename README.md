@@ -8,6 +8,11 @@
 
 WARENA is the ecosystem's systems and enablement domain. It focuses on GNU/Linux environments, reproducible configurations, networking, recovery, and infrastructure that can be inspected, repaired, and handed over.
 
+**Public-facing description:** *Sovereign systems that work when the internet doesn't.* WARENA helps people and organisations plan, understand, maintain and recover their computing systems, with an emphasis on local-first operation, reproducibility and clear handover documentation.
+
+**Audience:** small organisations, learning spaces, community infrastructure and independent operators who need understandable systems and practical operational support. Treat this as positioning, not proof of completed client deployments. Publish a specific service, price, compatibility claim or delivery promise only when current scope and evidence are documented.
+
+
 ## Principles
 
 - **Freedom is a system:** prefer source-available, inspectable, modifiable components and document unavoidable constraints.
