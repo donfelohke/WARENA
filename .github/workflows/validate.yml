@@ -1,0 +1,27 @@
+name: Validate repository baseline
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  documentation-baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Validate required documentation
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in README.md GOVERNANCE.md CONTRIBUTING.md SECURITY.md docs/architecture.md docs/reproducibility-plan.md; do
+            test -s "$file" || { echo "Missing or empty required file: $file"; exit 1; }
+          done
+          grep -q "ONE CORPUS" README.md || { echo "README missing canonical corpus principle"; exit 1; }
+          grep -q "ONLY NAKEBUSEN TRANSACTS" README.md || { echo "README missing transaction boundary"; exit 1; }
+          echo "Required documentation baseline is present."
