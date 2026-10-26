@@ -1,91 +1,79 @@
 # WARENA
 
 **Systems engineering · reproducibility · infrastructure**  
-**Public commercial face:** [NAKEBUSEN DIGITAL](https://donfelohke.github.io/)  
+**Public commercial face:** [NAKEBUSEN Digital](https://donfelohke.github.io/)  
 **Author:** [@donfelohke](https://github.com/donfelohke) · Felix Lwova · #HisGenjeness
 
 > **Freedom Is a System.**
 
-WARENA is the technical practice that powers NAKEBUSEN Digital. It is not a separate consumer checkout brand. Customer enquiries and commercial agreements run through **NAKEBUSEN**.
+WARENA powers **NAKEBUSEN Digital**. It is not a separate consumer checkout brand. Customer enquiries and commercial agreements run through **NAKEBUSEN**.
 
-**ONLY NAKEBUSEN TRANSACTS.**
+**An enquiry is not an accepted project.** Scope, price and support are agreed before work begins.
 
 ---
 
 ## Why WARENA exists
 
-Much digital work assumes always-on cloud, opaque tooling, and systems the operator cannot repair. WARENA is oriented the other way: machines and networks that people in real places—including Eldoret and similar contexts—can **install, understand, maintain, and recover**.
+Prefer stacks people can install, understand, maintain and recover—including in places where power and connectivity are unreliable.
 
-Principles:
+1. **Comprehensibility**  
+2. **Maintainability**  
+3. **Local-first where it helps**  
+4. **Honesty of status** — LIVE vs RESEARCH vs PROPOSAL  
+5. **Human authorship** — tools assist; the operator decides  
 
-1. **Comprehensibility** — Prefer stacks an operator can explain.  
-2. **Maintainability** — Prefer configurations that survive staff change and power cuts.  
-3. **Local-first where it helps** — Offline-capable when connectivity is unreliable.  
-4. **Honesty of status** — LIVE work is separated from RESEARCH and PROPOSAL.  
-5. **Human authorship** — Tools assist; the operator decides.
-
-Pillar: **GRIT** within the GRACE · GRIT · GLORY triad.
+Pillar: **GRIT** (GRACE · GRIT · GLORY).
 
 ---
 
-## Capability map
+## Capability map (public)
 
 | Domain | Typical work | Maturity |
 |--------|--------------|----------|
 | GNU/Linux | Install, admin, troubleshooting | Offered via NAKEBUSEN Digital |
 | Workstations | Diagnostics, recovery, maintenance | Offered |
 | Networks | Wi-Fi, LAN, router setup | Offered |
-| Small infrastructure | Servers, shared services, office setups | Offered by engagement |
-| Learning spaces | Lab, classroom, cybercafé | Offered by engagement |
-| Local-first / offline | Environments that function with weak WAN | Offered by engagement |
-| Reproducible tooling | Documented, repeatable environments | Practice / evolving |
-| RDE / Guix experiments | Sovereign workstation research | RESEARCH — not a product claim |
-
-Details for public messaging: [TECHCOPY on the website repo](https://github.com/donfelohke/donfelohke.github.io/blob/main/docs/TECHCOPY.md).
+| Small infrastructure | Servers, shared services | By engagement |
+| Learning spaces | Lab, classroom, cybercafé | By engagement |
+| Local-first / offline | Weak-WAN environments | By engagement |
+| Reproducible tooling | Documented environments | Practice / evolving |
+| RDE / Guix / desktop research | Sovereign workstation experiments | **RESEARCH** — not a product claim |
 
 ---
 
-## How engagements work
+## Evidence and stack truth
 
-1. Client describes **problem** and **desired outcome**.  
-2. Scope, feasibility, deliverables, price, and support are **agreed before work**.  
-3. Work proceeds; changes are explicit.  
-4. An enquiry is **not** an accepted project.
+| Document | Role |
+|----------|------|
+| [docs/STACK-REGISTER.md](docs/STACK-REGISTER.md) | Upstream vs Guix vs host — **CANON ≠ deployed** |
+| [docs/EVIDENCE-STATUS.md](docs/EVIDENCE-STATUS.md) | LIVE / PROTOTYPE / RESEARCH / CONCEPT / UNKNOWN |
+| [docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md](docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md) | Audit of what public GitHub actually contains |
+| [docs/DESKTOP-ARCHITECTURE.md](docs/DESKTOP-ARCHITECTURE.md) | Sway baseline · dwl-guile research · X11 track |
+| [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings vs experiments |
 
-Contact: [donfelohke.github.io](https://donfelohke.github.io/) · WhatsApp **+254 719 635 415** · `mela9ine@proton.me`
+This repository is **documentation-first** on public GitHub. Markdown is not proof of a named production host.
 
 ---
 
-## Relationship to the rest of the ecosystem
+## Contact
+
+[donfelohke.github.io](https://donfelohke.github.io/) · WhatsApp **+254 719 635 415** · `mela9ine@proton.me`
+
+---
+
+## Ecosystem
 
 | Name | Relationship |
 |------|----------------|
 | **NAKEBUSEN** | Sole transacting enterprise; Digital path is WARENA-powered |
-| **IKAI** | Separate reflective-compute research — not a WARENA product |
-| **GENJE** | Cultural / creative practice — not infrastructure SKU |
-| **FELOH / @donfelohke** | Human author of the practice |
-| **feloh-corpus** | Shared terms, evidence standards, brand constitution |
+| **IKAI** | Reflective-compute research — not a WARENA product |
+| **GENJE** | Cultural / creative practice |
+| **FELOH / @donfelohke** | Human author |
+| **feloh-corpus** | Shared terms and evidence standards |
 
 ```text
 FELOH generates → NAKEBUSEN grounds → WARENA enables → IKAI reflects → GENJE embodies
 ```
-
----
-
-## Repository contents
-
-| Path | Purpose |
-|------|--------|
-| [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md) | Technical worldview |
-| [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings vs research |
-| [docs/ENGAGEMENT.md](docs/ENGAGEMENT.md) | How projects are scoped |
-| [GOVERNANCE.md](GOVERNANCE.md) | Decision rules |
-| [SECURITY.md](SECURITY.md) | Security expectations |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution norms |
-
-This repository documents **practice and intent**. Presence of a markdown file is not proof of a deployed production system at a named client site.
-
----
 
 ## License
 
