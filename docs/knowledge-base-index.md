@@ -15,6 +15,7 @@
 
 | Area | Document | Purpose |
 |---|---|---|
+| Service UX and handover | [digital-service-ux-sop.md](digital-service-ux-sop.md) | Discovery, scope, acceptance tests, evidence, handover and service feedback |
 | Architecture | [architecture.md](architecture.md) | Boundaries, layers, evidence rules |
 | Reproducibility | [reproducibility-plan.md](reproducibility-plan.md) | Staged environment/deployment plan |
 | Host inventory | [host-inventory-template.md](host-inventory-template.md) | Hardware, firmware, OS, interfaces |
