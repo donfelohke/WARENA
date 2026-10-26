@@ -71,9 +71,7 @@ This repository is **documentation-first** on public GitHub. Markdown is not pro
 | **FELOH / @donfelohke** | Human author |
 | **feloh-corpus** | Shared terms and evidence standards |
 
-```text
-FELOH generates → NAKEBUSEN grounds → WARENA enables → IKAI reflects → GENJE embodies
-```
+Cross-domain relationships are documented in the [canonical architecture](https://github.com/donfelohke/feloh-corpus/blob/main/docs/canonical-architecture-2026-10-26.md).
 
 ## License
 
