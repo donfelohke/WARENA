@@ -70,3 +70,17 @@ WARENA is the technical identity of **NAKEBUSEN DIGITAL**; WARENA Systems descri
 The shared human-authority principle is **“AI suggests. The human decides.”** Technical direction remains local-first where practical, reproducible, inspectable, recoverable and documented. A listed technology or proposed runbook is not evidence of deployment; distinguish LIVE, PROTOTYPE, RESEARCH, CONCEPT, HISTORICAL, SUPERSEDED and UNKNOWN. IKAI Mirror is a related reflective-computing research project; GENJE ZA WARENA is the cultural identity/motivating idea, not a technical subsystem.
 
 See the [canonical architecture](https://github.com/donfelohke/feloh-corpus/blob/main/docs/canonical-architecture-2026-10-26.md).
+
+---
+
+## Cross-repository documentation contract
+
+This repository is the **Systems and infrastructure** domain in the FELOH ecosystem. Keep its README specific to this repository's actual contents; use the [FELOH Corpus](https://github.com/donfelohke/feloh-corpus) for shared terminology, architecture decisions, evidence standards and cross-domain governance.
+
+- **Be precise about status.** Distinguish implemented and tested work from proposals, research, concepts and historical material. A plan, specification, directory or commit is not proof of a deployed or independently verified capability.
+- **Link to the source of truth.** Prefer links to maintained documentation over duplicated long-form policy. When shared terminology or architecture changes, update the corpus first or alongside the affected domain documentation.
+- **Protect people and rights.** Do not commit credentials, private customer records, confidential operational details, unlicensed creative assets or material lacking required consent. Record provenance and permissions for published assets and research material.
+- **Keep responsibilities clear.** FELOH is the human author and integrated practice; NAKEBUSEN is the sole customer-facing transacting enterprise; WARENA enables systems and infrastructure; IKAI remains reflective-compute research unless release evidence establishes otherwise; GENJE embodies creative and movement practice. Gallery holds curated assets, while the public website presents approved information.
+- **Make changes reviewable.** Prefer focused branches and pull requests, document meaningful decisions, and report checks actually run. Do not claim tests, deployment, approval or release unless there is evidence.
+
+Canonical relationship: **FELOH generates. NAKEBUSEN grounds. IKAI reflects. WARENA enables. GENJE embodies.**
