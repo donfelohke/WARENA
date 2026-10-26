@@ -65,7 +65,7 @@ Commercial enquiries and service confirmations are handled through NAKEBUSEN's a
 
 ## Canonical architecture update — 2026-10-26
 
-WARENA is the technical identity of **NAKEBUSEN DIGITAL**; WARENA Systems describes the systems-engineering and infrastructure practice. It is not a competing customer-facing booking brand. **ONLY NAKEBUSEN TRANSACTS.** Route commercial service enquiries through NAKEBUSEN's approved channels.
+WARENA is the technical identity of **NAKEBUSEN DIGITAL**; WARENA Systems describes the systems-engineering and infrastructure practice. It is not a competing customer-facing booking brand. Route commercial service enquiries through NAKEBUSEN's approved customer-facing channels.
 
 The shared human-authority principle is **“AI suggests. The human decides.”** Technical direction remains local-first where practical, reproducible, inspectable, recoverable and documented. A listed technology or proposed runbook is not evidence of deployment; distinguish LIVE, PROTOTYPE, RESEARCH, CONCEPT, HISTORICAL, SUPERSEDED and UNKNOWN. IKAI Mirror is a related reflective-computing research project; GENJE ZA WARENA is the cultural identity/motivating idea, not a technical subsystem.
 
