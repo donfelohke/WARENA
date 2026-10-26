@@ -19,9 +19,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for file in README.md GOVERNANCE.md CONTRIBUTING.md SECURITY.md docs/architecture.md docs/reproducibility-plan.md; do
+          for file in README.md GOVERNANCE.md CONTRIBUTING.md SECURITY.md docs/architecture.md docs/reproducibility-plan.md docs/knowledge-base-index.md docs/host-inventory-template.md docs/reproducible-environment-runbook.md docs/network-services-runbook.md docs/backup-restore-runbook.md; do
             test -s "$file" || { echo "Missing or empty required file: $file"; exit 1; }
           done
           grep -q "ONE CORPUS" README.md || { echo "README missing canonical corpus principle"; exit 1; }
-          grep -q "ONLY NAKEBUSEN TRANSACTS" README.md || { echo "README missing transaction boundary"; exit 1; }
+          grep -qi "customer-facing channels" README.md || { echo "README missing approved enquiry pathway"; exit 1; }
+          if grep -qi "ONLY NAKEBUSEN TRANSACTS" README.md GOVERNANCE.md; then
+            echo "Use approved customer-facing pathway wording instead of the internal boundary slogan."
+            exit 1
+          fi
+          for target in docs/architecture.md docs/reproducibility-plan.md docs/host-inventory-template.md docs/reproducible-environment-runbook.md docs/network-services-runbook.md docs/backup-restore-runbook.md; do
+            grep -q "##" "$target" || { echo "No section headings found in $target"; exit 1; }
+          done
           echo "Required documentation baseline is present."
