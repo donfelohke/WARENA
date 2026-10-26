@@ -21,7 +21,6 @@
 | Reproducible environments | [reproducible-environment-runbook.md](reproducible-environment-runbook.md) | Pinning, evaluation, build evidence |
 | Network services | [network-services-runbook.md](network-services-runbook.md) | Topology, access, service checks |
 | Backup and restore | [backup-restore-runbook.md](backup-restore-runbook.md) | Integrity and recovery tests |
-| Change/incident records | [change-incident-record-template.md](change-incident-record-template.md) | Change risk, timeline, rollback |
 
 ## Status vocabulary
 
