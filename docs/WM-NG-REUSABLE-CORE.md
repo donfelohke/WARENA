@@ -128,7 +128,75 @@ Historical lead: discuss-gnustep thread “gworkspace desktop as wm?” (August 
 
 ---
 
-## Validation gates (before implementation claims)
+## Requirements-and-evidence matrix
+
+Separates specification-backed requirements, documented platform capabilities, architectural proposals, and unverified integrations.
+
+| ID | Requirement or claim | Evidence status | Acceptance criterion |
+|----|----------------------|-----------------|----------------------|
+| R-01 | WM-NG must implement the required ICCCM conventions. | Specification-backed (ICCCM / X.Org) | Document and test window lifecycle, focus, protocol messages, and WM selection. |
+| R-02 | WM-NG must implement the EWMH features it advertises. | Specification-backed (EWMH / freedesktop) | Every advertised feature has a defined behaviour and corresponding test. |
+| R-03 | The native core owns XCB and authoritative window state. | Proposed design | No Scheme callback or host component independently mutates protocol state. |
+| R-04 | Guile can be embedded into a native application. | Documented capability (GNU Guile manual) | Minimal executable initializes Guile, invokes Scheme, handles errors, and shuts down safely. |
+| R-05 | Guile-XCB is suitable for the chosen Guile version. | Unverified; catalogue historically lists Guile 2.2 | Build and exercise the binding on the actual target toolchain, **or** proceed with native XCB bindings. |
+| R-06 | GNUstep can watch an I/O source through its run loop. | Documented API (`NSRunLoop`) | Prototype XCB file-descriptor handling without starving normal application events. |
+| R-07 | The reusable core works without the GNUstep host. | Proposed design | Core state and layout tests run independently of AppKit and a live X server where practical. |
+| R-08 | GWorkspace can operate as a peer of WM-NG. | Unverified integration | Validate startup, focus, Dock/work-area behaviour, and application launch in Xephyr. |
+| R-09 | Scheme policy failures do not compromise the WM. | Required safety property | Invalid configuration and exceptions produce controlled errors while the event loop continues. |
+| R-10 | A test session can be isolated from the production desktop. | Validation plan | Complete the basic WM acceptance suite in Xephyr before attempting a real desktop session. |
+
+---
+
+## Implementation gates
+
+### Gate A — Architecture approved
+
+Resolve the core API boundary, target Guile version, event-loop ownership, and minimum ICCCM/EWMH feature set.
+
+### Gate B — Native prototype validated
+
+Demonstrate exclusive WM ownership, basic client lifecycle, and predictable shutdown in Xephyr.
+
+### Gate C — Policy integration validated
+
+Demonstrate that Guile layouts and rules work while exceptions, reloads, and slow hooks are handled safely.
+
+### Gate D — Desktop interoperability validated
+
+Demonstrate the agreed GWorkspace behaviours and protocol compliance before considering a real-session trial.
+
+No gate authorizes a production desktop takeover.
+
+---
+
+## Architecture decision record (summary)
+
+| Decision | Rationale |
+|----------|-----------|
+| Core owns XCB | Protocol correctness, exclusive WM selection, and recovery must not depend on Scheme or host UI code. |
+| Guile is policy-only | Layouts, binds, and rules stay programmable; validation and execution stay native. |
+| GNUstep outside the core | Host/lifecycle optional; core must remain testable without AppKit. |
+| GWorkspace outside the core | Peer desktop/file manager; interoperability via ICCCM/EWMH, not private coupling. |
+| Library before bundle | Reuse without dynamic-load and unload complexity; bundle is Stage 2 only. |
+
+---
+
+## Verification plan (outline)
+
+Record environment versions, commands, expected results, and pass/fail per gate. Do not mark a requirement VERIFIED until the criterion is met under a named host and date.
+
+| Gate | Focus | Environment | Pass means |
+|------|--------|-------------|------------|
+| A | API + feature set + version pins | Document review | Written contracts and pinned toolchain |
+| B | WM selection, map/focus/destroy, clean stop | Xephyr / nested X | Exclusive ownership; controlled exit on conflict |
+| C | Scheme layouts/rules; fault isolation | Same + Guile embed | Policy errors do not stall or corrupt the WM |
+| D | GWorkspace peer behaviour | Xephyr + GWorkspace | Work area, focus, Dock/struts as agreed |
+
+Exact command lists and version pins remain to be filled when Gate A closes.
+
+---
+
+## Validation gates (checklist form)
 
 - Compatibility inventory (distro, GNUstep, Guile, XCB, GWorkspace versions)  
 - Core API review (lifecycle, ownership, errors, policy-action contract)  
@@ -140,7 +208,7 @@ Historical lead: discuss-gnustep thread “gworkspace desktop as wm?” (August 
 
 ## Status line
 
-**Proposal only.** Native `wmng-core` library + minimal GNUstep host + embedded Guile + direct libxcb; GWorkspace remains separate. This document does not authorize builds, merges to production hosts, or LIVE maturity claims.
+**Proposal only.** Native `wmng-core` library + minimal GNUstep host + embedded Guile + direct libxcb; GWorkspace remains separate. This document does not authorize builds, merges to production hosts, or LIVE maturity claims. The requirements matrix and gates are decision records for research—not evidence that any gate has passed.
 
 ### Related WARENA docs
 
