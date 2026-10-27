@@ -76,3 +76,8 @@ Cross-domain relationships are documented in the [canonical architecture](https:
 ## License
 
 See [LICENSE](LICENSE).
+
+
+## Portfolio alignment — 2026-10
+
+WARENA remains the systems-engineering layer: reproducible builds, GNU/Linux, local-first infrastructure and network services. **Freedom Is a System.** NAKEBUSEN is the public commercial interface; route customer enquiries there. Do not imply that research concepts are shipped products without implementation evidence.
