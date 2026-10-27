@@ -6,7 +6,7 @@
 
 > **Freedom Is a System.**
 
-WARENA powers **NAKEBUSEN Digital**. It is not a separate consumer checkout brand. Customer enquiries and commercial agreements run through **NAKEBUSEN**.
+WARENA powers **NAKEBUSEN Digital**. It is not a separate consumer checkout brand. Customer-facing channels for service enquiries and commercial agreements remain through **NAKEBUSEN**.
 
 **Public-facing description:** *Sovereign systems that work when the internet doesn't.* WARENA helps people and organisations plan, understand, maintain and recover computing systems, with an emphasis on local-first operation, reproducibility and clear handover documentation.
 
