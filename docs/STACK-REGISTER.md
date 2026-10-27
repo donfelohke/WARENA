@@ -96,3 +96,8 @@ Until then: keep **UNKNOWN** or **RESEARCH** / **CONCEPT**.
 - Prefer updating this register over inventing parallel “CANON lists” in chat.  
 - Cross-link FELOH Corpus claim/source registers when claims enter the corpus.  
 - Never commit secrets, customer payment data, or private host credentials.  
+
+
+## Desktop integration research
+
+The RDE + DWL-Guile integration is documented as a research plan, not a deployment claim: [RDE-DWL-GUILE-REUSE-AUDIT-2026-10-28.md](./RDE-DWL-GUILE-REUSE-AUDIT-2026-10-28.md). Keep Sway as the baseline candidate and DWL-Guile at RESEARCH until pinned inputs, build/runtime tests, named-host evidence, and recovery are recorded. Upstream availability does not establish WARENA package, build, or deployment status.
