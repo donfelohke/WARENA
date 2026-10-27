@@ -217,3 +217,59 @@ Exact command lists and version pins remain to be filled when Gate A closes.
 - `docs/CAPABILITY-MAP.md`  
 - `docs/STACK-REGISTER.md`  
 - `docs/EVIDENCE-STATUS.md`  
+
+
+---
+
+## Reuse inventory — Guix/RDE and package management
+
+**Status:** RESEARCH. This section records reuse boundaries; it does not authorize implementation, a build, a merge to `main`, or a LIVE maturity change.
+
+### Repository finding
+
+The audited WARENA main tree is a documentation and governance repository. It contains desktop architecture, stack/capability and reproducibility documentation, plus CI validation, but no established WM-NG package recipe or RDE home/system configuration. The audit did not establish where the actual host's Guix/RDE configuration lives.
+
+| Area | Reuse first | Current evidence in WARENA | Gap / status |
+|---|---|---|---|
+| Package management | Upstream Guix package definitions, profiles, manifests, transformations and channels | Policy and documentation only | No WM-NG package definition; not yet justified |
+| Development environment | Existing RDE conventions and `guix shell` | Intent documented | Actual host config path and channel revision: **UNKNOWN** |
+| X11 protocol | `libxcb`, ICCCM/EWMH specifications and established WM implementations | Architecture research only | No WM-NG protocol implementation |
+| Runtime policy | Guile embedding and module system | Stack research only | No C↔Guile bridge |
+| GNUstep | Existing Base/GUI and run-loop APIs where needed | Candidate integration documented | No WM-NG host |
+| Desktop peer | Upstream GWorkspace, tested independently | Peer role documented | Interoperability unverified |
+| Test environment | Xephyr and existing Guix test/build facilities | Validation plan documented | No WM-specific test suite |
+| Reproducibility | Existing channel pinning and RDE configuration | Process documented | No WM-NG-specific channel lock; do not add one before the actual environment is identified |
+
+### Reuse decisions
+
+1. Treat upstream Guix and RDE as the package-management and configuration systems. Do not invent a parallel packaging workflow.
+2. Locate the actual host configuration before deciding where a package reference or session integration belongs. Record path and channel commit, or leave both explicitly **UNKNOWN**.
+3. Keep X11 and Wayland research tracks separate. WM-NG is an X11 RESEARCH proposal alongside the Gershwin study and Window Maker baseline; Sway/dwl-guile remain in the Wayland track.
+4. Reuse Guile's embedding facilities and native `libxcb` by default. Do not adopt Guile-XCB as a dependency until compatibility with the selected Guile/toolchain is demonstrated.
+5. Keep GNUstep optional at the core boundary and GWorkspace as a separate peer.
+6. Use package transformations for bounded experiments. Promote a transformation into a maintained package definition only after the changed dependency graph and tests have been reviewed.
+7. Do not create `wm-ng.scm`, `guix.scm`, `manifest.scm`, or a channel file merely to fill out a template. Use the existing host conventions where applicable; add only files with a demonstrated role.
+
+### Package recipe gate
+
+A maintained package definition is deferred until a real, buildable source tree exists and its build system, license, source provenance, dependency graph and test command are known. The previously discussed package snippet is illustrative only and is **not** a validated recipe. Do not assume `gnu-build-system`, local source paths, dependency names or license metadata before checking the actual project.
+
+When justified, prefer the smallest package definition compatible with the existing Guix/RDE conventions. A development environment and a distributable package are separate deliverables; do not create both automatically.
+
+### Next research tasks
+
+- [ ] Identify the actual Guix/RDE host repository and configuration path, or record **UNKNOWN**.
+- [ ] Record the host's Guix version and channel revisions before selecting package versions.
+- [ ] Complete Gate A dependency and embedding feasibility checks.
+- [ ] Establish a minimal compilable native XCB proof of concept before adding a maintained package recipe.
+- [ ] Add an RDE/Home session snippet only after a host profile is selected and the Xephyr test flow exists.
+
+### Upstream references
+
+- GNU Guix Reference Manual: https://guix.gnu.org/manual/en/
+- GNU Guix Cookbook: https://guix.gnu.org/cookbook/en/
+- Guix package transformation options: https://guix.gnu.org/manual/en/html_node/Package-Transformation-Options.html
+- Guix channels and environment replication: https://guix.gnu.org/manual/en/html_node/Channels.html
+
+These upstream references document Guix mechanisms; they do not prove that WM-NG builds, that a specific dependency version is available in the user's channel, or that any RDE host has been identified.
+
