@@ -118,3 +118,5 @@ Upstream docs support architectural comparison. They do **not** by themselves pr
 - [FOUNDATIONS.md](./FOUNDATIONS.md)  
 - [PRACTICE.md](./PRACTICE.md)  
 - [VALIDATION.md](./VALIDATION.md)  
+
+- [RDE + DWL-Guile reuse audit (2026-10-28)](./RDE-DWL-GUILE-REUSE-AUDIT-2026-10-28.md) — source reuse, integration boundaries, risks, and qualification stages.
