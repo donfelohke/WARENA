@@ -10,6 +10,8 @@
 
 WARENA is the systems-engineering layer powering NAKEBUSEN Digital. It is not a separate consumer checkout brand. Customer-facing enquiries and commercial agreements remain through **NAKEBUSEN**, the sole transacting enterprise.
 
+Use NAKEBUSEN **customer-facing channels** (website, WhatsApp, email) for service enquiries. An enquiry is not an accepted project. Scope, price, support and access are agreed before work begins.
+
 **Public-facing description:** *Sovereign systems that work when the internet does not.* WARENA helps people and organisations plan, understand, maintain and recover computing systems, emphasising local-first operation, reproducibility and clear handover.
 
 This is positioning, not proof of completed client deployments. Publish a service, price, compatibility claim or delivery promise only when scope and evidence are current.
@@ -36,8 +38,6 @@ Prefer systems people can install, understand, maintain and recover, including w
 | Local-first / offline | Weak-WAN environments | By engagement |
 | Reproducible tooling | Documented environments | Practice / evolving |
 | RDE / Guix / desktop research | Sovereign workstation experiments | RESEARCH; not a product claim |
-
-An enquiry is not an accepted project. Scope, price, support and access are agreed before work begins.
 
 ## Architecture and evidence
 
