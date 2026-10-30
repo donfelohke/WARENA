@@ -19,3 +19,10 @@ Use the private contact method published on the maintainer's GitHub profile or r
 ## Current status
 
 This policy documents an intended reporting process. It does not assert that automated secret scanning, push protection, code scanning, or branch rules are enabled. Verify these settings independently in GitHub.
+
+
+## Upstream and supply-chain security
+
+For upstream components, record canonical source and mirror status, immutable revision, licence, dependency provenance and channel introduction authentication. Review security advisories and patch status before adopting or updating dependencies. Treat runtime evaluation interfaces, including Scheme REPLs, as privileged control surfaces; disable them by default outside explicitly isolated development contexts. Do not claim a component is secure or patched solely because its upstream repository is active.
+
+See [WARENA WSAS-01](docs/WSAS-01.md) and the [Upstream Source Register](docs/UPSTREAM-SOURCE-REGISTER.md).
