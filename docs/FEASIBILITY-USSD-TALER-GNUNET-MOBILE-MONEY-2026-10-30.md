@@ -30,14 +30,14 @@ Governing rules:
 
 | Option | Technical feasibility | Kenya market readiness | Regulatory clarity | WARENA posture |
 |--------|----------------------|------------------------|--------------------|----------------|
-| M-Pesa Daraja (STK/C2B/B2C) | High | High | High (licensed MM / shortcode path) | **Production candidate** for NAKEBUSEN |
-| USSD menus for booking/status | High | High | Depends on use (info vs payment) | Production candidate (UI) |
+| M-Pesa Daraja (STK/C2B/B2C) | High | High | Established licensed-operator framework; merchant permissions/onboarding still required | **Production candidate** for NAKEBUSEN, conditional on onboarding |
+| USSD menus for booking/status | High | High | Depends on use, shortcode provisioning and whether the flow initiates or facilitates payments | Production candidate (UI), conditional on operator/aggregator onboarding |
 | Card / licensed PSP gateways | High | Medium–High | Licensed PSPs | Optional commerce path |
 | GNU Taler (exchange + wallet + merchant) | High (upstream) | **Low** (no mass KES adoption) | **UNKNOWN / external** | RESEARCH |
 | USSD → Taler order + status assistant | Medium | Low until wallets exist | UNKNOWN if public money movement | RESEARCH |
 | Custodial “Taler PIN on USSD” | Medium | Low | Likely regulated as e-money/PSP | **Avoid** as non-custodial Taler |
 | GNUnet as payment rail | N/A | N/A | N/A | **Out of scope** |
-| GNUnet as optional bridge transport | Medium | Low operational need proven | N/A | RESEARCH (justify per use) |
+| GNUnet as optional bridge transport | Unproven for this use case | Low operational need demonstrated | N/A | RESEARCH only; no automatic security benefit assumed |
 | Crypto / unapproved stablecoins | Variable | High legal risk | Tightening VASP/stablecoin rules | Not WARENA default |
 
 ---
@@ -47,22 +47,22 @@ Governing rules:
 ### 3.1 Findings
 
 - **M-Pesa** remains the default retail value rail. Developer integration via **Daraja**: OAuth, STK Push (Lipa na M-Pesa Online), C2B register/callbacks, B2C payouts.
-- **STK Push** is usually better payment UX than free-form USSD amount entry; USSD remains valuable for feature-phone menus and status.
+- **STK Push** is usually a better payment UX than free-form USSD amount entry; USSD remains valuable for feature-phone menus and status. This is a UX recommendation, not a universal operator rule.
 - **Airtel Money / T-Kash** and bank rails (PesaLink, cards) are secondary paths, not full substitutes for M-Pesa reach.
-- Licensed **PSPs / gateways** support internet checkout; they do not replace agent + USSD cash culture.
+- Licensed **PSPs / gateways** support internet checkout. Their licensing does not automatically extend to a merchant integrating their service; the merchant's actual role and onboarding terms still matter.
 
 ### 3.2 Feasibility verdict
 
 | Question | Answer |
 |----------|--------|
-| Can NAKEBUSEN take real KES payments today? | **Yes**, via M-Pesa shortcode + Daraja (or equivalent), subject to Safaricom/merchant onboarding. |
+| Is M-Pesa/Daraja a viable real-KES payment path for NAKEBUSEN? | **Yes, as a candidate after merchant onboarding and product/shortcode approval.** This study does not verify that NAKEBUSEN currently has live credentials, a Paybill/Till, or production go-live. |
 | Is USSD required for every payment? | **No.** STK/app/web often sufficient; USSD expands feature-phone coverage. |
 | Does WARENA need a custom payment network first? | **No** for commerce. Research tracks are separate. |
 
 ### 3.3 Risks
 
 - Operator dependency and fee schedules.
-- Callback URL security, idempotency, reconciliation.
+- Callback URL security, idempotency, reconciliation. Repeated callbacks must not create duplicate payment requests or fulfilments.
 - Confusing research rails with customer-facing payment promises.
 
 ### 3.4 Acceptance criteria (commerce)
@@ -85,7 +85,7 @@ Governing rules:
 
 | Question | Answer |
 |----------|--------|
-| Can engineers run a test exchange/merchant offline? | **Yes** (upstream software exists). |
+| Can engineers run a local test exchange/merchant? | **Yes**, upstream components support a local test deployment; this does not establish production exchange readiness or that every dependency operates offline. |
 | Can Kenyan retail customers pay with Taler at scale today? | **No** (wallet + KES exchange adoption missing). |
 | Is CBK treatment of a public Taler exchange settled for WARENA? | **UNKNOWN** — treat as external blocker. |
 | Should Taler replace Daraja for NAKEBUSEN bookings now? | **No.** |
@@ -110,7 +110,7 @@ Governing rules:
 
 | Model | Description | Feasibility | Decision |
 |-------|-------------|-------------|----------|
-| **Payment assistant** | USSD creates Taler **orders** and polls **status**; wallet authorises pay | Medium | **Preferred research path** |
+| **Payment assistant** | USSD creates a Taler **order** and reports limited status; a separate compatible wallet/device must claim and pay | Medium, with an unresolved handoff requirement | **Preferred research path** |
 | Custodial USSD wallet | Server holds coins/keys | Medium tech / high trust & legal cost | Deferred / avoid as “true Taler” |
 | GNUnet-native USSD replacement | Decentralised session layer | Hard; not MNO-compatible | Separate thesis |
 
@@ -128,10 +128,10 @@ Customer with Taler wallet completes cryptographic payment separately
 
 | Question | Answer |
 |----------|--------|
-| Can USSD talk to a backend that calls Taler merchant APIs? | **Yes** in principle (HTTPS bridge). |
-| Can feature phone run full non-custodial Taler wallet protocol? | **No** with stock USSD. |
-| Does this preserve Taler privacy properties? | **Only if** payment authorisation stays in a real wallet — not if keys live on the bridge. |
-| Production without wallets in the field? | **Not useful** beyond demos. |
+| Can USSD talk to a backend that calls Taler merchant APIs? | **Yes** in principle, using authenticated HTTPS calls to the merchant's private API. |
+| Can a stock feature phone complete the full non-custodial Taler wallet flow through USSD alone? | **No.** A separate compatible wallet/device and a tested order handoff are required. |
+| Does this preserve Taler privacy properties? | **Only if** payment authorisation and coin handling stay in a genuine wallet. The bridge must not hold wallet secrets or coins. The bridge may still learn order metadata, so data minimisation and correlation risks need review. |
+| Is the assistant useful where no compatible wallet/device or handoff channel exists? | **No** for actual Taler settlement; it is limited to demonstrations or order-intent capture. |
 
 ### 5.4 Research phases
 
@@ -139,7 +139,7 @@ Customer with Taler wallet completes cryptographic payment separately
 |-------|------|----------|
 | R0 | Read merchant order/status APIs; lab instance | Version pins, logs |
 | R1 | Spec USSD menu ↔ bridge endpoints | Sequence diagram |
-| R2 | Minimal bridge: create order + poll paid | Automated tests |
+| R2 | Minimal bridge: authenticated order creation + status polling; explicit idempotency/deduplication for repeated USSD callbacks | Automated tests, including duplicate/retry cases |
 | R3 | Threat model (SIM swap, session, clerk fraud) | Written model |
 | R4 | Regulatory mapping if any public value held | Counsel / CBK map |
 | R5 | Optional GNUnet only if R2 shows networking gap | Justification note |
@@ -150,7 +150,7 @@ Customer with Taler wallet completes cryptographic payment separately
 
 ### 6.1 Findings
 
-- GNUnet provides DHT, CADET, GNS, transport stack; **TRANSPORT-NG** is ongoing redesign work, not a finished “USSD killer.”
+- GNUnet provides DHT, CADET, GNS and a transport stack; **TRANSPORT-NG** remains roadmap work. Using GNUnet between the bridge and merchant would require a concrete reachability, threat-model and operations case; it does not automatically harden the service and does not remove MNO dependence at the USSD edge.
 - No upstream product that settles KES or replaces M-Pesa.
 
 ### 6.2 Feasibility verdict
@@ -158,7 +158,7 @@ Customer with Taler wallet completes cryptographic payment separately
 | Question | Answer |
 |----------|--------|
 | Use GNUnet as mobile money alternative? | **No.** |
-| Use GNUnet to harden bridge-to-merchant networking later? | **Maybe**, after a concrete requirement. |
+| Use GNUnet as an alternative bridge-to-merchant network path later? | **Maybe**, only after a concrete requirement, threat model and operational test. |
 | Block Taler or Daraja work on TNG completion? | **No.** |
 
 ---
@@ -175,7 +175,7 @@ Customer with Taler wallet completes cryptographic payment separately
 
 ---
 
-## 8. Open questions
+### 7.1 Regulatory and operator qualification\n\nThe regulatory entries above are feasibility assessments, not legal opinions. A licensed mobile-money operator or PSP does not automatically authorise a merchant, aggregator, wallet operator or exchange to perform every payment activity. Before any public-money movement, map the actual roles (merchant, technical service provider, PSP, issuer, exchange, agent), the legislation and CBK instruments in force at that time, contractual permissions, customer-funds handling and safeguarding obligations. The National Payment System Bill, 2026 is a bill and must not be described as enacted law unless its enactment and commencement are independently verified.\n\nFor Daraja, distinguish sandbox credentials from production onboarding. Safaricom's developer documentation describes separate production account/shortcode and product-permission requirements; no such NAKEBUSEN production setup is evidenced by this study.\n\n### 7.2 Taler API and handoff constraints\n\n- Merchant order creation uses the authenticated private API; merchant-side status checks use the private order-status API. Wallet claim/payment uses the separate public wallet-facing flow.\n- The merchant order-creation endpoint is not idempotent unless an explicit `order_id` is supplied. The bridge must implement a stable request/idempotency key and deduplicate retries before creating an order.\n- USSD cannot display a QR code or launch a `taler://` wallet URI on an ordinary feature phone. A second device, compatible smartphone wallet handoff, merchant PoS, or another explicitly tested mechanism is a prerequisite for actual payment. Do not describe the USSD interaction alone as a completed Taler payment.\n- Status shown to the USSD user must be derived from authenticated merchant-side status, with minimal disclosure and protection against order-ID enumeration.\n\n## 8. Open questions
 
 1. When (if ever) will a KES Taler exchange operate under a clear Kenyan authorisation path?
 2. How should M-Pesa funding/redeem of Taler balances be designed without breaking privacy or law?
@@ -184,6 +184,6 @@ Customer with Taler wallet completes cryptographic payment separately
 
 ---
 
-## 9. Status line
+## 9. Primary technical references\n\n- GNU Taler Merchant Backend API: <https://docs.taler.net/core/api-merchant.html>\n- GNU Taler API overview: <https://docs.taler.net/core/api-overview.html>\n- GNU Taler Point-of-Sale integration: <https://docs.taler.net/pos-integration.html>\n- GNUnet roadmap (TNG/CONG status): <https://www.gnunet.org/en/roadmap.html>\n- Safaricom Daraja developer portal and production onboarding notes: <https://developer.safaricom.co.ke/>\n- Central Bank of Kenya, National Payment System information: <https://www.centralbank.go.ke/national-payments-system/>\n\nThese references are starting points; versions, legal status, operator requirements and availability must be checked again at the time of implementation.\n\n## 10. Status line
 
 **RESEARCH documentation only.** These feasibility studies do not implement software, open MNO contracts, or assert regulatory approval. Production customer payments remain on conventional mobile-money or licensed PSP rails until evidence and authorisation say otherwise.
