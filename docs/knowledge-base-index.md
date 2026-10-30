@@ -20,6 +20,7 @@
 | Reproducibility | [reproducibility-plan.md](reproducibility-plan.md) | Staged environment/deployment plan |
 | Host inventory | [host-inventory-template.md](host-inventory-template.md) | Hardware, firmware, OS, interfaces |
 | Reproducible environments | [reproducible-environment-runbook.md](reproducible-environment-runbook.md) | Pinning, evaluation, build evidence |
+| GNU Guile ecosystem | [GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md](GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md) | Guile project catalogue, WARENA disposition, source-audit and qualification gates |
 | Network services | [network-services-runbook.md](network-services-runbook.md) | Topology, access, service checks |
 | Backup and restore | [backup-restore-runbook.md](backup-restore-runbook.md) | Integrity and recovery tests |
 | Master technology register and implementation handbook | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory, WARENA implementation guidance, governance, security, recovery and acceptance controls |
