@@ -17,6 +17,10 @@
 |---|---|---|
 | Service UX and handover | [digital-service-ux-sop.md](digital-service-ux-sop.md) | Discovery, scope, acceptance tests, evidence, handover and service feedback |
 | Architecture | [architecture.md](architecture.md) | Boundaries, layers, evidence rules |
+| Stack register | [STACK-REGISTER.md](STACK-REGISTER.md) | Component maturity, upstream vs host evidence |
+| RDE / Guix / dwl-guile pins | [PINS-RDE-GUIX-DWL-GUILE-2026-10-30.md](PINS-RDE-GUIX-DWL-GUILE-2026-10-30.md) | Revision anchors for research desktop profiles |
+| Desktop architecture | [DESKTOP-ARCHITECTURE.md](DESKTOP-ARCHITECTURE.md) | Sway baseline, dwl-guile research, X11 track |
+| Desktop profiles | [DESKTOP-PROFILES.md](DESKTOP-PROFILES.md) | Profile IDs and maturity intent |
 | Reproducibility | [reproducibility-plan.md](reproducibility-plan.md) | Staged environment/deployment plan |
 | Host inventory | [host-inventory-template.md](host-inventory-template.md) | Hardware, firmware, OS, interfaces |
 | Reproducible environments | [reproducible-environment-runbook.md](reproducible-environment-runbook.md) | Pinning, evaluation, build evidence |
@@ -38,7 +42,7 @@ A document is not implementation evidence. A syntax check is not a deployment te
 
 ## Ecosystem interfaces
 
-- [FELOH Corpus](https://github.com/donfelohke/feloh-corpus): shared definitions, governance, decision provenance.
+- [FELOH Corpus](https://github.com/donfelohke/feloh-corpus): shared definitions, governance, decision provenance (e.g. twelve-domain programme draft PR #27).
 - [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN): customer-facing services and business operations. Do not copy private customer data here.
 - [IKAI](https://github.com/donfelohke/Ikai): reflective-compute research and privacy boundaries.
 - [GENJE](https://github.com/donfelohke/Genje): creative computation and performance environments.
