@@ -97,3 +97,8 @@ Avoid vanity metrics. Do not publish client names, network maps, IP ranges, cred
 - [ ] Maturity label and evidence are accurate.
 - [ ] Customer privacy and authorisation boundaries respected.
 - [ ] Changes reviewed through a branch and pull request.
+
+
+## Technical claims and upstream status
+
+Publish compatibility and service claims only when target-specific evidence supports them. Upstream releases, channel package availability and successful documentation checks are not deployment evidence. Use [EVIDENCE-STATUS.md](./EVIDENCE-STATUS.md) and [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).
