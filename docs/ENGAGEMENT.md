@@ -9,3 +9,8 @@
 Enquiry ≠ accepted project. No work starts on assumed scope.
 
 Public contact: https://donfelohke.github.io/ · +254 719 635 415
+
+
+## Engineering provenance
+
+For engagements involving upstream software, record canonical source, immutable revisions, licence, configuration inputs, test evidence and recovery notes. See [WSAS-01](./WSAS-01.md) and [Upstream Source Register](./UPSTREAM-SOURCE-REGISTER.md).
