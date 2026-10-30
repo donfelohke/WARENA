@@ -26,3 +26,8 @@ Label experimental work clearly. Do not list it as a standard menu item without 
 - IKAI (reflective compute research)  
 - Loc care (NAKEBUSEN Locs)  
 - GENJE creative identity as a software SKU  
+
+
+## Architecture and source governance
+
+Capability maturity does not change merely because an upstream project has a release. See [WSAS-01](./WSAS-01.md), [Evidence Status](./EVIDENCE-STATUS.md) and [Upstream Source Register](./UPSTREAM-SOURCE-REGISTER.md) before publishing a technical capability or compatibility claim.
