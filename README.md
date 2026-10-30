@@ -47,6 +47,10 @@ Pillar: **GRIT** (within GRACE · GRIT · GLORY).
 
 ---
 
+## Current portfolio alignment
+
+NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems.** WARENA remains the systems-engineering identity powering DIGITAL; GENJE ZA WARENA is a distinct cultural and creative identity, not a WARENA product or checkout brand. See [portfolio alignment (2026-10-31)](docs/portfolio-alignment-2026-10-31.md).
+
 ## Evidence and stack truth
 
 | Document | Role |
