@@ -28,3 +28,8 @@
 ## Security
 
 Never commit secrets, customer data, or private keys. Rotate anything that may have leaked.
+
+
+## Upstream changes
+
+When a practice depends on upstream software, pin the full source revision and relevant channel introductions, record licence obligations, and test on the named target. Do not describe research stacks as offered or deployed. See [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).
