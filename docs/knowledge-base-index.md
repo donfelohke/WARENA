@@ -36,6 +36,10 @@
 
 A document is not implementation evidence. A syntax check is not a deployment test; deployment is not a recovery test.
 
+## Current portfolio alignment
+
+- [WARENA Portfolio Alignment (2026-10-31)](portfolio-alignment-2026-10-31.md) — current relationship to NAKEBUSEN DIGITAL and distinction from GENJE ZA WARENA.
+
 ## Ecosystem interfaces
 
 - [FELOH Corpus](https://github.com/donfelohke/feloh-corpus): shared definitions, governance, decision provenance.
