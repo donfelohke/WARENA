@@ -119,9 +119,10 @@ Governing rules:
 ```text
 Feature phone
   → USSD (MNO/aggregator)
-    → WARENA Access Bridge (session, auth, audit)
-      → GNU Taler Merchant Backend (POST order, GET status)
-Customer with Taler wallet completes cryptographic payment separately
+    → WARENA Access Bridge (session, auth, audit, deduplication)
+      → GNU Taler Merchant Backend (authenticated order creation/status)
+      → order reference + tested out-of-band handoff (companion wallet/PoS)
+Separate compatible Taler wallet claims the order and performs cryptographic payment
 ```
 
 ### 5.3 Feasibility verdict
@@ -175,7 +176,20 @@ Customer with Taler wallet completes cryptographic payment separately
 
 ---
 
-### 7.1 Regulatory and operator qualification\n\nThe regulatory entries above are feasibility assessments, not legal opinions. A licensed mobile-money operator or PSP does not automatically authorise a merchant, aggregator, wallet operator or exchange to perform every payment activity. Before any public-money movement, map the actual roles (merchant, technical service provider, PSP, issuer, exchange, agent), the legislation and CBK instruments in force at that time, contractual permissions, customer-funds handling and safeguarding obligations. The National Payment System Bill, 2026 is a bill and must not be described as enacted law unless its enactment and commencement are independently verified.\n\nFor Daraja, distinguish sandbox credentials from production onboarding. Safaricom's developer documentation describes separate production account/shortcode and product-permission requirements; no such NAKEBUSEN production setup is evidenced by this study.\n\n### 7.2 Taler API and handoff constraints\n\n- Merchant order creation uses the authenticated private API; merchant-side status checks use the private order-status API. Wallet claim/payment uses the separate public wallet-facing flow.\n- The merchant order-creation endpoint is not idempotent unless an explicit `order_id` is supplied. The bridge must implement a stable request/idempotency key and deduplicate retries before creating an order.\n- USSD cannot display a QR code or launch a `taler://` wallet URI on an ordinary feature phone. A second device, compatible smartphone wallet handoff, merchant PoS, or another explicitly tested mechanism is a prerequisite for actual payment. Do not describe the USSD interaction alone as a completed Taler payment.\n- Status shown to the USSD user must be derived from authenticated merchant-side status, with minimal disclosure and protection against order-ID enumeration.\n\n## 8. Open questions
+### 7.1 Regulatory and operator qualification
+
+The regulatory entries above are feasibility assessments, not legal opinions. A licensed mobile-money operator or PSP does not automatically authorise a merchant, aggregator, wallet operator or exchange to perform every payment activity. Before any public-money movement, map the actual roles (merchant, technical service provider, PSP, issuer, exchange, agent), the legislation and CBK instruments in force at that time, contractual permissions, customer-funds handling and safeguarding obligations. The National Payment System Bill, 2026 is a bill and must not be described as enacted law unless its enactment and commencement are independently verified.
+
+For Daraja, distinguish sandbox credentials from production onboarding. Safaricom's developer documentation describes separate production account/shortcode and product-permission requirements; no such NAKEBUSEN production setup is evidenced by this study.
+
+### 7.2 Taler API and handoff constraints
+
+- Merchant order creation uses the authenticated private API; merchant-side status checks use the private order-status API. Wallet claim/payment uses the separate public wallet-facing flow.
+- The merchant order-creation endpoint is not idempotent unless an explicit `order_id` is supplied. The bridge must implement a stable request/idempotency key and deduplicate retries before creating an order.
+- USSD cannot display a QR code or launch a `taler://` wallet URI on an ordinary feature phone. A second device, compatible smartphone wallet handoff, merchant PoS, or another explicitly tested mechanism is a prerequisite for actual payment. Do not describe the USSD interaction alone as a completed Taler payment.
+- Status shown to the USSD user must be derived from authenticated merchant-side status, with minimal disclosure and protection against order-ID enumeration.
+
+## 8. Open questions
 
 1. When (if ever) will a KES Taler exchange operate under a clear Kenyan authorisation path?
 2. How should M-Pesa funding/redeem of Taler balances be designed without breaking privacy or law?
@@ -184,6 +198,17 @@ Customer with Taler wallet completes cryptographic payment separately
 
 ---
 
-## 9. Primary technical references\n\n- GNU Taler Merchant Backend API: <https://docs.taler.net/core/api-merchant.html>\n- GNU Taler API overview: <https://docs.taler.net/core/api-overview.html>\n- GNU Taler Point-of-Sale integration: <https://docs.taler.net/pos-integration.html>\n- GNUnet roadmap (TNG/CONG status): <https://www.gnunet.org/en/roadmap.html>\n- Safaricom Daraja developer portal and production onboarding notes: <https://developer.safaricom.co.ke/>\n- Central Bank of Kenya, National Payment System information: <https://www.centralbank.go.ke/national-payments-system/>\n\nThese references are starting points; versions, legal status, operator requirements and availability must be checked again at the time of implementation.\n\n## 10. Status line
+## 9. Primary technical references
+
+- GNU Taler Merchant Backend API: <https://docs.taler.net/core/api-merchant.html>
+- GNU Taler API overview: <https://docs.taler.net/core/api-overview.html>
+- GNU Taler Point-of-Sale integration: <https://docs.taler.net/pos-integration.html>
+- GNUnet roadmap (TNG/CONG status): <https://www.gnunet.org/en/roadmap.html>
+- Safaricom Daraja developer portal and production onboarding notes: <https://developer.safaricom.co.ke/>
+- Central Bank of Kenya, National Payment System information: <https://www.centralbank.go.ke/national-payments-system/>
+
+These references are starting points; versions, legal status, operator requirements and availability must be checked again at the time of implementation.
+
+## 10. Status line
 
 **RESEARCH documentation only.** These feasibility studies do not implement software, open MNO contracts, or assert regulatory approval. Production customer payments remain on conventional mobile-money or licensed PSP rails until evidence and authorisation say otherwise.
