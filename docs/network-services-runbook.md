@@ -69,3 +69,8 @@ Rollback if a stated trigger occurs, including loss of management access, unexpe
 ## 7. Close-out
 
 Record final configuration revision, tests run, failures, residual risks, outage, rollback outcome if applicable, owner acceptance, and next review date. A design diagram or successful ping alone does not establish secure segmentation or production readiness.
+
+
+## Dependency provenance
+
+Record immutable source revisions and package/channel origin for network services and dependencies. Verify package availability, configuration, runtime and rollback separately. See [WSAS-01](./WSAS-01.md) and [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).
