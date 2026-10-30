@@ -9,7 +9,9 @@
 | [STACK-REGISTER.md](./STACK-REGISTER.md) | Stack evidence vocabulary | Active doc | 2026-10 |
 | [CAPABILITY-MAP.md](./CAPABILITY-MAP.md) | Commercial vs research boundaries | Active doc | 2026-10 |
 
-Entries are linked only when the referenced file exists at this index location on this branch. Add the RDE and WM-NG studies here after their canonical paths are verified.\n\n## How to add a study
+Entries are linked only when the referenced file exists at this index location on this branch. Add the RDE and WM-NG studies here after their canonical paths are verified.
+
+## How to add a study
 
 1. Use explicit maturity labels (RESEARCH, PROTOTYPE, LIVE, UNKNOWN).
 2. Separate technical feasibility from market readiness and regulatory clarity.
