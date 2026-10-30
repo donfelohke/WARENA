@@ -1,33 +1,39 @@
 # WARENA Architecture
 
-## Role
+**Status:** PROPOSED ARCHITECTURE SUMMARY · 2026-10-30  
+**Canonical specification:** [WSAS-01](./WSAS-01.md)
 
-WARENA is responsible for computing systems and infrastructure: reproducible environments, system configuration, networking, local services, recovery, and operational documentation.
+## Role and boundaries
+
+WARENA defines systems engineering and infrastructure: reproducible environments, platform configuration, software, data, networking, security, operations, recovery and evidence.
+
+NAKEBUSEN is the sole transacting enterprise; NAKEBUSEN DIGITAL is the commercial technology-services path powered by WARENA. IKAI Mirror remains a distinct reflective-computing identity and may consume WARENA capabilities without becoming a WARENA product. GENJE remains a distinct creative practice.
+
+## Functional subsystems
+
+1. Platform engineering.
+2. Software engineering.
+3. Data engineering and recovery.
+4. Networking and service integration.
+5. Security and provenance.
+6. Operations and maintenance.
+7. Observability and diagnostics.
+
+See [WSAS-01](./WSAS-01.md) for responsibilities and acceptance evidence.
 
 ## Design constraints
 
 - Prefer source-first, local-first and reproducible components.
-- Record the source revision, configuration inputs, dependencies, hardware assumptions, and expected outputs.
+- Record immutable source revisions, channel introductions, dependencies, hardware assumptions and expected outputs.
 - Separate declarative configuration from secrets and machine-specific state.
-- Keep backup and restoration procedures independently testable.
-- Avoid mandatory telemetry or remote services unless explicitly justified and documented.
+- Keep backup and restoration independently testable.
+- Avoid mandatory telemetry or remote services unless justified and documented.
+- Preserve human authority for consequential changes.
 
-## Initial implementation layers
+## Upstream integration
 
-1. **Host inventory:** hardware, firmware, storage, interfaces, and constraints.
-2. **Environment definition:** distribution, channels, manifests, package versions, and configuration.
-3. **Service and network configuration:** topology, access boundaries, firewall policy, and service dependencies.
-4. **Validation:** syntax checks, isolated build tests, service tests, and failure-mode checks.
-5. **Operations:** deployment, update, rollback, backup, restore, monitoring, and retirement.
-6. **Evidence:** commit, commands, logs with secrets redacted, observations, and remaining limitations.
+Reuse unchanged, adapt minimally, reject with rationale, or test first. Do not combine RDE and dwl-guile as if they were a prevalidated stack. Source and licence details are maintained in [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).
 
-## Ecosystem interfaces
+## Evidence discipline
 
-- FELOH Corpus: shared terminology, governance and decision provenance.
-- GENJE: reproducible creative computing environments and performance infrastructure.
-- IKAI: local computation and privacy-preserving prototype infrastructure, subject to IKAI's own research boundaries.
-- NAKEBUSEN: business systems and customer-facing operations. Sensitive customer records must not be copied into this repository.
-
-## Status discipline
-
-The presence of a configuration file is not proof it builds. A successful build is not proof it is safe to deploy. A successful deployment is not proof that recovery works. Record each level separately.
+The presence of a configuration file does not prove it evaluates. A successful build does not prove runtime safety. A successful deployment does not prove recovery. Record each level separately using [EVIDENCE-STATUS.md](./EVIDENCE-STATUS.md).
