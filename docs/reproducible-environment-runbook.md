@@ -58,3 +58,8 @@ Do not store tokens, private keys, personal data, or production secrets in manif
 ## Guix/RDE notes
 
 For Guix or RDE work, record the Guix revision, channel definitions and revisions, manifest or system declaration, relevant overlays/modules, target architecture, and exact evaluation/build commands. Do not label a profile or system reproducible solely because its configuration is declarative; record the actual build and repeatability evidence.
+
+
+## Upstream source lock
+
+Record canonical source, mirror status, full commit, channel URL, introduction commit and signing fingerprint. Authenticate channel introductions and retain resolved channel/package output. Do not infer compatibility between RDE and dwl-guile. See [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).
