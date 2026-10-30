@@ -96,3 +96,8 @@ Until then: keep **UNKNOWN** or **RESEARCH** / **CONCEPT**.
 - Prefer updating this register over inventing parallel “CANON lists” in chat.  
 - Cross-link FELOH Corpus claim/source registers when claims enter the corpus.  
 - Never commit secrets, customer payment data, or private host credentials.  
+
+
+## Current upstream alignment
+
+For the dated upstream source snapshot, channel introductions, licence caveats and integration decisions, see [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md). That document supersedes the 2026-10-26 upstream-existence snapshot above for RDE, dwl-guile, its Home service and Sway. No Guix channel lock, WARENA build, host installation, runtime qualification or recovery test is claimed. See [WSAS-01](./WSAS-01.md) and [WSAS-02](./WSAS-02.md).
