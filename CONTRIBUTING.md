@@ -26,3 +26,8 @@ Never test potentially disruptive networking, disk, boot, firewall, or encryptio
 ## Documentation quality
 
 Distinguish intended, implemented, tested, and deployed behaviour. Do not claim a build is reproducible until another run or independent environment has verified the documented procedure.
+
+
+## Upstream changes
+
+For every upstream dependency change, include the canonical source URL, mirror status, full commit or release identifier, licence, channel introduction and fingerprint where applicable, dependency impact, compatibility rationale and verification commands. Do not update only a branch name or abbreviated commit. If a build or hardware test was not run, say so explicitly and leave the status as RESEARCH / NOT VERIFIED.

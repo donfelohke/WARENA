@@ -68,3 +68,8 @@ Never experiment with destructive restore commands against the only production c
 ## 7. Operational review
 
 Review backup failures, retention, access, encryption, capacity, and restore tests on an agreed schedule. Update procedures after platform changes. Mark restoration capability `LIVE` only when current evidence supports the claim.
+
+
+## Source and provenance
+
+For systems built from upstream components, record the full source and channel revisions alongside the backup set and recovery prerequisites. A source pin does not prove a successful restore. See [WSAS-01](./WSAS-01.md) and [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).

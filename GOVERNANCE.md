@@ -33,3 +33,10 @@ Use `LIVE`, `PROTOTYPE`, `RESEARCH`, `CONCEPT`, `HISTORICAL`, `SUPERSEDED`, or `
 WARENA is the systems/infrastructure domain. NAKEBUSEN is the only ecosystem domain authorised to transact. Do not place private customer records, passwords, tokens, private keys, or other secrets in this repository.
 
 This file documents governance intent. It does not assert that GitHub branch protection, security automation, or a formal maintainer council has been configured.
+
+
+## Upstream provenance and technical decisions
+
+Maintain the [Upstream Source Register](docs/UPSTREAM-SOURCE-REGISTER.md) and [Architecture Decision Records](docs/decisions/README.md). A source snapshot is not a compatibility certification. A proposed technology classification is not deployment evidence. Channel introductions must be authenticated and full revisions recorded before a reproducible implementation is claimed.
+
+Human approval is required for consequential architecture changes, merges, destructive repository operations and production deployment. Research PRs remain independently reviewable; branch cleanup must preserve unique research and PR provenance.

@@ -172,3 +172,8 @@ Do not fabricate targets. Establish a baseline, state sample size, and collect t
 - Public website code and deployment checks remain in [donfelohke.github.io](https://github.com/donfelohke/donfelohke.github.io).
 
 **Release rule:** an elegant interface cannot compensate for an untested recovery path. A successful build cannot substitute for customer acceptance and maintainable handover.
+
+
+## Upstream integration and evidence
+
+Do not describe upstream availability as WARENA compatibility or delivery readiness. Record source provenance, licence, immutable revisions, tests and recovery evidence for each engagement. See [WSAS-01](./WSAS-01.md) and [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).

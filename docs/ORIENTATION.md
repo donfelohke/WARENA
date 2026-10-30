@@ -26,3 +26,8 @@ Enable people and organisations to run **understandable, maintainable** computin
 - Techcopy: https://github.com/donfelohke/donfelohke.github.io/blob/main/docs/TECHCOPY.md  
 - Corpus: https://github.com/donfelohke/feloh-corpus  
 - Depth standard: https://github.com/donfelohke/feloh-corpus/blob/main/docs/INFORMATION-DEPTH-STANDARD.md  
+
+
+## Architecture references
+
+For current engineering boundaries and source provenance, read [WSAS-01](./WSAS-01.md), [WSAS-02](./WSAS-02.md) and [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).

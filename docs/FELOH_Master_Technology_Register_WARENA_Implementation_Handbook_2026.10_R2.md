@@ -2168,3 +2168,7 @@ A material implementation is ready to be accepted only when the applicable check
 ## Final operating rule
 
 **Document broadly. Select narrowly. Inspect before editing. Pin what must be reproducible. Test on the actual target. Preserve recovery paths. Keep authority with the responsible human. Update statuses only when evidence supports them.**
+
+## Canonical WARENA architecture references
+
+For current WARENA architecture, repository state and upstream provenance, consult [WSAS-01](WSAS-01.md), [WSAS-02](WSAS-02.md) and [UPSTREAM-SOURCE-REGISTER.md](UPSTREAM-SOURCE-REGISTER.md). This broad ecosystem inventory is not a lockfile and does not assert that listed technologies are installed, built, tested or deployed.

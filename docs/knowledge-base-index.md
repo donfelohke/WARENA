@@ -1,6 +1,17 @@
 # WARENA Technical Knowledge Base
 
-**Status: PROPOSAL / DOCUMENTATION BASELINE.** This index organises operational knowledge; it does not assert that any host, network, Guix/RDE profile, backup, or deployment has been built or tested.
+**Status: DOCUMENTATION INDEX · 2026-10-30.** This index organises operational knowledge; it does not assert that any host, network, Guix/RDE profile, backup, or deployment has been built or tested.
+
+## Architecture and governance
+
+| Area | Document | Purpose |
+|---|---|---|
+| System architecture | [WSAS-01](WSAS-01.md) | Mandate, boundaries, subsystems and quality gates |
+| Repository register | [WSAS-02](WSAS-02.md) | Repository mapping, branch/PR governance and integration plan |
+| Upstream provenance | [UPSTREAM-SOURCE-REGISTER.md](UPSTREAM-SOURCE-REGISTER.md) | Immutable source snapshots, channel introductions, licences and compatibility |
+| Architecture decisions | [ADR index](decisions/README.md) | Decision register and ADR process |
+| Stack register | [STACK-REGISTER.md](STACK-REGISTER.md) | Technology and implementation evidence |
+| Evidence vocabulary | [EVIDENCE-STATUS.md](EVIDENCE-STATUS.md) | Maturity and evidence rules |
 
 ## Reading path
 

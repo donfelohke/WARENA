@@ -22,3 +22,8 @@
 ## Related canon
 
 ONLY NAKEBUSEN TRANSACTS · IKAI is not WARENA product marketing  
+
+
+## Upstream and evidence discipline
+
+RDE, Guix and desktop integrations remain subject to the dated [Upstream Source Register](./UPSTREAM-SOURCE-REGISTER.md). Upstream existence is not WARENA package, build, host or deployment evidence. Use [EVIDENCE-STATUS.md](./EVIDENCE-STATUS.md) for maturity claims.

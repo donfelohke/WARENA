@@ -40,3 +40,12 @@ A release record should contain the repository commit, configuration revisions, 
 ## Acceptance rule
 
 A stage is complete only when its stated tests have actually been run and evidence is recorded. Plans and specifications remain `RESEARCH` or `CONCEPT` until implementation evidence justifies another status.
+
+
+## Upstream provenance requirements
+
+Before a configuration is considered reproducible, record the canonical source URL, mirror relationship, full commit hash, channel URL, channel introduction commit, OpenPGP fingerprint and authentication result for every Guix channel. Record channel order and the resolved dependency closure.
+
+For RDE and dwl-guile, do not combine revisions by date or assume compatibility. Evaluate and build against one explicitly locked Guix channel set. Keep the resulting lock and logs with the reviewed implementation change. Current source observations are in [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).
+
+A branch name, tag name, release announcement or upstream README is not a complete reproducibility lock. No lock or successful WARENA build is asserted by this plan.

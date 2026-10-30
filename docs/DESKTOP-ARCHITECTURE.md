@@ -1,6 +1,6 @@
 # WARENA desktop architecture
 
-**Status:** RESEARCH / POLICY · 2026-10-26  
+**Status:** RESEARCH / POLICY · 2026-10-30  
 **Scope:** Display stack candidates for WARENA (Guix-oriented). Not a claim that every stack is LIVE on hardware.
 
 ## Two separate comparisons
@@ -42,7 +42,7 @@ GNUstep is a **framework**, not a DE or WM by itself.
 | Integration risk | Lower baseline | Higher (fork, wlroots pin) |
 | Guix/Scheme fit | External config language | Strong Scheme alignment |
 | Operational risk | Lower starting point | Needs safeguards & tests |
-| WARENA role | **Stable daily profile** | **Research / differentiating profile** |
+| WARENA role | **Reference candidate** | **Research / differentiating profile** |
 
 ### Critical distinction
 
@@ -118,3 +118,23 @@ Upstream docs support architectural comparison. They do **not** by themselves pr
 - [FOUNDATIONS.md](./FOUNDATIONS.md)  
 - [PRACTICE.md](./PRACTICE.md)  
 - [VALIDATION.md](./VALIDATION.md)  
+
+
+## 6. Upstream alignment — 2026-10-30
+
+Exact source snapshots, channel introductions and licence notes are maintained in [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).
+
+| Candidate | Observed upstream revision | Current WARENA treatment |
+|---|---|---|
+| RDE | `24955da51caf1aaad9a5f0e6c9c9845a504eff64` (GitHub mirror; 2026-05-04) | Selective reuse; pin and test with chosen Guix channels |
+| dwl-guile | `3b9eb86637777a8f82211114a9c38d1c1ede03f7` (2024-01-12) | Experimental; README describes dwl v0.4 / wlroots 0.16.x |
+| dwl-guile Home service | `09045a658a17a914d1bda4d23c04d99c40a1d63b` (2023-10-20) | Experimental; upstream labels project work in progress |
+| Sway | `1652c54b73f67df17b7b4ab0b0f7048204aa8104` (2026-09-21) | Reference candidate; target-specific Guix and hardware qualification required |
+
+The dwl-guile and Home service snapshots are substantially older than the RDE and Sway snapshots. Do not infer compatibility. Establish a single authenticated Guix channel set, evaluate each package and service, then build and test candidates in an isolated/recoverable environment.
+
+Sway is a comparative reference, not a claim of an installed or production-qualified WARENA desktop. The phrase “stable daily profile” in earlier planning is aspirational and must not be read as a verified WARENA deployment.
+
+Runtime Guile evaluation and optional REPL access increase the compositor's control surface. Keep the REPL disabled unless an isolated development use case explicitly requires it; document access boundaries and failure recovery before any wider use.
+
+**Current status:** source revisions observed; compatible channel lock, Guix package evaluation, builds, runtime, hardware and recovery remain NOT VERIFIED.

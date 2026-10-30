@@ -34,3 +34,8 @@ WARENA prefers:
 The human remains responsible. Automation may assist; it does not replace accountability.
 
 Related: [BRAND-MANUAL](https://github.com/donfelohke/donfelohke.github.io/blob/main/docs/BRAND-MANUAL.md) · GRIT pillar.
+
+
+## Technical evidence
+
+The architecture and provenance rules are specified in [WSAS-01](./WSAS-01.md) and [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md). Human approval remains required for consequential changes; research does not imply deployment.

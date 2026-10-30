@@ -83,3 +83,8 @@
 - Pending changes:
 - Rollback owner:
 - Retirement/disposal requirements:
+
+
+## Software provenance fields
+
+For each installed upstream component, record canonical source, full revision or release, package/channel origin, channel introduction authentication and configuration reference. If unknown, record UNKNOWN; never infer from a project default branch. See [UPSTREAM-SOURCE-REGISTER.md](./UPSTREAM-SOURCE-REGISTER.md).

@@ -145,3 +145,8 @@ Partial upstream checks already recorded in [STACK-REGISTER.md](./STACK-REGISTER
 - Not a merge of open PRs or a deployment  
 
 **Next concrete step:** promote **one** component through package → build/test → (optional) deployment evidence, and update STACK-REGISTER for that row only.
+
+
+## Historical status and later register
+
+This audit is a historical snapshot dated 2026-10-26 and must not be treated as the current repository inventory. The later 2026-10-30 repository and branch reconciliation is recorded in [WSAS-02](./WSAS-02.md). Preserve this file as historical evidence; do not silently rewrite its original observations.
