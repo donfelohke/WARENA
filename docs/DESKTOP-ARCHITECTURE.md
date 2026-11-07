@@ -117,4 +117,10 @@ Upstream docs support architectural comparison. They do **not** by themselves pr
 - [ORIENTATION.md](./ORIENTATION.md)  
 - [FOUNDATIONS.md](./FOUNDATIONS.md)  
 - [PRACTICE.md](./PRACTICE.md)  
-- [VALIDATION.md](./VALIDATION.md)  
+- [VALIDATION.md](./VALIDATION.md)
+
+## 6. Current desktop-stack decision — 2026-11
+
+This document's Sway/dwl-guile comparison remains useful as the Wayland baseline, but it is no longer the complete candidate map. The current decision adds **Niri + Noctalia v5** as the leading practical candidate, **Nix/NixOS** as a declarative comparator, **DankMaterialShell** as a shell comparator, and **Flatpak/Fedora Silverblue** as adjacent application-delivery/system comparators. Guix + RDE remains the preferred WARENA foundation; no migration or host deployment is approved.
+
+See [Desktop Stack Decision — Nix, Niri, Noctalia and Alternatives](desktop-stack-decision-2026-11.md) for current packaging notes, upstream references, test matrix and decision gates. This addendum supersedes no historical experiment result; it extends the candidate set.
