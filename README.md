@@ -92,3 +92,9 @@ See [LICENSE](LICENSE).
 ## Portfolio alignment — 2026-10
 
 WARENA remains the systems-engineering layer: reproducible builds, GNU/Linux, local-first infrastructure and network services. **Freedom Is a System.** NAKEBUSEN is the public commercial interface; route customer enquiries there. Do not imply that research concepts are shipped products without implementation evidence.
+
+---
+
+## Before Africa — knowledge systems research
+
+Research note on African technologies, ecological infrastructure, information systems, trade networks and political organisation. Contemporary WARENA principles are used only as analytical questions, not projected backwards as historical equivalences. [Read the research note](docs/BEFORE-AFRICA-KNOWLEDGE-SYSTEMS-2026-11-07.md).
