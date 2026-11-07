@@ -98,3 +98,7 @@ WARENA remains the systems-engineering layer: reproducible builds, GNU/Linux, lo
 ## Before Africa — knowledge systems research
 
 Research note on African technologies, ecological infrastructure, information systems, trade networks and political organisation. Contemporary WARENA principles are used only as analytical questions, not projected backwards as historical equivalences. [Read the research note](docs/BEFORE-AFRICA-KNOWLEDGE-SYSTEMS-2026-11-07.md).
+
+## Desktop stack research — 2026-11
+
+Current evaluation: **GNU Guix + RDE** remains the preferred WARENA foundation; **Niri + Noctalia v5** is the leading practical Wayland desktop candidate; **Sway** remains the fallback baseline; **dwl-guile** remains experimental; **Nix/NixOS** is a comparator, not an approved migration. See the [Desktop Stack Decision](docs/desktop-stack-decision-2026-11.md). Research only; no host deployment is implied.
