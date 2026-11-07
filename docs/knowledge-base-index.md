@@ -51,3 +51,4 @@ A document is not implementation evidence. A syntax check is not a deployment te
 ## Minimum evidence for an operational claim
 
 Record repository commit, target hardware/software, configuration inputs, commands, expected and observed results, test date, operator, limitations, and recovery path. Redact secrets and personal data. If evidence is missing, use `UNKNOWN` or `NOT VERIFIED`.
+| Desktop stack | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Nix/NixOS, Niri, Noctalia v5, Sway, dwl-guile and alternatives; evaluation gates and verification matrix |
