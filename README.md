@@ -47,6 +47,21 @@ Pillar: **GRIT** (within GRACE · GRIT · GLORY).
 
 ---
 
+## Configuration ownership
+
+**This repository is the WARENA configuration home.** RDE notes, Guix Home integration policy, system architecture, stack register, desktop decisions and maintenance policy live here. There is no separate `warena-rde` repository.
+
+Guile-native compositor research uses independent forks (not upstream mutation):
+
+| Repository | Role |
+|------------|------|
+| [donfelohke/dwl-guile](https://github.com/donfelohke/dwl-guile) | Fork of engstrand-config/dwl-guile |
+| [donfelohke/home-service-dwl-guile](https://github.com/donfelohke/home-service-dwl-guile) | Fork of engstrand-config/home-service-dwl-guile |
+
+RDE (`abcdw/rde`) and `gptel` remain pinned upstream dependencies. See [Fork and Configuration Architecture](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md).
+
+---
+
 ## Current portfolio alignment
 
 NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems.** WARENA remains the systems-engineering identity powering DIGITAL; GENJE ZA WARENA is a distinct cultural and creative identity, not a WARENA product or checkout brand. See [portfolio alignment (2026-10-31)](docs/portfolio-alignment-2026-10-31.md).
@@ -59,6 +74,8 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/EVIDENCE-STATUS.md](docs/EVIDENCE-STATUS.md) | LIVE / PROTOTYPE / RESEARCH / CONCEPT / UNKNOWN |
 | [docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md](docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md) | Audit of what public GitHub actually contains |
 | [docs/DESKTOP-ARCHITECTURE.md](docs/DESKTOP-ARCHITECTURE.md) | Sway baseline · dwl-guile research · X11 track |
+| [docs/desktop-stack-decision-2026-11.md](docs/desktop-stack-decision-2026-11.md) | Niri / Noctalia / Guix+RDE decision |
+| [docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | Fork layer and configuration ownership |
 | [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings versus experiments |
 
 This repository is **documentation-first** on public GitHub. Markdown is not proof of a named production host.
@@ -80,6 +97,7 @@ This repository is **documentation-first** on public GitHub. Markdown is not pro
 | **GENJE** | Cultural / creative practice |
 | **FELOH / @donfelohke** | Human author |
 | **feloh-corpus** | Shared terms and evidence standards |
+| **dwl-guile / home-service-dwl-guile** | WARENA-maintained forks for Guile compositor research |
 
 Cross-domain relationships are documented in the [canonical architecture](https://github.com/donfelohke/feloh-corpus/blob/main/docs/canonical-architecture-2026-10-26.md).
 
@@ -101,4 +119,4 @@ Research note on African technologies, ecological infrastructure, information sy
 
 ## Desktop stack research — 2026-11
 
-Current evaluation: **GNU Guix + RDE** remains the preferred WARENA foundation; **Niri + Noctalia v5** is the leading practical Wayland desktop candidate; **Sway** remains the fallback baseline; **dwl-guile** remains experimental; **Nix/NixOS** is a comparator, not an approved migration. See the [Desktop Stack Decision](docs/desktop-stack-decision-2026-11.md). Research only; no host deployment is implied.
+Current evaluation: **GNU Guix + RDE** remains the preferred WARENA foundation; **Niri + Noctalia v5** is the leading practical Wayland desktop candidate; **Sway** remains the fallback baseline; **dwl-guile** remains experimental (maintained via WARENA forks); **Nix/NixOS** is a comparator, not an approved migration. See the [Desktop Stack Decision](docs/desktop-stack-decision-2026-11.md) and [Fork Architecture](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md). Research only; no host deployment is implied.
