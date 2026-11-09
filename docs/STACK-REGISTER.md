@@ -5,7 +5,7 @@
 
 Public GitHub under @donfelohke documents architecture and intent. It does **not**, by itself, prove a 40-tool production fleet.
 
-Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
+Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [GNU Guile ecosystem audit](./GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
 
 ---
 
