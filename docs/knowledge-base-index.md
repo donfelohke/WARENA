@@ -24,6 +24,9 @@
 | Backup and restore | [backup-restore-runbook.md](backup-restore-runbook.md) | Integrity and recovery tests |
 | GNU Hurd + Nix research | [research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) | Hurd/Guix status, historical Nix cross-build, native Nix feasibility, NixOS distinction and experiment gates |
 | Master technology register and implementation handbook | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory, WARENA implementation guidance, governance, security, recovery and acceptance controls |
+| Desktop stack | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Nix/NixOS, Niri, Noctalia v5, Sway, dwl-guile and alternatives; evaluation gates and verification matrix |
+| Sovereign workstation setup | [ELITEBOOK-835-G8-SOVEREIGN-WORKSTATION.md](ELITEBOOK-835-G8-SOVEREIGN-WORKSTATION.md) | EliteBook hardware plan, Emacs, Guix/RDE, Guile multi-agent architecture, provenance, permission model and setup gates |
+| Workstation setup workspace | [../setup/README.md](../setup/README.md) | Planned configuration tree and conditions for creating executable Guix Home/System files |
 
 ## Status vocabulary
 
@@ -51,4 +54,3 @@ A document is not implementation evidence. A syntax check is not a deployment te
 ## Minimum evidence for an operational claim
 
 Record repository commit, target hardware/software, configuration inputs, commands, expected and observed results, test date, operator, limitations, and recovery path. Redact secrets and personal data. If evidence is missing, use `UNKNOWN` or `NOT VERIFIED`.
-| Desktop stack | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Nix/NixOS, Niri, Noctalia v5, Sway, dwl-guile and alternatives; evaluation gates and verification matrix |
