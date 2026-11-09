@@ -33,3 +33,10 @@ The existing GPL-3.0 licence remains unchanged by this document. This policy doe
 - [ ] Human review and validation are recorded.
 - [ ] Licence and dependency obligations are preserved.
 - [ ] Build and reproducibility claims match actual evidence.
+
+
+## Code-laundering controls for systems engineering
+
+WARENA treats upstream code, firmware, kernel patches, device trees, package recipes, protocol implementations and AI-generated translations as source-controlled engineering inputs. For every material implementation derived from upstream work, identify the exact repository and commit/tag, licence, patch lineage and modifications. Never use leaked firmware, NDA-restricted vendor code, unreleased driver code or unauthorised dumps as prompts or rewrite targets.
+
+A hardware or protocol reverse-engineering result may be called clean-room only when its permitted evidence set and independent specification-to-implementation path are documented. Preserve lawful measurements, test fixtures, public specifications, traces and reproducible experiments; do not convert restricted source into a paraphrased specification. If contamination is suspected, quarantine the affected patch/package and do not claim independent implementation. Build reproducibility proves how a build was produced, not that its source was lawfully authored; keep source provenance distinct from SLSA build provenance.
