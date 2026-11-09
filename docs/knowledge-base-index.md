@@ -22,8 +22,12 @@
 | Reproducible environments | [reproducible-environment-runbook.md](reproducible-environment-runbook.md) | Pinning, evaluation, build evidence |
 | Network services | [network-services-runbook.md](network-services-runbook.md) | Topology, access, service checks |
 | Backup and restore | [backup-restore-runbook.md](backup-restore-runbook.md) | Integrity and recovery tests |
-| GNU Hurd + Nix research | [research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) | Hurd/Guix status, historical Nix cross-build, native Nix feasibility, NixOS distinction and experiment gates |
-| Master technology register and implementation handbook | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory, WARENA implementation guidance, governance, security, recovery and acceptance controls |
+| Desktop stack | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Nix/NixOS, Niri, Noctalia v5, Sway, dwl-guile and alternatives; evaluation gates |
+| Desktop architecture | [DESKTOP-ARCHITECTURE.md](DESKTOP-ARCHITECTURE.md) | Sway / dwl-guile / X11 track policy |
+| Fork and configuration ownership | [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | WARENA as config home; dwl-guile forks; no warena-rde |
+| Stack register | [STACK-REGISTER.md](STACK-REGISTER.md) | Upstream vs Guix vs host evidence |
+| GNU Hurd + Nix research | [research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) | Hurd/Guix status, Nix feasibility, experiment gates |
+| Master technology register | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory and implementation guidance |
 
 ## Status vocabulary
 
@@ -47,8 +51,9 @@ A document is not implementation evidence. A syntax check is not a deployment te
 - [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN): customer-facing services and business operations. Do not copy private customer data here.
 - [IKAI](https://github.com/donfelohke/Ikai): reflective-compute research and privacy boundaries.
 - [GENJE](https://github.com/donfelohke/Genje): creative computation and performance environments.
+- [dwl-guile](https://github.com/donfelohke/dwl-guile): WARENA-maintained compositor fork (research).
+- [home-service-dwl-guile](https://github.com/donfelohke/home-service-dwl-guile): WARENA-maintained Guix Home service fork (research).
 
 ## Minimum evidence for an operational claim
 
 Record repository commit, target hardware/software, configuration inputs, commands, expected and observed results, test date, operator, limitations, and recovery path. Redact secrets and personal data. If evidence is missing, use `UNKNOWN` or `NOT VERIFIED`.
-| Desktop stack | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Nix/NixOS, Niri, Noctalia v5, Sway, dwl-guile and alternatives; evaluation gates and verification matrix |
