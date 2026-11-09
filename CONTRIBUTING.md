@@ -2,12 +2,13 @@
 
 ## Before opening a pull request
 
-1. Read `README.md`, `GOVERNANCE.md`, and the relevant architecture or runbook.
+1. Read README.md, GOVERNANCE.md, and the relevant architecture or runbook.
 2. Keep the change focused and state the problem it solves.
 3. Identify hardware, operating-system, package, channel, and network assumptions.
 4. Include reproducible commands and expected outcomes where relevant.
 5. State what was actually tested and what remains unverified.
 6. Remove credentials, private keys, customer data, and machine-specific secrets from examples and logs.
+7. Follow [AI-Assisted Development and Source Provenance](AI-ASSISTED-DEVELOPMENT.md), especially for upstream code, hardware research and clean-room claims.
 
 ## Pull request description
 
@@ -18,6 +19,7 @@ Include:
 - Commands used to validate the change.
 - Observed results and evidence links.
 - Risks, rollback/recovery notes, and known limitations.
+- Material AI assistance, authorised source inputs and human review, where applicable.
 
 ## Infrastructure changes
 
