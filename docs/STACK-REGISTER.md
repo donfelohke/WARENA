@@ -1,11 +1,11 @@
 # WARENA stack register
 
-**Status:** RESEARCH / REGISTER CONTRACT · 2026-10-26  
+**Status:** RESEARCH / REGISTER CONTRACT · 2026-10-26 · updated 2026-11-09  
 **Rule:** A version that exists upstream is **not** evidence of deployment.
 
-Public GitHub under @donfelohke documents architecture and intent. It does **not**, by itself, prove a 40-tool production fleet.
+Public GitHub under @donfelohke documents architecture and intent. It does **not**, by itself, prove a production fleet.
 
-Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
+Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
 
 ---
 
@@ -38,15 +38,34 @@ Do **not** use a single ambiguous **CANON** label to mean “production-deployed
 
 ---
 
+## Configuration ownership (2026-11-09)
+
+`donfelohke/WARENA` is the sole configuration home for RDE notes, Guix Home policy, architecture and maintenance. There is no separate `warena-rde` repository.
+
+| Component | Role | Ownership | Maturity |
+|-----------|------|-----------|----------|
+| WARENA repository | Configuration home, stack policy | donfelohke/WARENA | DOCUMENTATION / RESEARCH |
+| dwl-guile | Guile-configurable Wayland compositor | Fork: [donfelohke/dwl-guile](https://github.com/donfelohke/dwl-guile) (from engstrand-config/dwl-guile) | RESEARCH |
+| home-service-dwl-guile | Guix Home integration | Fork: [donfelohke/home-service-dwl-guile](https://github.com/donfelohke/home-service-dwl-guile) | RESEARCH |
+| RDE (abcdw/rde) | Declarative environment | Upstream pin | RESEARCH (dependency) |
+| gptel | Emacs LLM interface | Upstream package | RESEARCH (dependency) |
+| engstrand-config/guix-dotfiles | Reference study only | Upstream reference | REFERENCE ONLY |
+
+Forking preserves history and licence (GPL-3.0). It does not imply installation or a LIVE session.
+
+---
+
 ## Upstream existence checks (selected pins)
 
-Verified as *version exists upstream* on 2026-10-26. Deployment remains **UNKNOWN** unless host evidence is added later.
+Verified as *version exists upstream* on 2026-10-26 unless noted. Deployment remains **UNKNOWN** unless host evidence is added later.
 
 | Component | Claimed | Upstream | Guix | Host | Config | Maturity | Verification | Recovery | Evidence link |
 |-----------|---------|----------|------|------|--------|----------|--------------|----------|---------------|
 | GNU Guix | 1.5.0 | Exists (released 2026-01-23) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://guix.gnu.org/blog/2026/gnu-guix-1.5.0-released/ |
 | GNU Shepherd | 1.0.7 | Exists (2025-09-03); 1.0.8+ also exist | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-09/msg00001.html |
 | GNU Guile | 3.0.10 | Exists (2024-06-24); 3.0.11 also exists | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://www.gnu.org/software/guile/news/gnu-guile-3010-released.html |
+| dwl-guile | v2.0.2 observed | engstrand-config/dwl-guile (dwl v0.4 / wlroots 0.16.x base) | UNKNOWN | UNKNOWN | UNKNOWN | RESEARCH | Fork exists 2026-11-09 | UNKNOWN | https://github.com/donfelohke/dwl-guile |
+| home-service-dwl-guile | upstream main | engstrand-config/home-service-dwl-guile | UNKNOWN | UNKNOWN | UNKNOWN | RESEARCH | Fork exists 2026-11-09 | UNKNOWN | https://github.com/donfelohke/home-service-dwl-guile |
 | restic | 0.19.1 | Exists (2026-07-05) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://github.com/restic/restic/releases/tag/v0.19.1 |
 | Yggdrasil | 0.5.13 | Exists (2026-02-24); 0.5.14/0.5.15 also exist | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://github.com/yggdrasil-network/yggdrasil-go/releases/tag/v0.5.13 |
 | linux (nonguix) | 6.18 LTS claim | Not verified this pass | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | — |
@@ -71,11 +90,12 @@ Verified as *version exists upstream* on 2026-10-26. Deployment remains **UNKNOW
 | Component | Role | Maturity (docs) |
 |-----------|------|-----------------|
 | Sway | Wayland stable profile candidate | RESEARCH / policy |
-| dwl-guile | Wayland Scheme research profile | RESEARCH |
+| Niri + Noctalia v5 | Leading practical Wayland candidate | RESEARCH |
+| dwl-guile | Wayland Scheme research profile (WARENA forks) | RESEARCH |
 | Gershwin | X11 GNUstep DE study | RESEARCH |
 | Window Maker | X11 minimal comparator | RESEARCH |
 
-See [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md). Not LIVE unless qualification gate is completed.
+See [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) and [desktop-stack-decision-2026-11.md](./desktop-stack-decision-2026-11.md). Not LIVE unless qualification gate is completed.
 
 ---
 
@@ -83,8 +103,8 @@ See [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md). Not LIVE unless qualif
 
 1. Named host (or equivalent durable identity)  
 2. Resolved configuration (manifest / system config / channel lock)  
-3. Verification date and outcome  
-4. Recovery procedure tested or documented  
+3. Verification date and outcome   
+4. Recovery procedure tested or documented   
 5. Evidence link retained in-repo or securely referenced  
 
 Until then: keep **UNKNOWN** or **RESEARCH** / **CONCEPT**.
