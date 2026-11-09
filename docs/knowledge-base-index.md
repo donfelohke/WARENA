@@ -15,6 +15,7 @@
 
 | Area | Document | Purpose |
 |---|---|---|
+| Foundational references | [FOUNDATIONAL-REFERENCES.md](FOUNDATIONAL-REFERENCES.md) | Computer-science curriculum, UNESCO African-history corpus, Algorave creative-computation guidelines, source hierarchy and portfolio boundaries |
 | Service UX and handover | [digital-service-ux-sop.md](digital-service-ux-sop.md) | Discovery, scope, acceptance tests, evidence, handover and service feedback |
 | Architecture | [architecture.md](architecture.md) | Boundaries, layers, evidence rules |
 | Reproducibility | [reproducibility-plan.md](reproducibility-plan.md) | Staged environment/deployment plan |
@@ -51,4 +52,5 @@ A document is not implementation evidence. A syntax check is not a deployment te
 ## Minimum evidence for an operational claim
 
 Record repository commit, target hardware/software, configuration inputs, commands, expected and observed results, test date, operator, limitations, and recovery path. Redact secrets and personal data. If evidence is missing, use `UNKNOWN` or `NOT VERIFIED`.
+
 | Desktop stack | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Nix/NixOS, Niri, Noctalia v5, Sway, dwl-guile and alternatives; evaluation gates and verification matrix |
