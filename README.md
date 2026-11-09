@@ -102,3 +102,8 @@ Research note on African technologies, ecological infrastructure, information sy
 ## Desktop stack research — 2026-11
 
 Current evaluation: **GNU Guix + RDE** remains the preferred WARENA foundation; **Niri + Noctalia v5** is the leading practical Wayland desktop candidate; **Sway** remains the fallback baseline; **dwl-guile** remains experimental; **Nix/NixOS** is a comparator, not an approved migration. See the [Desktop Stack Decision](docs/desktop-stack-decision-2026-11.md). Research only; no host deployment is implied.
+
+
+## Computer science foundations — learning reference
+
+WARENA's technical learning path now uses [Teach Yourself Computer Science](https://teachyourselfcs.com/) as a nine-subject syllabus scaffold, with the source's May 2020 update date and limits recorded. See the [WARENA CS foundations framework](docs/FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md) and the [FELOH Corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md), including the related [computer-science learning-path research](https://github.com/donfelohke/feloh-corpus/pull/19). This is a proposed study framework, not a claim of completed training or qualification.
