@@ -1,6 +1,6 @@
 # WARENA desktop architecture
 
-**Status:** RESEARCH / POLICY · 2026-10-26  
+**Status:** RESEARCH / POLICY · 2026-10-26 · updated 2026-11-09  
 **Scope:** Display stack candidates for WARENA (Guix-oriented). Not a claim that every stack is LIVE on hardware.
 
 ## Two separate comparisons
@@ -59,10 +59,24 @@ Programmability is valuable only if these are answered before LIVE promotion:
 
 `dwl-guile` Home service documentation describes WIP behaviour — qualify carefully; do not reject solely for ambition.
 
-**References (upstream — verify current revisions independently):**  
+### WARENA maintenance layer (2026-11-09)
+
+Compositor research is maintained through independent forks, not by depending solely on mutable upstream:
+
+| Component | WARENA repository |
+|-----------|-------------------|
+| Compositor | [donfelohke/dwl-guile](https://github.com/donfelohke/dwl-guile) (fork of engstrand-config/dwl-guile) |
+| Guix Home service | [donfelohke/home-service-dwl-guile](https://github.com/donfelohke/home-service-dwl-guile) |
+| Configuration policy | **This repository (WARENA)** — sole configuration home |
+
+There is no separate `warena-rde` repository. See [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md).
+
+**Upstream references (verify current revisions independently):**  
 - https://github.com/swaywm/sway  
 - https://github.com/engstrand-config/dwl-guile  
 - https://github.com/engstrand-config/home-service-dwl-guile  
+- https://github.com/donfelohke/dwl-guile  
+- https://github.com/donfelohke/home-service-dwl-guile  
 - https://github.com/gershwin-desktop/gershwin-desktop  
 - https://www.windowmaker.org/
 
@@ -71,15 +85,16 @@ Programmability is valuable only if these are answered before LIVE promotion:
 ## 3. Recommended WARENA layering
 
 ```text
-WARENA desktop policy
+WARENA desktop policy  (this repository)
   · user intent · keyboard · display profiles · launch · recovery
 
 Stable Wayland profile  →  Sway
-Research Wayland profile →  dwl-guile
+Practical candidate     →  Niri + Noctalia v5
+Research Wayland profile →  dwl-guile (WARENA forks)
 
 X11 study track          →  Gershwin (DE) · Window Maker (WM baseline)
 
-Guix System + Guix Home
+Guix System + Guix Home + RDE (upstream pin)
   · pinned inputs · declarative config · rebuild · rollback tests
 ```
 
@@ -90,7 +105,8 @@ Guix System + Guix Home
 | Requirement | Starting point |
 |-------------|----------------|
 | Dependable Wayland daily driver | **Sway** |
-| Scheme-native graphical infrastructure | **dwl-guile** |
+| Practical modern Wayland evaluation | **Niri + Noctalia v5** |
+| Scheme-native graphical infrastructure | **dwl-guile** (forks) |
 | Integrated NeXT-inspired GNUstep desktop | **Gershwin** |
 | Minimal NeXT-inspired X11 session | **Window Maker** |
 | Lowest custom-maintenance burden | Sway or Window Maker (by stack) |
@@ -103,7 +119,7 @@ Guix System + Guix Home
 
 For each candidate:
 
-- [ ] Current upstream revision recorded  
+- [ ] Current upstream / fork revision recorded  
 - [ ] Build dependencies known  
 - [ ] Guix package / Home service path exists or is explicitly WIP  
 - [ ] Hardware behaviour on target machine documented  
@@ -117,7 +133,9 @@ Upstream docs support architectural comparison. They do **not** by themselves pr
 - [ORIENTATION.md](./ORIENTATION.md)  
 - [FOUNDATIONS.md](./FOUNDATIONS.md)  
 - [PRACTICE.md](./PRACTICE.md)  
-- [VALIDATION.md](./VALIDATION.md)
+- [VALIDATION.md](./VALIDATION.md)  
+- [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md)  
+- [STACK-REGISTER.md](./STACK-REGISTER.md)
 
 ## 6. Current desktop-stack decision — 2026-11
 
