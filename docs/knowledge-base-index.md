@@ -59,4 +59,4 @@ Record repository commit, target hardware/software, configuration inputs, comman
 | Area | Document | Purpose |
 |---|---|---|
 | Computer science foundations | [FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md](FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md) | Nine-subject CS syllabus, language alignment, practical labs and evidence rules |
-| Cross-domain source map | [FELOH Corpus foundational reference map](https://github.com/donfelohke/feloh-corpus/blob/main/docs/foundational-reference-map-2026-11.md) | Canonical source metadata and shared research boundaries |
+| Cross-domain source map | [FELOH Corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md) and [learning-path research PR #19](https://github.com/donfelohke/feloh-corpus/pull/19) | Canonical source metadata and shared research boundaries |
