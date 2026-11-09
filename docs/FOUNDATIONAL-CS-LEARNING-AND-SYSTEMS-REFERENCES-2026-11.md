@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-09  
 **Status:** RESEARCH / LEARNING FRAMEWORK  
-**Canonical source map:** [FELOH Corpus — Foundational Reference Map](https://github.com/donfelohke/feloh-corpus/blob/main/docs/foundational-reference-map-2026-11.md)
+**Source provenance:** [FELOH Corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md); related open research: [Corpus #19 — learning paths and source register](https://github.com/donfelohke/feloh-corpus/pull/19), [Corpus #31 — UNESCO General History of Africa](https://github.com/donfelohke/feloh-corpus/pull/31), and [GENJE #14 — Algorave practice](https://github.com/donfelohke/Genje/pull/14).
 
 ## Primary reference
 
