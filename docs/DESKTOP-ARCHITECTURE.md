@@ -147,3 +147,17 @@ See [Desktop Stack Decision — Nix, Niri, Noctalia and Alternatives](desktop-st
 ## Current technology-policy precedence — 2026-11-17
 
 This document must be read subject to the current [WARENA Technology Constitution](https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) and [FELOH Corpus technology policy](https://github.com/donfelohke/feloh-corpus/blob/main/docs/technology-policy-2026-11-17.md). JavaScript is prohibited as a language, runtime, framework or dependency; web technologies are excluded as WARENA/IKAI application and runtime architecture. Prefer native, libre, local-first and user-controlled interfaces. Candidate tools listed in this document do not become approved dependencies merely by appearing here. Historical descriptions remain historical; apply this policy to current and future decisions.
+
+
+## Current architecture direction — 2026-11-17
+
+This dated direction supersedes older candidate summaries in this document where they conflict:
+
+- WARENA desktop research is **X11-first**.
+- X.Org is the initial compatibility baseline; XLibre is a drop-in compatibility experiment.
+- Default selectable sessions: **Guile-WM** (Scheme-native programmable session) and **Gershwin** (GNUstep/OpenStep-inspired desktop). Both are intended as default sessions under one WARENA identity; this is not a deployment claim.
+- Wayland is secondary/experimental: dwl-guile + RDE is the research path; Sway is a recovery/comparison baseline.
+- Niri/Noctalia is retained as a historical research candidate, not the current default direction.
+- Native-first policy excludes JavaScript and web technologies as WARENA/IKAI application/runtime architecture. See [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md).
+
+This is a research/architecture direction, not authorization to install, migrate, deploy or modify a host.
