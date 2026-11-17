@@ -30,6 +30,7 @@
 | Master technology register | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory and implementation guidance |
 | Computer science foundations | [FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md](FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md) | Nine-subject syllabus scaffold, language study and reproducible learning evidence |
 | LinkStar-H68K network appliance | [research/linkstar-h68k-network-appliance-2026-11.md](research/linkstar-h68k-network-appliance-2026-11.md) | Article-reported hardware, unknowns, candidate roles and qualification gates |
+| GNUstep–Guile / GOOPS compatibility | [GNUstep Guile GOOPS compatibility audit](GNUSTEP-GUILE-GOOPS-COMPATIBILITY-AUDIT-2026-11-18.md) | Historical bridge limits, GOOPS distinction and modern compatibility gates |
 | Identity and Sheng context | [WARENA-NAME-NOTE.md](WARENA-NAME-NOTE.md) | Owner-confirmed technical expansion, Kenyan Sheng resonance and source qualifications |
 
 ## Status vocabulary
