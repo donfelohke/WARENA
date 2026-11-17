@@ -142,3 +142,8 @@ Upstream docs support architectural comparison. They do **not** by themselves pr
 This document's Sway/dwl-guile comparison remains useful as the Wayland baseline, but it is no longer the complete candidate map. The current decision adds **Niri + Noctalia v5** as the leading practical candidate, **Nix/NixOS** as a declarative comparator, **DankMaterialShell** as a shell comparator, and **Flatpak/Fedora Silverblue** as adjacent application-delivery/system comparators. Guix + RDE remains the preferred WARENA foundation; no migration or host deployment is approved.
 
 See [Desktop Stack Decision — Nix, Niri, Noctalia and Alternatives](desktop-stack-decision-2026-11.md) for current packaging notes, upstream references, test matrix and decision gates. This addendum supersedes no historical experiment result; it extends the candidate set.
+
+
+## Current technology-policy precedence — 2026-11-17
+
+This document must be read subject to the current [WARENA Technology Constitution](https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) and [FELOH Corpus technology policy](https://github.com/donfelohke/feloh-corpus/blob/main/docs/technology-policy-2026-11-17.md). JavaScript is prohibited as a language, runtime, framework or dependency; web technologies are excluded as WARENA/IKAI application and runtime architecture. Prefer native, libre, local-first and user-controlled interfaces. Candidate tools listed in this document do not become approved dependencies merely by appearing here. Historical descriptions remain historical; apply this policy to current and future decisions.
