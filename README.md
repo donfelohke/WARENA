@@ -74,6 +74,7 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/EVIDENCE-STATUS.md](docs/EVIDENCE-STATUS.md) | LIVE / PROTOTYPE / RESEARCH / CONCEPT / UNKNOWN |
 | [docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md](docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md) | Audit of what public GitHub actually contains |
 | [docs/DESKTOP-ARCHITECTURE.md](docs/DESKTOP-ARCHITECTURE.md) | Sway baseline · dwl-guile research · X11 track |
+| [docs/GERSHWIN-GUIX-PACKAGING-PLAN-2026-11.md](docs/GERSHWIN-GUIX-PACKAGING-PLAN-2026-11.md) | Gershwin upstream GitHub map, GNUstep dependency chain, Guix packaging and X11 session qualification |
 | [docs/desktop-stack-decision-2026-11.md](docs/desktop-stack-decision-2026-11.md) | Niri / Noctalia / Guix+RDE decision |
 | [docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | Fork layer and configuration ownership |
 | [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings versus experiments |
