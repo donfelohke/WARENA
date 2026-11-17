@@ -78,6 +78,7 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | Fork layer and configuration ownership |
 | [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings versus experiments |
 | [docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md) | IKAI MIRROR+ compute, runtime, hardware and recovery research |
+| [docs/WARENA-NAME-NOTE.md](docs/WARENA-NAME-NOTE.md) | Exact technical expansion and distinction from Kenyan Sheng usage |
 
 This repository is **documentation-first** on public GitHub. Markdown is not proof of a named production host.
 
@@ -122,10 +123,11 @@ Research note on African technologies, ecological infrastructure, information sy
 
 Current evaluation: **GNU Guix + RDE** remains the preferred WARENA foundation; **Niri + Noctalia v5** is the leading practical Wayland desktop candidate; **Sway** remains the fallback baseline; **dwl-guile** remains experimental (maintained via WARENA forks); **Nix/NixOS** is a comparator, not an approved migration. See the [Desktop Stack Decision](docs/desktop-stack-decision-2026-11.md) and [Fork Architecture](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md). Research only; no host deployment is implied.
 
-
 ## Canonical identity and technology constitution — 2026-11-17
 
 **WARENA = Warena Architecture Re Network/ed Artefact.** Preserve the deliberate “Network/ed” form. **Freedom Is a System.**
+
+The name also has a documented resonance with Kenyan Sheng *warena*, recorded with senses including fire and formidable energy. This is a cultural association, not the historical derivation or translation of WARENA's technical expansion. See [WARENA Name Note](docs/WARENA-NAME-NOTE.md) for source qualifications.
 
 The governing technical policy is native-first, libre-first, local-first and user-controlled. **JavaScript is prohibited** as a language, runtime, framework or dependency; web technologies are excluded as WARENA application/runtime architecture. Prefer GNU/Linux, Guix, Guile/Scheme/GOOPS, native interfaces and inspectable local persistence. OpenXR is a native API candidate and is distinct from WebXR.
 
