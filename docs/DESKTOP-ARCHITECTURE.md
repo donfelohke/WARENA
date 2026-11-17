@@ -135,7 +135,8 @@ Upstream docs support architectural comparison. They do **not** by themselves pr
 - [PRACTICE.md](./PRACTICE.md)  
 - [VALIDATION.md](./VALIDATION.md)  
 - [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md)  
-- [STACK-REGISTER.md](./STACK-REGISTER.md)
+- [STACK-REGISTER.md](./STACK-REGISTER.md)  
+- [GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md](./GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md)
 
 ## 6. Current desktop-stack decision — 2026-11
 
