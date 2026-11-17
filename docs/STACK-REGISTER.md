@@ -85,15 +85,18 @@ Verified as *version exists upstream* on 2026-10-26 unless noted. Deployment rem
 
 ---
 
-## Profile stack (desktop — architecture only)
+## Profile stack (desktop — architecture only; current direction 2026-11-17)
 
 | Component | Role | Maturity (docs) |
 |-----------|------|-----------------|
-| Sway | Wayland stable profile candidate | RESEARCH / policy |
-| Niri + Noctalia v5 | Leading practical Wayland candidate | RESEARCH |
-| dwl-guile | Wayland Scheme research profile (WARENA forks) | RESEARCH |
-| Gershwin | X11 GNUstep DE study | RESEARCH |
-| Window Maker | X11 minimal comparator | RESEARCH |
+| X.Org | Initial X11 compatibility baseline | RESEARCH |
+| Guile-WM | Default WARENA Scheme-native window-manager session | RESEARCH / architecture direction |
+| Gershwin | Default WARENA GNUstep/OpenStep-inspired desktop session | RESEARCH / architecture direction |
+| XLibre | X.Org-compatible alternative under evaluation | RESEARCH |
+| dwl-guile + RDE | Secondary / experimental Wayland research session | RESEARCH |
+| Sway | Wayland recovery and comparison baseline | RESEARCH |
+
+The intended default selectable sessions are Guile-WM and Gershwin under one WARENA identity. This is not a claim that either session is installed or deployed. Niri + Noctalia v5 is retained as historical candidate research, not the current default direction.
 
 See [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) and [desktop-stack-decision-2026-11.md](./desktop-stack-decision-2026-11.md). Not LIVE unless qualification gate is completed.
 
