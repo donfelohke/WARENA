@@ -68,33 +68,24 @@ Do not assume all optional libraries are required by every component. Derive nat
 
 ## 4. Guix packaging policy
 
-### 4.1 Package availability audit — preliminary evidence
+### 4.1 Package availability audit — source-level result
 
-The first source-level pass found existing GNUstep definitions in Guix's `gnu/packages/gnustep.scm`, including `libobjc2` and `gnustep-base`. Guix commit history records `libobjc2` updated to 2.3 on the moving master branch in August 2026, and a Clang 22 compatibility patch in October 2026. A separate October 2026 commit adjusts `gnustep-base` packaging by removing a bundled certificate file. These are evidence of active mainline packaging, **not proof that those post-release changes are present in the Guix 1.5.0 release snapshot**.
+The detailed repository, source-pin, license and Guix release-boundary findings are maintained in [Gershwin Upstream Source Audit](GERSHWIN-UPSTREAM-SOURCE-AUDIT-2026-11.md). The key distinction is that Guix 1.5.0 was released on 2026-01-23, while several GNUstep framework packages were added to Guix mainline only in the October 2026 packaging series.
 
-| Dependency / package candidate | Preliminary classification | Evidence and next check |
+| Dependency / package candidate | Classification for Guix 1.5.0 | Evidence and next action |
 |---|---|---|
-| GNUstep Objective-C runtime (`libobjc2`) | EXISTING in Guix mainline; exact 1.5.0 version requires confirmation | Mainline update to 2.3 and Clang compatibility patch recorded in 2026. Query selected Guix revision and build with its declared Clang. |
-| GNUstep Base (`gnustep-base`) | EXISTING in Guix mainline; exact 1.5.0 recipe requires confirmation | Mainline package has active packaging fixes in October 2026. Check compiler/runtime pairing and package tests. |
-| GNUstep Make (`gnustep-make`) | NOT YET CLASSIFIED | Inspect exact package exports and selected channel revision; do not infer from helper procedures alone. |
-| GNUstep GUI (`gnustep-gui`) | NOT YET CLASSIFIED | Verify whether the release channel exports a package and whether its source version matches Gershwin's pinned set. |
-| GNUstep Backend (`gnustep-back`) | NOT YET CLASSIFIED | Verify package and X11 backend options; confirm Xlib/XCB runtime closure. |
-| Swift libdispatch (`libdispatch`) | EXISTING package candidate in Guix's C package module; dependency use is optional until proven | Verify exact revision and whether Gershwin targets actually link it. |
-| GNUstep AV / StepTalk (`libs-av`, `libs-steptalk`) | NOT YET CLASSIFIED | Check whether Guix has equivalent packages; package only if current targets require them. |
-| Gershwin desktop components | NEW unless an equivalent package is discovered | No WARENA package recipes or Guix component builds have been evidenced. |
+| `libobjc2` | EXISTING | Release baseline predates the August 2026 update from 2.2.1 to 2.3; retain 1.5.0 package first, then test a separately pinned 2.3 update. |
+| `libdispatch` | VERSION / RELEASE STATUS TO CONFIRM | Mainline package exists and was updated to 6.4.0 in October 2026; verify the exact 1.5.0 package and compare its source revision with Gershwin's pinned source. |
+| `gnustep-make` | VERSION / RELEASE STATUS TO CONFIRM | Mainline update to 2.9.3 in October 2026; query exact 1.5.0 package export and build options. |
+| `gnustep-base` | NOT IN 1.5.0 RELEASE | Added to mainline after the January 2026 release; use a separately pinned newer channel or backport a recipe. |
+| `gnustep-gui` | NOT IN 1.5.0 RELEASE | Added to mainline after the January 2026 release; use a separately pinned newer channel or backport a recipe. |
+| `gnustep-back` | NOT IN 1.5.0 RELEASE | Added to mainline after the January 2026 release; use a separately pinned newer channel or backport a recipe. |
+| `libs-av`, `libs-steptalk`, `libs-opal`, `libs-corebase`, `libs-quartzcore` | NO MATCHING GUIX PACKAGE CONFIRMED | Package only when a component's actual build graph requires it. Several are optional or not in the current upstream checkout/build list. |
+| Gershwin components | NEW WARENA PACKAGING WORK | No WARENA recipes or Guix builds evidenced. |
 
-**Important release distinction:** Guix 1.5.0 was released in January 2026. The cited August–October 2026 package commits are later mainline history; they must not be silently attributed to the 1.5.0 release. The exact package inventory must be queried against the user's selected Guix revision, recorded with `guix describe`, and checked with `guix show PACKAGE`. After the RDE/Guix installation is available, run:
+**Release policy:** do not import October 2026 mainline package definitions into the Guix 1.5.0 claim. The target host must report `guix describe`; then run `guix show` and `guix build` against that exact channel. The source-level inventory cannot replace a build on the user's selected Guix/RDE installation.
 
-```sh
-guix describe
-for p in libobjc2 gnustep-base gnustep-make gnustep-gui gnustep-back libdispatch; do
-  guix show "$p" || true
-done
-```
-
-For each result, record the package name, version, source origin, build system, inputs, patches and channel commit. A package being discoverable is not proof that it builds or that its ABI matches the Gershwin source pins.
-
-A Guix mailing-list report from January 2026 documents a real integration failure involving overlapping GCC Objective-C and libobjc2 runtime headers while building GNUstep Base. This makes the runtime/compiler/header selection an explicit G1 blocker to resolve, rather than assuming that merely placing Clang and libobjc2 in the same profile is sufficient.
+The current upstream Gershwin build explicitly sets `CC=clang`, `CXX=clang++`, and `OBJC=clang`; its GNUstep Make instructions state that libobjc2 requires Clang. The runtime/compiler/header selection is therefore an explicit G1 integration gate.
 
 Reuse or extend existing Guix packages where technically correct. Do not create duplicate package definitions merely to rename upstream software.
 
@@ -190,8 +181,8 @@ A successful package build is not a successful desktop session. A successful des
 | Gershwin is an X11 desktop track | VERIFIED from upstream developer instructions and WARENA architecture |
 | Upstream component repositories exist | VERIFIED for repositories listed above |
 | Upstream developer script pins external GNUstep/runtime dependencies | VERIFIED by inspecting `Library/Scripts/checkout.sh` |
-| Guix mainline has libobjc2 and gnustep-base definitions | VERIFIED from 2026 Guix commit records; not equivalent to Guix 1.5.0 verification |
-| Exact Guix 1.5.0 package inventory for all dependencies | PARTIAL / NOT YET VERIFIED against release snapshot |
+| Guix mainline has libobjc2, gnustep-make, gnustep-base, gnustep-gui and gnustep-back definitions | VERIFIED from 2026 Guix commit records; Base/GUI/Back were added after the 1.5.0 release |
+| Exact Guix 1.5.0 package inventory for libdispatch and gnustep-make | NOT YET VERIFIED against the release snapshot |
 | WARENA Guix recipes exist and build | UNKNOWN / NOT EVIDENCED |
 | Gershwin session starts on Guix System | NOT TESTED |
 | Display-manager integration works | WIP / NOT TESTED |
@@ -206,6 +197,7 @@ A successful package build is not a successful desktop session. A successful des
 - [Gershwin architecture](https://gershwin-desktop.github.io/docs/developer/architecture.html)
 - [Gershwin build documentation](https://gershwin-desktop.github.io/docs/developer/building.html)
 - [GNUstep source and release inventory](https://www.gnustep.org/resources/downloads.html)
+- [Gershwin upstream source and package audit](GERSHWIN-UPSTREAM-SOURCE-AUDIT-2026-11.md)
 - [GNUstep tools-make installation notes](https://github.com/gnustep/tools-make/blob/master/INSTALL)
 - [WARENA desktop architecture](DESKTOP-ARCHITECTURE.md)
 - [WARENA stack register](STACK-REGISTER.md)
