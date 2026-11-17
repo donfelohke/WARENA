@@ -79,6 +79,7 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings versus experiments |
 | [docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md) | IKAI MIRROR+ compute, runtime, hardware and recovery research |
 | [docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md](docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md) | RDE live ISO pre-install evaluation, Guix System installation planning, post-install validation and recovery |
+| [docs/GITHUB-POSTINSTALL-SETUP.md](docs/GITHUB-POSTINSTALL-SETUP.md) | Git identity, SSH authentication, GitHub CLI, canonical WARENA checkout, safe sync and contribution workflow; rebase deferred |
 | [docs/WARENA-NAME-NOTE.md](docs/WARENA-NAME-NOTE.md) | Exact technical expansion and distinction from Kenyan Sheng usage |
 
 This repository is **documentation-first** on public GitHub. Markdown is not proof of a named production host.
