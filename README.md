@@ -78,6 +78,7 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | Fork layer and configuration ownership |
 | [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings versus experiments |
 | [docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md) | IKAI MIRROR+ compute, runtime, hardware and recovery research |
+| [docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md](docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md) | RDE live ISO pre-install evaluation, Guix System installation planning, post-install validation and recovery |
 | [docs/WARENA-NAME-NOTE.md](docs/WARENA-NAME-NOTE.md) | Exact technical expansion and distinction from Kenyan Sheng usage |
 
 This repository is **documentation-first** on public GitHub. Markdown is not proof of a named production host.
