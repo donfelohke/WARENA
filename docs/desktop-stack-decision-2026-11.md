@@ -126,3 +126,8 @@ No test result should be marked PASS until performed on identified hardware with
 ## Current technology-policy precedence — 2026-11-17
 
 This document must be read subject to the current [WARENA Technology Constitution](https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) and [FELOH Corpus technology policy](https://github.com/donfelohke/feloh-corpus/blob/main/docs/technology-policy-2026-11-17.md). JavaScript is prohibited as a language, runtime, framework or dependency; web technologies are excluded as WARENA/IKAI application and runtime architecture. Prefer native, libre, local-first and user-controlled interfaces. Candidate tools listed in this document do not become approved dependencies merely by appearing here. Historical descriptions remain historical; apply this policy to current and future decisions.
+
+
+## Supersession note — 2026-11-17
+
+This November 2026 candidate comparison is retained as research history. It is superseded as the current WARENA desktop direction by the X11-first dual-session architecture: X.Org baseline, XLibre compatibility experiment, Guile-WM and Gershwin as the two intended default selectable sessions. Wayland/dwl-guile remains secondary/experimental and Sway a recovery/comparison baseline. Niri + Noctalia is no longer the leading default candidate. See [current DESKTOP-ARCHITECTURE](DESKTOP-ARCHITECTURE.md) and [technology constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md).
