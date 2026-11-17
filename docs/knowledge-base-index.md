@@ -28,6 +28,7 @@
 | Stack register | [STACK-REGISTER.md](STACK-REGISTER.md) | Upstream vs Guix vs host evidence |
 | GNU Hurd + Nix research | [research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) | Hurd/Guix status, Nix feasibility, experiment gates |
 | Master technology register | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory and implementation guidance |
+| Identity and Sheng context | [WARENA-NAME-NOTE.md](WARENA-NAME-NOTE.md) | Owner-confirmed technical expansion, Kenyan Sheng resonance and source qualifications |
 
 ## Status vocabulary
 
