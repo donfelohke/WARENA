@@ -28,6 +28,8 @@
 | Stack register | [STACK-REGISTER.md](STACK-REGISTER.md) | Upstream vs Guix vs host evidence |
 | GNU Hurd + Nix research | [research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) | Hurd/Guix status, Nix feasibility, experiment gates |
 | Master technology register | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory and implementation guidance |
+| Computer science foundations | [FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md](FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md) | Nine-subject syllabus scaffold, language study and reproducible learning evidence |
+| LinkStar-H68K network appliance | [research/linkstar-h68k-network-appliance-2026-11.md](research/linkstar-h68k-network-appliance-2026-11.md) | Article-reported hardware, unknowns, candidate roles and qualification gates |
 | Identity and Sheng context | [WARENA-NAME-NOTE.md](WARENA-NAME-NOTE.md) | Owner-confirmed technical expansion, Kenyan Sheng resonance and source qualifications |
 
 ## Status vocabulary
@@ -58,7 +60,6 @@ A document is not implementation evidence. A syntax check is not a deployment te
 ## Minimum evidence for an operational claim
 
 Record repository commit, target hardware/software, configuration inputs, commands, expected and observed results, test date, operator, limitations, and recovery path. Redact secrets and personal data. If evidence is missing, use `UNKNOWN` or `NOT VERIFIED`.
-
 
 ## Canonical policy — 2026-11-17
 
