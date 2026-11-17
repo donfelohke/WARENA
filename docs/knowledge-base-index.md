@@ -57,3 +57,9 @@ A document is not implementation evidence. A syntax check is not a deployment te
 ## Minimum evidence for an operational claim
 
 Record repository commit, target hardware/software, configuration inputs, commands, expected and observed results, test date, operator, limitations, and recovery path. Redact secrets and personal data. If evidence is missing, use `UNKNOWN` or `NOT VERIFIED`.
+
+
+## Canonical policy — 2026-11-17
+
+- [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md) — WARENA identity, native-first / libre-first / local-first policy, JavaScript prohibition, Stallman reference and IKAI boundary.
+- Current desktop direction: X11-first; X.Org baseline; XLibre compatibility experiment; Guile-WM and Gershwin as intended default selectable sessions. Wayland/dwl-guile is secondary/experimental; Sway is recovery/comparison baseline.
