@@ -121,3 +121,12 @@ Research note on African technologies, ecological infrastructure, information sy
 ## Desktop stack research — 2026-11
 
 Current evaluation: **GNU Guix + RDE** remains the preferred WARENA foundation; **Niri + Noctalia v5** is the leading practical Wayland desktop candidate; **Sway** remains the fallback baseline; **dwl-guile** remains experimental (maintained via WARENA forks); **Nix/NixOS** is a comparator, not an approved migration. See the [Desktop Stack Decision](docs/desktop-stack-decision-2026-11.md) and [Fork Architecture](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md). Research only; no host deployment is implied.
+
+
+## Canonical identity and technology constitution — 2026-11-17
+
+**WARENA = Warena Architecture Re Network/ed Artefact.** Preserve the deliberate “Network/ed” form. **Freedom Is a System.**
+
+The governing technical policy is native-first, libre-first, local-first and user-controlled. **JavaScript is prohibited** as a language, runtime, framework or dependency; web technologies are excluded as WARENA application/runtime architecture. Prefer GNU/Linux, Guix, Guile/Scheme/GOOPS, native interfaces and inspectable local persistence. OpenXR is a native API candidate and is distinct from WebXR.
+
+See [Technology Constitution (2026-11-17)](docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md). This dated policy supersedes conflicting older proposals; historical records remain preserved. Current desktop decisions must be read with the latest X11-first / dual-session architecture records, not inferred from older Wayland candidate summaries.
