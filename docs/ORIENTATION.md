@@ -43,3 +43,10 @@ Record system purpose, hardware assumptions, operating system and versions, conf
 - [FELOH Corpus](https://github.com/donfelohke/feloh-corpus) — shared terminology and evidence standards.
 - [Stack register](STACK-REGISTER.md) — technology inventory and maturity.
 - [Evidence status](EVIDENCE-STATUS.md) — maturity labels and forbidden inference.
+
+
+## Canonical identity and technical policy — 2026-11-17
+
+**WARENA — Warena Architecture Re Network/ed Artefact.** Preserve the deliberate “Network/ed” form. **Freedom Is a System.** WARENA is an architecture for creating, connecting, reproducing, maintaining and evolving computational artefacts.
+
+The governing policy is native-first, libre-first, local-first and user-controlled. JavaScript is prohibited as a language, runtime, framework or dependency; web technologies are excluded as WARENA/IKAI application and runtime architecture. Required philosophical reference: Richard Stallman, [“The JavaScript Trap”](https://www.gnu.org/philosophy/javascript-trap.html). See [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md).
