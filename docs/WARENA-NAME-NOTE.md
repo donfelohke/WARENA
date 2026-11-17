@@ -1,11 +1,19 @@
-# WARENA — Name Note
+# WARENA — Name and Identity Note
 
-**Status:** RESEARCH · canonical identity definition recorded in FELOH Corpus.
+**Status:** CANONICAL IDENTITY · owner-confirmed 2026-11-17.
 
-WARENA is the systems-engineering and infrastructure identity within the FELOH ecosystem. Its documented authored expansion is **Advanced Reproducible Extensible Networked Artefacts**. Its guiding principle is **Freedom Is a System**.
+# WARENA
 
-The expansion is an authored acronym, not evidence of an inherited or ancient etymology. The naming chronology, pronunciation and any additional linguistic or cultural inspiration remain open for founder clarification.
+**Warena Architecture Re Network/ed Artefact**
 
-The authoritative exploration, including enterprise boundaries and evidence requirements, is maintained in the [FELOH Corpus — WARENA Name and Identity Exploration](https://github.com/donfelohke/feloh-corpus/blob/main/docs/research-briefs/warena-name-exploration-2026-11.md).
+Preserve the authored recursive form **Re Network/ed Artefact** and the slash in **Network/ed**. It deliberately accommodates both network architecture and networked artefacts. Do not silently replace this current expansion with earlier formulations.
 
-**Boundary:** WARENA powers NAKEBUSEN DIGITAL. It does not transact independently. Commercial enquiries and agreements route through NAKEBUSEN.
+WARENA is an architecture for creating, connecting, reproducing, maintaining and evolving computational artefacts. It is not merely a Linux distribution, desktop environment or product catalogue.
+
+**Guiding principle:** **Freedom Is a System.**
+
+Earlier expansion: **Advanced Reproducible Extensible Networked Artefacts**. Retain this as historical naming context only; it is superseded as the current expansion by the owner-confirmed form above.
+
+**Boundary:** WARENA is the systems/infrastructure identity powering NAKEBUSEN DIGITAL. It does not transact independently. Commercial enquiries and agreements route through NAKEBUSEN.
+
+See the [WARENA Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md) for the governing technology policy.
