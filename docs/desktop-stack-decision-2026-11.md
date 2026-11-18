@@ -1,12 +1,18 @@
-# Desktop Stack Decision — Nix, Niri, Noctalia and Alternatives
+# Historical Desktop Candidate Study — Nix, Niri, Noctalia and Alternatives
 
 **Document ID:** WARENA-DSD-2026-11  
 **Date:** 2026-11-07  
-**Status:** RESEARCH DECISION / NOT A DEPLOYMENT  
+**Status:** HISTORICAL COMPARATOR / SUPERSEDED FOR CURRENT WARENA DESKTOP PRIORITY  
 **Owner:** WARENA Systems  
 **Governing rule:** specification ≠ implementation ≠ verification ≠ deployment.
 
-## 1. Decision summary
+## Current precedence notice — 2026-11-18
+
+This 2026-11-07 candidate study is retained as historical research. Its earlier recommendation to evaluate Niri + Noctalia v5 as the leading practical Wayland desktop is superseded by WARENA's current X11-first policy. The current intended session tracks are Gershwin (GNUstep/Objective-C) and Guile-WM / WM-NG (Guile policy with native XCB ownership for WM-NG). X.Org is the initial baseline; XLibre is a separate compatibility experiment. Sway remains a comparison/recovery baseline; dwl-guile and Wayland remain secondary/experimental. See [DESKTOP-ARCHITECTURE.md](DESKTOP-ARCHITECTURE.md), [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md), and [Guile-WM / WM-NG audit](GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md).
+
+The candidate comparison below is preserved for historical reference and must not be read as current WARENA deployment guidance. No host migration or deployment is implied.
+
+## 1. Historical decision summary
 
 Keep **GNU Guix + RDE** as the preferred WARENA system-management and reproducibility research foundation. Evaluate **Niri + Noctalia v5** as the leading practical Wayland desktop combination. Retain **Sway** as the conservative compositor baseline and **dwl-guile** as a separate Guile-native research track. Benchmark **Nix/NixOS** as an alternative declarative ecosystem; do not silently migrate the WARENA baseline to NixOS.
 

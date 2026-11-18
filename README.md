@@ -78,7 +78,7 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/GERSHWIN-UPSTREAM-SOURCE-AUDIT-2026-11.md](docs/GERSHWIN-UPSTREAM-SOURCE-AUDIT-2026-11.md) | Gershwin upstream checkout/build graph, resolved source pins, component snapshots, license reconnaissance and Guix 1.5.0 release boundary |
 | [docs/GERSHWIN-UPSTREAM-DELTA-2026-11-18.md](docs/GERSHWIN-UPSTREAM-DELTA-2026-11-18.md) | Latest Gershwin upstream checkout and window-manager changes; XLibre migration status and revised Guix qualification gates |
 | [docs/GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md](docs/GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md) | Legacy Guile-WM versus WARENA WM-NG, Guile 2.2/3 compatibility, XCB/ICCCM/EWMH dependencies, Guix package plan and Xephyr session gates |
-| [docs/desktop-stack-decision-2026-11.md](docs/desktop-stack-decision-2026-11.md) | Niri / Noctalia / Guix+RDE decision |
+| [docs/desktop-stack-decision-2026-11.md](docs/desktop-stack-decision-2026-11.md) | Historical Niri / Noctalia / Nix comparator; superseded by X11-first policy |
 | [docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | Fork layer and configuration ownership |
 | [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings versus experiments |
 | [docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md) | IKAI MIRROR+ compute, runtime, hardware and recovery research |
@@ -127,7 +127,7 @@ Research note on African technologies, ecological infrastructure, information sy
 
 ## Desktop stack research — 2026-11
 
-Current evaluation: **GNU Guix + RDE** remains the preferred WARENA foundation; **Niri + Noctalia v5** is the leading practical Wayland desktop candidate; **Sway** remains the fallback baseline; **dwl-guile** remains experimental (maintained via WARENA forks); **Nix/NixOS** is a comparator, not an approved migration. See the [Desktop Stack Decision](docs/desktop-stack-decision-2026-11.md) and [Fork Architecture](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md). Research only; no host deployment is implied.
+Current policy: **GNU Guix + RDE** remains the preferred foundation; desktop research is **X11-first**, with X.Org as the initial compatibility baseline and XLibre as a separate compatibility experiment. **Gershwin** and **Guile-WM / WM-NG** are the intended selectable session tracks; **Sway** is a comparison/recovery baseline; **dwl-guile / Wayland** is secondary and experimental. Niri + Noctalia and Nix/NixOS remain historical comparators, not the current default direction. See [Desktop Architecture](docs/DESKTOP-ARCHITECTURE.md), [Desktop Candidate Study](docs/desktop-stack-decision-2026-11.md), and [Fork Architecture](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md). Research only; no host deployment is implied.
 
 ## Canonical identity and technology constitution — 2026-11-17
 
