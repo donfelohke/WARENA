@@ -138,3 +138,10 @@ The name also has a documented resonance with Kenyan Sheng *warena*, recorded wi
 The governing technical policy is native-first, libre-first, local-first and user-controlled. **JavaScript is prohibited** as a language, runtime, framework or dependency; web technologies are excluded as WARENA application/runtime architecture. Prefer GNU/Linux, Guix, Guile/Scheme/GOOPS, native interfaces and inspectable local persistence. OpenXR is a native API candidate and is distinct from WebXR.
 
 See [Technology Constitution (2026-11-17)](docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md). This dated policy supersedes conflicting older proposals; historical records remain preserved. Current desktop decisions must be read with the latest X11-first / dual-session architecture records, not inferred from older Wayland candidate summaries.
+
+## IKAI / XR compatibility research
+
+- [IKAI / WARENA XR Platform and Development Compatibility Matrix (2026-11-18)](docs/IKAI-XR-PLATFORM-COMPATIBILITY-MATRIX-2026-11-18.md) — OpenXR API/runtime distinctions, Monado and Android XR qualification, native toolchain, engine boundaries, Guix packaging gates and explicit non-claims.
+- [IKAI Wearable Platform Integration (2026-11-18)](docs/IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md) — voice and visual wearable infrastructure, Guile orchestration, media/IPC and service lifecycle.
+
+Both records are research plans. No XR device, runtime, Guix package, host deployment or wearable integration is claimed.
