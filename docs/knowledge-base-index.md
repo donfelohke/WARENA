@@ -32,6 +32,7 @@
 | LinkStar-H68K network appliance | [research/linkstar-h68k-network-appliance-2026-11.md](research/linkstar-h68k-network-appliance-2026-11.md) | Article-reported hardware, unknowns, candidate roles and qualification gates |
 | GNUstep–Guile / GOOPS compatibility | [GNUstep Guile GOOPS compatibility audit](GNUSTEP-GUILE-GOOPS-COMPATIBILITY-AUDIT-2026-11-18.md) | Historical bridge limits, GOOPS distinction and modern compatibility gates |
 | Identity and Sheng context | [WARENA-NAME-NOTE.md](WARENA-NAME-NOTE.md) | Owner-confirmed technical expansion, Kenyan Sheng resonance and source qualifications |
+| IKAI wearable integration | [IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md](IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md) | WARENA infrastructure boundary, Guix/Scheme services, media, IPC, OpenXR and operational qualification |
 
 ## Status vocabulary
 
