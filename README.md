@@ -82,6 +82,7 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | Fork layer and configuration ownership |
 | [docs/CAPABILITY-MAP.md](docs/CAPABILITY-MAP.md) | Offerings versus experiments |
 | [docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md) | IKAI MIRROR+ compute, runtime, hardware and recovery research |
+| [IKAI Mirror M1 Engineering Validation](https://github.com/donfelohke/Ikai/blob/main/docs/IKAI-MIRROR-M1-ENGINEERING-VALIDATION-2026-11-18.md) | IKAI-owned optical/display validation gates; WARENA infrastructure evidence remains a separate responsibility |
 | [docs/IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md](docs/IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md) | IKAI voice/AR wearable integration: Guile, Shepherd, IPC, media services, OpenXR qualification and operational gates |
 | [docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md](docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md) | RDE live ISO pre-install evaluation, Guix System installation planning, post-install validation and recovery |
 | [docs/GITHUB-POSTINSTALL-SETUP.md](docs/GITHUB-POSTINSTALL-SETUP.md) | Git identity, SSH authentication, GitHub CLI, canonical WARENA checkout, safe sync and contribution workflow; rebase deferred |
