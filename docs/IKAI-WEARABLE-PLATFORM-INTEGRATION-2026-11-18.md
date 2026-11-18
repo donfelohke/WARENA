@@ -93,3 +93,7 @@ No production package, Guix service, headset integration or host deployment is a
 No new `warena-rde` repository, no upstream mutation, no cloud-first architecture, no JavaScript runtime, no browser application shell, no autonomous agent with unrestricted host access, and no claim of a validated smart-glasses product.
 
 See the [IKAI voice and smart-glasses architecture](https://github.com/donfelohke/Ikai/pull/22) for participant-facing contracts and threat model.
+
+## Industrial architecture comparator
+
+The [IKAI NVIDIA XR AI Architecture Comparative Study](https://github.com/donfelohke/Ikai/blob/main/docs/NVIDIA-XR-AI-ARCHITECTURE-COMPARATIVE-STUDY-2026-11-18.md) reviews NVIDIA's four-plane media/application/service/control separation, participant-scoped routing, typed model interfaces and process lifecycle. It is an architectural reference only; it does not select NVIDIA GPU, CloudXR, Python agent SDK or LiveKit as WARENA dependencies.
