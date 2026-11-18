@@ -92,4 +92,4 @@ No production package, Guix service, headset integration or host deployment is a
 
 No new `warena-rde` repository, no upstream mutation, no cloud-first architecture, no JavaScript runtime, no browser application shell, no autonomous agent with unrestricted host access, and no claim of a validated smart-glasses product.
 
-See the [IKAI voice and smart-glasses architecture](https://github.com/donfelohke/Ikai/blob/main/docs/IKAI-VOICE-GLASSES-DISTRIBUTED-ARCHITECTURE-2026-11-18.md) for participant-facing contracts and threat model.
+See the [IKAI voice and smart-glasses architecture](https://github.com/donfelohke/Ikai/pull/22) for participant-facing contracts and threat model.
