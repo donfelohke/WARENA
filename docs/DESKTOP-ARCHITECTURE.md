@@ -162,3 +162,21 @@ This dated direction supersedes older candidate summaries in this document where
 - Native-first policy excludes JavaScript and web technologies as WARENA/IKAI application/runtime architecture. See [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md).
 
 This is a research/architecture direction, not authorization to install, migrate, deploy or modify a host.
+
+
+## Current desktop decision — 2026-11-18 (supersedes earlier candidate ordering)
+
+The older Niri + Noctalia evaluation below is retained as a historical comparator, not the current WARENA default direction. Apply the [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md) and the [Guile-WM / WM-NG session audit](GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md).
+
+**Current policy:**
+- **X11-first** desktop research.
+- **X.Org** is the initial compatibility baseline.
+- **XLibre** is a separately qualified compatibility experiment; do not mix server and DDX modules across ABIs without explicit validation.
+- **Gershwin** is the intended native GNUstep/Objective-C desktop session candidate.
+- **Guile-WM / WM-NG** is the intended Scheme-policy window-management track, with native XCB ownership for WM-NG.
+- **Sway** remains a recovery/comparison baseline, not the WARENA default.
+- **dwl-guile / Wayland** remains secondary and experimental.
+- **Niri + Noctalia** remains a historical practical-candidate study, not the current leading WARENA desktop direction.
+- GNU Guix + RDE remains the preferred system/configuration research foundation. No migration or host deployment is implied.
+
+This is a policy and research decision. It does not establish a Guix package, successful build, display-manager integration, hardware validation or deployed session.
