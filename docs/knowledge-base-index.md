@@ -66,3 +66,8 @@ Record repository commit, target hardware/software, configuration inputs, comman
 
 - [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md) — WARENA identity, native-first / libre-first / local-first policy, JavaScript prohibition, Stallman reference and IKAI boundary.
 - Current desktop direction: X11-first; X.Org baseline; XLibre compatibility experiment; Guile-WM and Gershwin as intended default selectable sessions. Wayland/dwl-guile is secondary/experimental; Sway is recovery/comparison baseline.
+
+## IKAI / XR research
+
+- [IKAI / WARENA XR Platform and Development Compatibility Matrix (2026-11-18)](IKAI-XR-PLATFORM-COMPATIBILITY-MATRIX-2026-11-18.md) — native OpenXR, runtime and SDK boundaries, Linux/Android qualification, development toolchain and Guix evidence gates.
+- [IKAI Wearable Platform Integration (2026-11-18)](IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md) — infrastructure responsibilities for voice-only and visual wearables.
