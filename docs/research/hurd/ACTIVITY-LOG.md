@@ -4,7 +4,18 @@
 **Coverage:** upstream Hurd, GNU Mach and Guix/Hurd integration  
 **Rule:** newest verified activity first; branch provenance is mandatory.
 
-## 2026-11-20 — review snapshot
+## 2026-11-20 — review and measurement status
+
+No newer Hurd or GNU Mach commit notification than the entries below was verified in this review. The latest verified activity remains GNU Mach (2026-11-14), Guix master (2026-11-14), and GNU Hurd (2026-11-09). This is a source-review cutoff, not proof that upstream repositories had no later commits.
+
+### Package-availability measurement
+
+| Target | Command | Result | Evidence status |
+|---|---|---|---|
+| `i586-gnu` | `guix weather --system=i586-gnu` | Not executed in this session | **NOT RUN** — requires a Guix checkout/environment |
+| `x86_64-gnu` | `guix weather --system=x86_64-gnu` | Not executed in this session | **NOT RUN** — requires a Guix checkout/environment |
+
+The Hurd running guide's approximately 1.7% (`i586-gnu`) and 0.9% (`x86_64-gnu`) figures remain historical reference values only. Do not reuse them as a 2026-11-20 measurement. A valid measurement must record the Guix commit, command output, timestamp, total package count, available count and calculation method. CI substitute availability is a different metric and must not be substituted for package build/run availability.
 
 ### GNU Mach
 
@@ -75,8 +86,8 @@ Sources:
 
 - [ ] Check new Hurd master commits and GNU Mach activity.
 - [ ] Check Guix master commits mentioning Hurd, GNU, `x86_64-gnu`, `i586-gnu`, MIG, glibc, GCC, Guile and ChildHurd.
-- [ ] Confirm whether topic-branch changes landed on master.
-- [ ] Refresh package availability for both Hurd targets.
+- [ ] Confirm whether topic-branch changes have landed on master.
+- [ ] Run both package-availability commands in a pinned Guix environment and record raw output plus commit.
 - [ ] Record QEMU image freshness and ChildHurd service changes.
 - [ ] Update [Guix/Hurd integration](./GUIX-INTEGRATION.md) when architecture or feasibility changes.
 - [ ] Keep WARENA host and deployment status UNKNOWN until directly tested.
