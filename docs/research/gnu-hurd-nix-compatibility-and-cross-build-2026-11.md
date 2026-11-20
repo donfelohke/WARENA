@@ -260,3 +260,7 @@ Guix documents a hurd-vm-service-type and 64-bit Childhurd image flavour (hurd64
 - Debian GNU/Hurd status: https://www.debian.org/ports/hurd/
 
 **Conclusion:** 64-bit Guix/Hurd is now a real experimental target and deserves a current test track. It is not yet a replacement for WARENA's GNU/Linux baseline.
+
+## Agentic operating environment relationship — 2026-11-20
+
+The wider [WARENA Agentic Operating Environment & GNU Hurd Research specification](../AGENTIC-OPERATING-ENVIRONMENT-GNU-HURD-RESEARCH-2026-11-20.md) uses GNU Hurd / GNU Mach as an experimental substrate for studying IPC rights, user-space servers, translators and service boundaries. This does not change the conclusions in this Nix/Guix comparison: a historical Nix-built Hurd image is not NixOS on Hurd; Guix remains the primary Hurd integration research path; Nix remains a comparator and possible Linux-hosted cross-build experiment. Agentic security properties must be independently specified and tested. Hurd's architecture alone does not prove complete isolation, capability revocation, audit integrity or production readiness.
