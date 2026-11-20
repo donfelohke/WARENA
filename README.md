@@ -84,6 +84,7 @@ WARENA is the **CAPABILITY** domain in the four-domain F3L0H architecture: NAKEB
 | [docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md) | IKAI MIRROR+ compute, runtime, hardware and recovery research |
 | [IKAI Mirror M1 Engineering Validation](https://github.com/donfelohke/Ikai/blob/main/docs/IKAI-MIRROR-M1-ENGINEERING-VALIDATION-2026-11-18.md) | IKAI-owned optical/display validation gates; WARENA infrastructure evidence remains a separate responsibility |
 | [docs/IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md](docs/IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md) | IKAI voice/AR wearable integration: Guile, Shepherd, IPC, media services, OpenXR qualification and operational gates |
+| [docs/IKAI-XR-PLATFORM-COMPATIBILITY-MATRIX-2026-11-18.md](docs/IKAI-XR-PLATFORM-COMPATIBILITY-MATRIX-2026-11-18.md) | Native OpenXR, Monado, Android XR and platform qualification research; no deployment claimed |
 | [docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md](docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md) | RDE live ISO pre-install evaluation, Guix System installation planning, post-install validation and recovery |
 | [docs/GITHUB-POSTINSTALL-SETUP.md](docs/GITHUB-POSTINSTALL-SETUP.md) | Git identity, SSH authentication, GitHub CLI, canonical WARENA checkout, safe sync and contribution workflow; rebase deferred |
 | [docs/WARENA-NAME-NOTE.md](docs/WARENA-NAME-NOTE.md) | Exact technical expansion and distinction from Kenyan Sheng usage |
@@ -109,7 +110,7 @@ This repository is **documentation-first** on public GitHub. Markdown is not pro
 | **feloh-corpus** | Shared terms and evidence standards |
 | **dwl-guile / home-service-dwl-guile** | WARENA-maintained forks for Guile compositor research |
 
-Cross-domain relationships are documented in the [canonical architecture](https://github.com/donfelohke/feloh-corpus/blob/main/docs/canonical-architecture-2026-10-26.md).
+Cross-domain relationships are governed by the [F3L0H Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md).
 
 ## License
 
