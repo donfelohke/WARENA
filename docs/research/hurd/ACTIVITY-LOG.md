@@ -6,6 +6,14 @@
 
 ## 2026-11-20 — review snapshot
 
+### GNU Mach
+
+| Date | Commit | Subsystem | Change | Assessment |
+|---|---|---|---|---|
+| 2026-11-14 | `90199be69e58` | i386 BIOS memory map | Correct heap determination when memory regions are empty or unavailable | Boot-time memory-map robustness |
+
+Source: [GNU Mach master update, 2026-11-14](https://www.mail-archive.com/commit-hurd@gnu.org/msg15722.html).
+
 ### GNU Hurd
 
 | Date | Commit | Subsystem | Change | Assessment |
