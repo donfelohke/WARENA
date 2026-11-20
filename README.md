@@ -157,3 +157,8 @@ WARENA's role is limited to enabling-infrastructure research: local compute, nat
 ## Knowledge, inquiry and the Sage archetype — 2026-11-20
 
 WARENA uses **Sage** as a contemporary design archetype for inquiry, reflection, evidence and understanding within the Sovereign × Creator × Sage conceptual triad. This is distinct from Henry Odera Oruka's historical African Sage Philosophy and philosophic sagacity. WARENA does not claim to implement Oruka's method or to inherit its scholarly authority. The FELOH Corpus owns the historical research record: [Oruka Sage Philosophy & Philosophic Sagacity](https://github.com/donfelohke/feloh-corpus/blob/main/docs/ORUKA-SAGE-PHILOSOPHY-AND-PHILOSOPHIC-SAGACITY-2026-11-20.md). **RESEARCH / conceptual boundary only; no product or implementation claim.**
+
+
+## Knowledge, inquiry and the Sage archetype — 2026-11-20
+
+WARENA uses **Sage** as a contemporary design archetype for inquiry, reflection, evidence and understanding within the Sovereign × Creator × Sage conceptual triad. This is distinct from Henry Odera Oruka's historical African Sage Philosophy and philosophic sagacity. WARENA does not claim to implement Oruka's method or to inherit its scholarly authority. The FELOH Corpus owns the historical research record: [Oruka Sage Philosophy & Philosophic Sagacity](https://github.com/donfelohke/feloh-corpus/blob/main/docs/ORUKA-SAGE-PHILOSOPHY-AND-PHILOSOPHIC-SAGACITY-2026-11-20.md). **RESEARCH / conceptual boundary only; no product or implementation claim.**
