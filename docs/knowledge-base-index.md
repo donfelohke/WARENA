@@ -21,6 +21,8 @@
 | Host inventory | [host-inventory-template.md](host-inventory-template.md) | Hardware, firmware, OS, interfaces |
 | Reproducible environments | [reproducible-environment-runbook.md](reproducible-environment-runbook.md) | Pinning, evaluation, build evidence |
 | Network services | [network-services-runbook.md](network-services-runbook.md) | Topology, access, service checks |
+| Network and federation architecture | [NETWORK-FEDERATION-AND-PAYMENT-ARCHITECTURE-2026-11-20.md](NETWORK-FEDERATION-AND-PAYMENT-ARCHITECTURE-2026-11-20.md) | GNUnet, Reticulum, libp2p, Yggdrasil, ActivityPub, Pubstrate, Goblins/OCapN, Taler, Kenyan mobile-money integration, security and Guix/Shepherd boundaries |
+| Distributed storage and AFS | [DISTRIBUTED-STORAGE-AFS-COMPARISON-2026-11-20.md](DISTRIBUTED-STORAGE-AFS-COMPARISON-2026-11-20.md) | OpenAFS cells/volumes/callbacks and comparison with NFS, SMB, Ceph, GlusterFS, Syncthing, Tahoe-LAFS, IPFS and backup |
 | Backup and restore | [backup-restore-runbook.md](backup-restore-runbook.md) | Integrity and recovery tests |
 | Desktop candidate study | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Historical Nix/Niri/Noctalia comparator; current priority is X11-first |
 | Desktop architecture | [DESKTOP-ARCHITECTURE.md](DESKTOP-ARCHITECTURE.md) | Current X11-first policy: X.Org baseline, separate XLibre qualification, Gershwin and Guile-WM/WM-NG session tracks |
