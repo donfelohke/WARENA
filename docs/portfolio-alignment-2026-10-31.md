@@ -1,3 +1,7 @@
+> **SUPERSEDED FOR CURRENT DOMAIN RELATIONSHIPS — 2026-11-20.** This dated record is retained as historical evidence. WARENA is now the **CAPABILITY** domain in the F3L0H four-domain constitution; NAKEBUSEN is the **ROOT** domain and only live commercial practice; IKAI is **MIRROR**; GENJE is **EXPRESSION**. F3L0H is the overarching human authorship identity. See the [F3L0H Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md). Do not use this 2026-10-31 parent-enterprise model as current architecture.
+
+---
+
 # WARENA Portfolio Alignment — 2026-10-31
 
 **Status:** Current positioning record  
