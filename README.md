@@ -152,3 +152,8 @@ See [Technology Constitution (2026-11-17)](docs/TECHNOLOGY-CONSTITUTION-2026-11-
 ## IKAI Mirror infrastructure relationship — 2026-11-18
 
 WARENA's role is limited to enabling-infrastructure research: local compute, native interfaces, reproducible configuration, storage, operations and recovery. IKAI owns the participant-facing mirror experience and its optical/M1 research. See [WARENA's IKAI MIRROR+ compute architecture](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md), [IKAI's mirror technology research](https://github.com/donfelohke/Ikai/blob/main/docs/IKAI-MIRROR-TECHNOLOGY-AND-SCHOLARLY-RESEARCH-2026-11-18.md), and the [corpus cross-project alignment](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IKAI-MIRROR-CROSS-PROJECT-ALIGNMENT-2026-11-18.md). All remain RESEARCH; no hardware procurement, implementation or deployment is implied.
+
+
+## Knowledge, inquiry and the Sage archetype — 2026-11-20
+
+WARENA uses **Sage** as a contemporary design archetype for inquiry, reflection, evidence and understanding within the Sovereign × Creator × Sage conceptual triad. This is distinct from Henry Odera Oruka's historical African Sage Philosophy and philosophic sagacity. WARENA does not claim to implement Oruka's method or to inherit its scholarly authority. The FELOH Corpus owns the historical research record: [Oruka Sage Philosophy & Philosophic Sagacity](https://github.com/donfelohke/feloh-corpus/blob/main/docs/ORUKA-SAGE-PHILOSOPHY-AND-PHILOSOPHIC-SAGACITY-2026-11-20.md). **RESEARCH / conceptual boundary only; no product or implementation claim.**
