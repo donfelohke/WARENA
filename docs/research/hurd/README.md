@@ -39,7 +39,7 @@ This directory records upstream activity and WARENA feasibility. It is not a for
 - [GNU Hurd project](https://www.gnu.org/software/hurd/)
 - [GNU Hurd commit notifications](https://www.mail-archive.com/commit-hurd@gnu.org/)
 - [GNU Mach repository](https://git.savannah.gnu.org/cgit/hurd/gnumach.git/)
-- [GNU Mach commit notifications](https://www.mail-archive.com/commit-hurd@gnu.org/)
+- [GNU Mach commit notifications](https://www.mail-archive.com/commit-hurd@gnu.org/) (shared commit-hurd archive; filter for GNU Mach subject lines)
 - [GNU Guix repository](https://git.savannah.gnu.org/cgit/guix.git/)
 - [Guix commit notifications](https://www.mail-archive.com/guix-commits@gnu.org/)
 - [Guix/Hurd running guide](https://hurd.ion.nu/hurd/running/Guix.html)
