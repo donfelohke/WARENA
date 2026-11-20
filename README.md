@@ -131,6 +131,8 @@ Research note on African technologies, ecological infrastructure, information sy
 
 ## Network, federation and payment architecture — 2026-11-20
 
+[Feasibility Studies Index](docs/FEASIBILITY-INDEX.md) collects the current structured feasibility studies, including Kenya mobile-money, GNU Taler, USSD and GNUnet. The studies distinguish payment access, value rails and network transport; they do not claim NAKEBUSEN production integration or regulatory authorisation.
+
 [Network, Federation and Payment Architecture](docs/NETWORK-FEDERATION-AND-PAYMENT-ARCHITECTURE-2026-11-20.md) documents GNUnet and its alternatives, Reticulum, Pubstrate/ActivityPub, Goblins/OCapN, GNU Taler, Kenyan mobile-money integration, security boundaries, and Guix/Shepherd feasibility. Research only; no payment automation or production network deployment is implied.
 
 [Distributed Storage and AFS Comparison](docs/DISTRIBUTED-STORAGE-AFS-COMPARISON-2026-11-20.md) compares OpenAFS, NFS, SMB, Ceph, GlusterFS, Syncthing, Tahoe-LAFS, IPFS and local backup strategies.
