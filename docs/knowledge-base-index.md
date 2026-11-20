@@ -46,9 +46,9 @@
 
 A document is not implementation evidence. A syntax check is not a deployment test; deployment is not a recovery test.
 
-## Current portfolio alignment
+## Historical portfolio alignment
 
-- [WARENA Portfolio Alignment (2026-10-31)](portfolio-alignment-2026-10-31.md) — current relationship to NAKEBUSEN DIGITAL and distinction from GENJE ZA WARENA.
+- [WARENA Portfolio Alignment (2026-10-31)](portfolio-alignment-2026-10-31.md) — historical NAKEBUSEN-parent framing; superseded for current domain relationships by the [F3L0H Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md).
 
 ## Ecosystem interfaces
 
