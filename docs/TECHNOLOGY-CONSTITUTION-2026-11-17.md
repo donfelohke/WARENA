@@ -95,3 +95,22 @@ Do not claim a working mirror, validated sensing pipeline, motion-tracking accur
 This policy supersedes conflicting undated proposals and draft technology lists from its effective date. Historical documents must not be silently rewritten to pretend that this policy existed earlier. Mark superseded recommendations with a dated note and link here. Preserve the original evidence and decision context.
 
 No repository code, system configuration, deployment, hardware procurement or production service is changed merely by this policy document.
+
+
+## 7. AI and agent services — explicit opt-in
+
+AI inference, model downloads, file indexing, media capture, remote inference and agent execution are **optional capabilities, disabled by default**. They must not become implicit dependencies of the desktop, spatial environment, XR runtime, login session or base system.
+
+- Activation is explicit and scoped to a service, task, data source and purpose.
+- Local inference is preferred; remote inference requires separate explicit opt-in and disclosure of destination, payload and retention.
+- No silent indexing of personal files, screen capture, microphone/camera access, telemetry or persistent personal profile.
+- Context and tool access are mediated by least-privilege brokers. Read-only access is the initial permission tier.
+- Agents receive no unrestricted shell, filesystem, network, device or credential access.
+- Consequential or irreversible actions require human approval.
+- Model outputs are untrusted proposals, not verified facts or authority.
+- Users can inspect grants, audit actions, revoke permissions and disable services cleanly.
+- Do not infer identity, emotion, health, personality, ability or intent from appearance or movement.
+
+Guile/Scheme may implement orchestration and policy interfaces; inference engines remain replaceable components. This policy does not select a model, provider, inference engine or agent framework.
+
+See [WARENA's spatial/XR/opt-in intelligence architecture (2026-11-20)](https://github.com/donfelohke/WARENA/blob/main/docs/SPATIAL-COMPUTING-XR-AI-ARCHITECTURE-2026-11-20.md). This is a policy boundary, not evidence of an implemented AI service.
