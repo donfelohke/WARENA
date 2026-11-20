@@ -129,6 +129,12 @@ WARENA remains the systems-engineering layer: reproducible builds, GNU/Linux, lo
 
 Research note on African technologies, ecological infrastructure, information systems, trade networks and political organisation. Contemporary WARENA principles are used only as analytical questions, not projected backwards as historical equivalences. [Read the research note](docs/BEFORE-AFRICA-KNOWLEDGE-SYSTEMS-2026-11-07.md).
 
+## Network, federation and payment architecture — 2026-11-20
+
+[Network, Federation and Payment Architecture](docs/NETWORK-FEDERATION-AND-PAYMENT-ARCHITECTURE-2026-11-20.md) documents GNUnet and its alternatives, Reticulum, Pubstrate/ActivityPub, Goblins/OCapN, GNU Taler, Kenyan mobile-money integration, security boundaries, and Guix/Shepherd feasibility. Research only; no payment automation or production network deployment is implied.
+
+[Distributed Storage and AFS Comparison](docs/DISTRIBUTED-STORAGE-AFS-COMPARISON-2026-11-20.md) compares OpenAFS, NFS, SMB, Ceph, GlusterFS, Syncthing, Tahoe-LAFS, IPFS and local backup strategies.
+
 ## Desktop stack research — 2026-11
 
 Current policy: **GNU Guix + RDE** remains the preferred foundation; desktop research is **X11-first**, with X.Org as the initial compatibility baseline and XLibre as a separate compatibility experiment. **Gershwin** and **Guile-WM / WM-NG** are the intended selectable session tracks; **Sway** is a comparison/recovery baseline; **dwl-guile / Wayland** is secondary and experimental. Niri + Noctalia and Nix/NixOS remain historical comparators, not the current default direction. See [Desktop Architecture](docs/DESKTOP-ARCHITECTURE.md), [Desktop Candidate Study](docs/desktop-stack-decision-2026-11.md), and [Fork Architecture](docs/FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md). Research only; no host deployment is implied.
