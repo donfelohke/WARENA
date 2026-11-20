@@ -1,3 +1,5 @@
+> **Architecture precedence — 2026-11-20:** Read this specialist integration/compatibility plan alongside [WARENA's Desktop, Spatial Computing, Immersive XR & Opt-in Intelligence Architecture](SPATIAL-COMPUTING-XR-AI-ARCHITECTURE-2026-11-20.md). The conventional desktop remains X11-first and independent of XR runtime selection. OpenXR is an application/runtime API; Monado is a Linux runtime candidate, not a desktop environment. AI remains optional and disabled by default, with explicit scoped consent and permission grants. No implementation, package qualification, hardware validation or deployment is implied.
+
 # WARENA — IKAI Wearable Platform Integration
 
 **Date:** 18 November 2026  
