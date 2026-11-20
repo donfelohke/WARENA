@@ -89,6 +89,7 @@ WARENA is the **CAPABILITY** domain in the four-domain F3L0H architecture: NAKEB
 | [docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md](docs/RDE-PREINSTALL-POSTINSTALL-RUNBOOK.md) | RDE live ISO pre-install evaluation, Guix System installation planning, post-install validation and recovery |
 | [docs/GITHUB-POSTINSTALL-SETUP.md](docs/GITHUB-POSTINSTALL-SETUP.md) | Git identity, SSH authentication, GitHub CLI, canonical WARENA checkout, safe sync and contribution workflow; rebase deferred |
 | [docs/WARENA-NAME-NOTE.md](docs/WARENA-NAME-NOTE.md) | Exact technical expansion and distinction from Kenyan Sheng usage |
+| [docs/research/DISTRIBUTED-FILESYSTEMS-AND-NETWORKED-STORAGE-2026-11-20.md](docs/research/DISTRIBUTED-FILESYSTEMS-AND-NETWORKED-STORAGE-2026-11-20.md) | OpenAFS/AFS, NFSv4, CephFS, GlusterFS, SMB, 9P, IPFS, Tahoe-LAFS, GNUnet and Coda; security, Guix/Shepherd feasibility and decision gates |
 
 This repository is **documentation-first** on public GitHub. Markdown is not proof of a named production host.
 
