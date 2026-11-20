@@ -146,3 +146,7 @@ See [Technology Constitution (2026-11-17)](docs/TECHNOLOGY-CONSTITUTION-2026-11-
 ## IKAI Mirror infrastructure relationship — 2026-11-18
 
 WARENA's role is limited to enabling-infrastructure research: local compute, native interfaces, reproducible configuration, storage, operations and recovery. IKAI owns the participant-facing mirror experience and its optical/M1 research. See [WARENA's IKAI MIRROR+ compute architecture](docs/IKAI-MIRROR-COMPUTE-ARCHITECTURE-2026-11-14.md), [IKAI's mirror technology research](https://github.com/donfelohke/Ikai/blob/main/docs/IKAI-MIRROR-TECHNOLOGY-AND-SCHOLARLY-RESEARCH-2026-11-18.md), and the [corpus cross-project alignment](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IKAI-MIRROR-CROSS-PROJECT-ALIGNMENT-2026-11-18.md). All remain RESEARCH; no hardware procurement, implementation or deployment is implied.
+
+## GNU Hurd / Guix research — 2026-11-20
+
+WARENA now tracks GNU Hurd upstream activity and its integration with GNU Guix in [docs/research/hurd/](docs/research/hurd/README.md). The workstream separates upstream Hurd and GNU Mach changes, Guix master changes, topic-branch work, ChildHurd experiments, package availability and WARENA feasibility. **GNU/Linux + Guix remains the production baseline; GNU/Hurd is experimental.** No Hurd host, image or ChildHurd deployment is claimed. See the [Guix/Hurd integration assessment](docs/research/hurd/GUIX-INTEGRATION.md), [upstream activity log](docs/research/hurd/ACTIVITY-LOG.md) and [experiment protocol](docs/research/hurd/EXPERIMENT-PROTOCOL.md).
