@@ -208,3 +208,55 @@ Treat as a separate architectural project. Map Linux dependencies in NixOS activ
 - [ ] Keep NixOS/Hurd out of implementation scope unless new evidence changes the decision.
 
 **Final operating rule:** A historical proof of concept is a research lead, not a supported platform. Nix can be investigated as a build instrument for Hurd without claiming NixOS compatibility. Guix remains the more direct native Hurd research path.
+
+
+---
+
+## 2026-11-20 status addendum — Guix 1.5.0 and x86_64 GNU/Hurd
+
+This addendum supersedes the older x86_64-readiness wording above where it implied that 64-bit support was merely prospective. It does not change the non-production decision boundary.
+
+### Verified milestone
+
+GNU Guix 1.5.0, announced in January 2026, includes experimental support for the 64-bit Hurd target (x86_64-gnu). On 1 March 2026, Guix developers published “The 64-bit Hurd is Here!” describing the x86_64 work, installer support, build-daemon fixes and Childhurd progress.
+
+The current Hurd/Guix status material reports approximately 1.7% of Guix packages available on 32-bit Hurd and approximately 0.9% on x86_64 Hurd at the time of its status snapshot. These are time-sensitive figures; remeasure with the documented guix weather --system=x86_64-gnu command before citing a current percentage.
+
+The same status material notes that X.Org is not available on Guix/Hurd at that snapshot. Debian GNU/Hurd remains a useful comparison environment, with a much larger reported package-porting fraction, but that does not make Debian GNU/Hurd and Guix/Hurd interchangeable.
+
+### Childhurd and test strategy
+
+Guix documents a hurd-vm-service-type and 64-bit Childhurd image flavour (hurd64-qcow2). Childhurd is the preferred initial evaluation boundary: it allows isolated Hurd experiments from a GNU/Linux host and may support build offloading. Verify current service syntax against the checked-out Guix revision before copying configuration.
+
+### Updated status table
+
+| Capability | 2026-11-20 assessment |
+|---|---|
+| x86_64 GNU/Hurd target | EXPERIMENTAL SUPPORT IN GUIX 1.5.0 |
+| 64-bit boot / installer | Documented milestone; verify against current image and hardware |
+| Childhurd | Documented Guix service and 64-bit image flavour |
+| Guix package coverage | Very limited; snapshot reports about 0.9% for x86_64 |
+| X.Org on Guix/Hurd | Not available in cited status snapshot |
+| SMP / broad hardware parity | Not established as production-ready |
+| Production workstation/server suitability | NOT APPROVED |
+| WARENA research posture | QEMU / Childhurd first; preserve GNU/Linux operational baseline |
+
+### Revised experiment order
+
+1. Pin Guix 1.5.0 and a current Guix development revision separately.
+2. Build or obtain the documented x86_64 Childhurd image; record provenance and checksums.
+3. Boot and record console, networking, disk and SSH access; do not assume example port-forwarding commands work unchanged.
+4. Run guix weather --system=x86_64-gnu; preserve the timestamped output.
+5. Build a minimal package and test substitute authentication and retrieval.
+6. Test filesystem, network and service behaviour in the VM.
+7. Compare with Debian GNU/Hurd only using equivalent package and workload definitions.
+8. Keep bare-metal testing out of scope until hardware, boot, storage, network and recovery support are demonstrated.
+
+### Sources
+
+- Guix 1.5.0 release announcement: https://lists.gnu.org/archive/html/info-gnu/2026-01/msg00004.html
+- Guix developer report, “The 64-bit Hurd is Here!” (1 March 2026): https://guix.gnu.org/en/blog/2026/the-64-bit-hurd/
+- GNU Hurd Guix status and Childhurd instructions: https://www.gnu.org/software/hurd/hurd/running/Guix.html
+- Debian GNU/Hurd status: https://www.debian.org/ports/hurd/
+
+**Conclusion:** 64-bit Guix/Hurd is now a real experimental target and deserves a current test track. It is not yet a replacement for WARENA's GNU/Linux baseline.
