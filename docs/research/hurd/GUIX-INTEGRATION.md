@@ -67,7 +67,7 @@ The following changes are visible in upstream commit notifications around this r
 | 2026-11-12 notification | `7910b741ed50` — glibc 2.43 update and Hurd patch refresh | `core-packages-team` topic branch | Removes obsolete Hurd patches and adds current unsupported-ioctl handling; verify merge status |
 | 2026-11-12 notification | `480fe869de37` — Hurd package build phase avoids Bash label assumption | `core-packages-team` topic branch | Improves package build portability |
 
-The November 14 master update also included syscall-layer support for ports and file descriptors in `getxattr`/`setxattr`, plus xattr flags and tests. These are broader Guix syscall changes that directly support the passive-translator boot change.
+The November 14 master update also included syscall-layer support for ports and file descriptors in `getxattr`/`setxattr`, plus xattr flags and tests. These changes support the passive-translator boot update. This review did not establish whether the separately notified `core-packages-team` changes have subsequently landed on master; their branch status remains explicitly unverified.
 
 ### Interpretation
 
@@ -94,7 +94,14 @@ guix weather --system=i586-gnu
 guix weather --system=x86_64-gnu
 ```
 
-Record the Guix commit, timestamp, total package count and available package count with each measurement. Do not quote the percentages as current until refreshed.
+**Measurement status at 2026-11-20: NOT RUN.** This review had no Guix command environment or pinned Guix checkout, so no fresh package count or percentage is claimed. A follow-up run must capture:
+1. Guix commit and branch;
+2. exact command and timestamp;
+3. raw command output;
+4. total packages and available packages;
+5. percentage calculation and any command options.
+
+Do not substitute build-substitute availability, CI dashboard percentages, or package derivation counts for the package-availability metric. Those measure different things.
 
 The same guide notes that X.Org is not available in its Guix/Hurd package snapshot and points to Debian GNU/Hurd for X.Org. This makes a WARENA X11 desktop an explicit feasibility question, not an assumed consequence of a working Hurd system.
 
@@ -103,7 +110,7 @@ The same guide notes that X.Org is not available in its Guix/Hurd package snapsh
 ### Gate A — source and channel
 - [ ] Record Guix checkout commit and branch.
 - [ ] Confirm Hurd target definitions and image generation modules.
-- [ ] Refresh both `guix weather` measurements.
+- [ ] Run and archive both `guix weather` measurements.
 - [ ] Confirm which topic-branch fixes have landed on master.
 
 ### Gate B — image and boot
@@ -155,12 +162,12 @@ For each package, record definition present, build succeeds, tests pass, runs on
 - [Guix manual: Virtualization Services](https://guix.gnu.org/manual/en/html_node/Virtualization-Services.html)
 - [Guix 1.5.0 released](https://guix.gnu.org/blog/2026/gnu-guix-1.5.0-released/)
 - [The 64-bit Hurd in Guix](https://guix.gnu.org/en/blog/2026/the-64-bit-hurd/)
-- [Guix master update, 2026-11-14](https://www.mail-archive.com/guix-commits%40gnu.org/msg405642.html)
-- [Hurd passive-translator xattr change](https://www.mail-archive.com/guix-commits%40gnu.org/msg405640.html)
-- [GCC 11 x86_64-gnu patch fix](https://www.mail-archive.com/guix-commits%40gnu.org/msg404356.html)
-- [glibc Hurd cross-compilation fix — topic branch](https://mail-archive.com/guix-commits%40gnu.org/msg405125.html)
-- [glibc Hurd setgroups fix — topic branch](https://mail-archive.com/guix-commits%40gnu.org/msg405109.html)
-- [Guile JIT re-enabled on Hurd — topic branch](https://mail-archive.com/guix-commits%40gnu.org/msg405148.html)
+- [Guix master update, 2026-11-14](https://www.mail-archive.com/guix-commits@gnu.org/msg405642.html)
+- [Hurd passive-translator xattr change](https://www.mail-archive.com/guix-commits@gnu.org/msg405640.html)
+- [GCC 11 x86_64-gnu patch fix](https://www.mail-archive.com/guix-commits@gnu.org/msg404356.html)
+- [glibc Hurd cross-compilation fix — topic branch](https://mail-archive.com/guix-commits@gnu.org/msg405125.html)
+- [glibc Hurd setgroups fix — topic branch](https://mail-archive.com/guix-commits@gnu.org/msg405109.html)
+- [Guile JIT re-enabled on Hurd — topic branch](https://mail-archive.com/guix-commits@gnu.org/msg405148.html)
 
 ---
 
