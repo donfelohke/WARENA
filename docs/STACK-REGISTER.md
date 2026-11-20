@@ -5,7 +5,7 @@
 
 Public GitHub under @donfelohke documents architecture and intent. It does **not**, by itself, prove a production fleet.
 
-Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) · [Guile-WM / WM-NG audit](./GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md) · [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
+Related: [GNU Hurd / Guix research tracker](./research/hurd/README.md) · [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) · [Guile-WM / WM-NG audit](./GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md) · [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
 
 ---
 
@@ -61,7 +61,9 @@ Verified as *version exists upstream* on 2026-10-26 unless noted. Deployment rem
 
 | Component | Claimed | Upstream | Guix | Host | Config | Maturity | Verification | Recovery | Evidence link |
 |-----------|---------|----------|------|------|--------|----------|--------------|----------|---------------|
-| GNU Guix | 1.5.0 | Exists (released 2026-01-23) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://guix.gnu.org/blog/2026/gnu-guix-1.5.0-released/ |
+| GNU Guix | 1.5.0 | Exists (released 2026-01-23) | Hurd integration documented; target package coverage must be refreshed | UNKNOWN | UNKNOWN | RESEARCH (Hurd target) / UNKNOWN (host deployment) | Upstream integration and recent Hurd-specific commits reviewed 2026-11-20 | UNKNOWN | https://guix.gnu.org/blog/2026/gnu-guix-1.5.0-released/ |
+| GNU Hurd | 0.9 development series | Upstream master active; recent libports and libnetfs changes reviewed 2026-11-20 | Guix targets i586-gnu and x86_64-gnu; ChildHurd available as experimental VM service | UNKNOWN | UNKNOWN | RESEARCH | Upstream and Guix activity snapshot 2026-11-20; no WARENA image or host validation | UNKNOWN | https://www.gnu.org/software/hurd/ |
+| GNU Mach | Hurd microkernel | Upstream component; independent kernel activity tracking required | Indirectly required by GNU/Hurd target | UNKNOWN | UNKNOWN | RESEARCH | No WARENA kernel build or hardware validation | https://git.savannah.gnu.org/cgit/hurd/gnumach.git/ |
 | GNU Shepherd | 1.0.7 | Exists (2025-09-03); 1.0.8+ also exist | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-09/msg00001.html |
 | GNU Guile | 3.0.10 | Exists (2024-06-24); 3.0.11 also exists | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://www.gnu.org/software/guile/news/gnu-guile-3010-released.html |
 | dwl-guile | v2.0.2 observed | engstrand-config/dwl-guile (dwl v0.4 / wlroots 0.16.x base) | UNKNOWN | UNKNOWN | UNKNOWN | RESEARCH | Fork exists 2026-11-09 | UNKNOWN | https://github.com/donfelohke/dwl-guile |
@@ -129,3 +131,10 @@ This document must be read subject to the current [WARENA Technology Constitutio
 ## Current desktop decision precedence — 2026-11-18
 
 Read all desktop rows subject to the [WARENA Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) and the current [X11-first desktop architecture decision](./DESKTOP-ARCHITECTURE.md). The intended session tracks are Gershwin (native GNUstep/Objective-C) and Guile-WM / WM-NG (Guile policy; native XCB ownership for WM-NG). X.Org is the initial compatibility baseline; XLibre is a separate compatibility experiment. Sway is a comparison/recovery baseline; dwl-guile/Wayland is secondary and experimental. This records policy and research direction only: Guix package availability, build, session integration, host installation and recovery remain separate evidence gates.
+
+
+## GNU Hurd / Guix research status — 2026-11-20
+
+The Hurd target is a research/portability track, not a production alternative to the current GNU/Linux + Guix baseline. The recommended first validation environment is Guix ChildHurd under QEMU/KVM. Package availability must be measured per target using `guix weather --system=i586-gnu` and `guix weather --system=x86_64-gnu`; older published percentages are historical only. See [the Hurd research tracker](./research/hurd/README.md), [Guix/Hurd integration assessment](./research/hurd/GUIX-INTEGRATION.md) and [activity log](./research/hurd/ACTIVITY-LOG.md).
+
+No Hurd or ChildHurd deployment is evidenced on a WARENA host. Keep host, configuration, runtime and recovery fields UNKNOWN until tested.
