@@ -1,14 +1,14 @@
 # WARENA
 
-**Systems engineering · reproducibility · infrastructure**  
-**Public commercial face:** [NAKEBUSEN Digital](https://donfelohke.github.io/)  
+**CAPABILITY domain · systems engineering · reproducibility · infrastructure**  
+**Commercial interface:** [NAKEBUSEN](https://donfelohke.github.io/) only  
 **Author:** [@donfelohke](https://github.com/donfelohke) · Felix Lwova · #HisGenjeness
 
 > **Freedom Is a System.**
 
 **ONE CORPUS → MANY VIEWS → ONE PRACTICE.**
 
-WARENA powers **NAKEBUSEN Digital**. It is not a separate consumer checkout brand. Customer-facing channels for service enquiries and commercial agreements remain through **NAKEBUSEN**.
+WARENA is the **CAPABILITY** domain within the F3L0H practice. It provides systems engineering, infrastructure and technical enablement. It is not a separate commercial checkout brand; any customer-facing service engagement is offered and transacted through **NAKEBUSEN**, the ROOT domain and only live commercial practice.
 
 **Public-facing description:** *Sovereign systems that work when the internet does not.* WARENA helps people and organisations plan, understand, maintain and recover computing systems, with emphasis on local-first operation, reproducibility and clear handover documentation.
 
@@ -62,9 +62,9 @@ RDE (`abcdw/rde`) and `gptel` remain pinned upstream dependencies. See [Fork and
 
 ---
 
-## Current portfolio alignment
+## Current constitutional alignment — 2026-11-20
 
-NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems.** WARENA remains the systems-engineering identity powering DIGITAL; GENJE ZA WARENA is a distinct cultural and creative identity, not a WARENA product or checkout brand. See [portfolio alignment (2026-10-31)](docs/portfolio-alignment-2026-10-31.md).
+WARENA is the **CAPABILITY** domain in the four-domain F3L0H architecture: NAKEBUSEN / ROOT, IKAI / MIRROR, GENJE / EXPRESSION, WARENA / CAPABILITY. F3L0H is the overarching human authorship identity, not a fifth domain. GENJE NODE is a WARENA manifestation. **ONLY NAKEBUSEN TRANSACTS.** See the [F3L0H Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md).
 
 ## Evidence and stack truth
 
@@ -73,7 +73,7 @@ NAKEBUSEN's current umbrella proposition is **Beautiful Roots. Sovereign Systems
 | [docs/STACK-REGISTER.md](docs/STACK-REGISTER.md) | Upstream versus Guix versus host — **CANON ≠ deployed** |
 | [docs/EVIDENCE-STATUS.md](docs/EVIDENCE-STATUS.md) | LIVE / PROTOTYPE / RESEARCH / CONCEPT / UNKNOWN |
 | [docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md](docs/REPOSITORY-EVIDENCE-AUDIT-2026-10-26.md) | Audit of what public GitHub actually contains |
-| [docs/DESKTOP-ARCHITECTURE.md](docs/DESKTOP-ARCHITECTURE.md) | Sway baseline · dwl-guile research · X11 track |
+| [docs/DESKTOP-ARCHITECTURE.md](docs/DESKTOP-ARCHITECTURE.md) | X11-first · X.Org baseline · XLibre experiment · Wayland secondary/experimental |
 | [docs/GERSHWIN-GUIX-PACKAGING-PLAN-2026-11.md](docs/GERSHWIN-GUIX-PACKAGING-PLAN-2026-11.md) | Gershwin upstream GitHub map, GNUstep dependency chain, Guix packaging and X11 session qualification |
 | [docs/GERSHWIN-UPSTREAM-SOURCE-AUDIT-2026-11.md](docs/GERSHWIN-UPSTREAM-SOURCE-AUDIT-2026-11.md) | Gershwin upstream checkout/build graph, resolved source pins, component snapshots, license reconnaissance and Guix 1.5.0 release boundary |
 | [docs/GERSHWIN-UPSTREAM-DELTA-2026-11-18.md](docs/GERSHWIN-UPSTREAM-DELTA-2026-11-18.md) | Latest Gershwin upstream checkout and window-manager changes; XLibre migration status and revised Guix qualification gates |
