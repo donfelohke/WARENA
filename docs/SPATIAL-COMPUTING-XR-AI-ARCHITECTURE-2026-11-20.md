@@ -302,3 +302,37 @@ For AI, also test default-off state, explicit activation, least privilege, denie
 - Godot XR documentation: https://docs.godotengine.org/en/stable/tutorials/xr/index.html
 
 Source links establish research leads and published descriptions; they do not establish that WARENA has recovered, built, packaged or validated any listed component.
+
+
+## Glass Terminal — presentation and interaction architecture alignment — 2026-11-20
+
+Glass Terminal is the cross-environment design and interaction research direction. It does not replace the component boundaries above or authorize a browser-based WARENA shell.
+
+### WARENA responsibility
+
+WARENA owns the native computing and graphics implementation:
+- X11-first desktop presentation and window management, preserving the existing X.Org baseline and XLibre compatibility experiment.
+- Native graphics, compositing and application interfaces; Guile/Scheme extension where appropriate.
+- Separate spatial services and native XR application/runtime integration.
+- OpenXR as the first interoperability API to investigate; runtime/device/graphics qualification remains required.
+- Reproducible packaging, configuration, performance measurement and recovery.
+
+The public Glass Terminal webpage is a static HTML/CSS research presentation. Its CSS glass effects demonstrate a visual vocabulary only. They are not the WARENA system architecture. JavaScript, browser engines, remote services, analytics and cloud dependencies are not introduced as WARENA runtime or application dependencies.
+
+### Interaction contract
+
+Keep keyboard and pointer as complete desktop interaction paths. Spatial gaze, hand/controller input, voice and body movement are optional modalities with explicit action semantics. Separate attention, target selection, preview and execution; provide cancellation, undo, focus visibility and recovery. No XR modality becomes a mandatory desktop dependency.
+
+### Material and performance constraints
+
+Translucent digital surfaces are progressive enhancement. Primary content must remain readable on opaque fallback surfaces. Physical two-way mirrors, transparent OLED and electrochromic glass are separate optical/display engineering tracks owned with IKAI where reflective experience is concerned. A CSS blur is not optical validation.
+
+Measure input latency, frame pacing, compositor/GPU cost, tracking stability, reference-space behavior, recovery and reproducibility. Do not claim headset compatibility or production readiness without device-specific evidence.
+
+### Canonical design record
+
+The cross-project design constitution and public presentation are maintained in the existing website repository:
+- https://github.com/donfelohke/donfelohke.github.io/blob/main/docs/GLASS-TERMINAL-UIUX-RESEARCH.md
+- https://donfelohke.github.io/research/glass-terminal/
+
+Status remains RESEARCH / DESIGN DIRECTION. No Glass Terminal desktop shell, compositor, XR platform or physical display implementation is claimed.
