@@ -1,3 +1,7 @@
+> **Current precedence — 2026-11-20:** WARENA's desktop direction is **X11-first**. X.Org is the initial compatibility baseline; XLibre is a compatibility experiment; Gershwin is the X11 desktop case study; Guile-WM / WM-NG are the window-management research tracks. Wayland is secondary/experimental; dwl-guile is experimental; Sway is a comparison/recovery baseline. Earlier Sway-first, Niri/Noctalia-first and Wayland-first recommendations below are retained as dated research history only. See the [F3L0H Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md) and [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md).
+
+---
+
 # WARENA desktop architecture
 
 **Status:** RESEARCH / POLICY · 2026-10-26 · updated 2026-11-09  
