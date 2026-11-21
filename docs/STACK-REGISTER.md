@@ -62,7 +62,7 @@ Verified as *version exists upstream* on 2026-10-26 unless noted. Deployment rem
 | Component | Claimed | Upstream | Guix | Host | Config | Maturity | Verification | Recovery | Evidence link |
 |-----------|---------|----------|------|------|--------|----------|--------------|----------|---------------|
 | GNU Guix | 1.5.0 | Exists (released 2026-01-23) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://guix.gnu.org/blog/2026/gnu-guix-1.5.0-released/ |
-| GNU Shepherd | 1.0.9 | Exists (released 2025-12-03) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only; release record checked 2026-11-21 | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-12/msg00004.html |
+| GNU Shepherd | 1.0.9 | Exists (released 2025-12-03) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only; release record checked 2026-11-21 | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-12/msg00003.html |
 | GNU Guile | 3.0.11 | Exists (released 2025-12-01; current stable 3.0 series on 2026-11-21) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only; current stable series checked 2026-11-21 | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-12/msg00002.html |
 | dwl-guile | v2.0.2 observed | engstrand-config/dwl-guile (dwl v0.4 / wlroots 0.16.x base) | UNKNOWN | UNKNOWN | UNKNOWN | RESEARCH | Fork exists 2026-11-09 | UNKNOWN | https://github.com/donfelohke/dwl-guile |
 | home-service-dwl-guile | upstream main | engstrand-config/home-service-dwl-guile | UNKNOWN | UNKNOWN | UNKNOWN | RESEARCH | Fork exists 2026-11-09 | UNKNOWN | https://github.com/donfelohke/home-service-dwl-guile |
