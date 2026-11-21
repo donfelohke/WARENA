@@ -5,7 +5,7 @@
 
 Public GitHub under @donfelohke documents architecture and intent. It does **not**, by itself, prove a production fleet.
 
-Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) · [Guile-WM / WM-NG audit](./GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md) · [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
+Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [GNU Guile ecosystem audit](./GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md) · [Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) · [Guile-WM / WM-NG audit](./GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md) · [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
 
 ---
 
@@ -62,8 +62,8 @@ Verified as *version exists upstream* on 2026-10-26 unless noted. Deployment rem
 | Component | Claimed | Upstream | Guix | Host | Config | Maturity | Verification | Recovery | Evidence link |
 |-----------|---------|----------|------|------|--------|----------|--------------|----------|---------------|
 | GNU Guix | 1.5.0 | Exists (released 2026-01-23) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://guix.gnu.org/blog/2026/gnu-guix-1.5.0-released/ |
-| GNU Shepherd | 1.0.7 | Exists (2025-09-03); 1.0.8+ also exist | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-09/msg00001.html |
-| GNU Guile | 3.0.10 | Exists (2024-06-24); 3.0.11 also exists | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://www.gnu.org/software/guile/news/gnu-guile-3010-released.html |
+| GNU Shepherd | 1.0.9 | Exists (released 2025-12-03) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only; release record checked 2026-11-21 | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-12/msg00004.html |
+| GNU Guile | 3.0.11 | Exists (released 2025-12-01; current stable 3.0 series on 2026-11-21) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only; current stable series checked 2026-11-21 | UNKNOWN | https://lists.gnu.org/archive/html/info-gnu/2025-12/msg00002.html |
 | dwl-guile | v2.0.2 observed | engstrand-config/dwl-guile (dwl v0.4 / wlroots 0.16.x base) | UNKNOWN | UNKNOWN | UNKNOWN | RESEARCH | Fork exists 2026-11-09 | UNKNOWN | https://github.com/donfelohke/dwl-guile |
 | home-service-dwl-guile | upstream main | engstrand-config/home-service-dwl-guile | UNKNOWN | UNKNOWN | UNKNOWN | RESEARCH | Fork exists 2026-11-09 | UNKNOWN | https://github.com/donfelohke/home-service-dwl-guile |
 | restic | 0.19.1 | Exists (2026-07-05) | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN | Version existence only | UNKNOWN | https://github.com/restic/restic/releases/tag/v0.19.1 |
