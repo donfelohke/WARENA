@@ -171,6 +171,10 @@ WARENA uses **Sage** as a contemporary design archetype for inquiry, reflection,
 [WARENA Agentic Operating Environment & GNU Hurd Research (2026-11-20)](docs/AGENTIC-OPERATING-ENVIRONMENT-GNU-HURD-RESEARCH-2026-11-20.md) consolidates agentic-OS research, GNU Hurd/Mach and ChildHurd experiments, intent/policy/capability separation, human authority, multi-agent delegation, security requirements, Guile/Shepherd/Guix architecture, Linux-first prototyping and African intellectual design questions. **RESEARCH / PROPOSED ARCHITECTURE** — no runtime, capability broker, secure sandbox, Hurd port or deployment is claimed. GNU/Linux + Guix remains the practical baseline; Hurd is the experimental substrate. Track upstream changes and qualification in the [GNU Hurd / Guix research tracker](docs/research/hurd/README.md), including the activity log and experiment protocol. RENAISSANCE BLACK OPS is a working research banner, not a separate product or covert/offensive capability.
 
 
+## RDE / DWL-Guile compatibility research
+
+The [RDE + DWL-Guile reuse audit](docs/RDE-DWL-GUILE-REUSE-AUDIT-2026-10-28.md) records upstream source age, package dependency pins, Home service lifecycle, runtime Scheme/REPL exposure and staged qualification. It is a historical research snapshot; current desktop policy remains X11-first, with Wayland/dwl-guile secondary and experimental. No compatible channel lock, build or host deployment is claimed.
+
 ## Commercial validation and NAKEBUSEN service boundary — 2026-11-20
 
 WARENA is the CAPABILITY domain, not a separate checkout. Technical customer engagements are offered and transacted through **NAKEBUSEN**. The [NAKEBUSEN TAM, MVP & Sales Blueprint](https://github.com/donfelohke/NAKEBUSEN/blob/main/docs/MARKET-ENTRY-TAM-MVP-SALES-BLUEPRINT-2026-11-20.md) defines the commercial sequencing and validation discipline: narrow buyer problems, scoped pilots, explicit deliverables, quote after discovery, and no unsupported pricing or support promises. WARENA's market must be sized from qualified technical buyers and paid engagements—not the entire ICT sector. Research infrastructure and product concepts are not sales evidence.
