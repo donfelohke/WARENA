@@ -18,7 +18,7 @@ The broad ecosystem is larger than the WARENA implementation need. Do not turn t
 4. **Optional application interfaces:** Guile-WebSocket / web utilities, Guile-Mastodon client, Hoot, Artanis — each only after a concrete use case and compatibility review.
 5. **Research-only:** OCapN, ERIS, Pubstrate, 8sync, experimental bindings, and other projects without a current WARENA requirement.
 
-**No new Guix configuration, manifest, channel lock, service, or package definition is justified by this survey alone.** The existing RDE/DWL-Guile audit remains separate and authoritative for that desktop integration question.
+**No new Guix configuration, manifest, channel lock, service, or package definition is justified by this survey alone.** The RDE/DWL-Guile audit is a historical research snapshot; current desktop policy is X11-first as specified in `DESKTOP-ARCHITECTURE.md`. This ecosystem survey does not alter that decision.
 
 ## 1. Evidence and method
 
