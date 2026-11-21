@@ -66,6 +66,10 @@ RDE (`abcdw/rde`) and `gptel` remain pinned upstream dependencies. See [Fork and
 
 WARENA is the **CAPABILITY** domain in the four-domain F3L0H architecture: NAKEBUSEN / ROOT, IKAI / MIRROR, GENJE / EXPRESSION, WARENA / CAPABILITY. F3L0H is the overarching human authorship identity, not a fifth domain. GENJE NODE is a WARENA manifestation. **ONLY NAKEBUSEN TRANSACTS.** See the [F3L0H Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md).
 
+## REFLECTION± — optical I/O and compute
+
+IKAI's [REFLECTION± research dossier](https://github.com/donfelohke/Ikai/blob/main/docs/REFLECTION-PLUS-MINUS-LIGHT-IN-LIGHT-OUT-COMPUTE-RESEARCH-2026-11-21.md) defines the reflective optical-computational research programme. WARENA's responsibility is the capability layer: native device interfaces, capture/display pipelines, timing, compute, local infrastructure and reproducible validation. No integrated system or hardware result is claimed.
+
 ## Evidence and stack truth
 
 | Document | Role |
