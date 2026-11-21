@@ -19,6 +19,7 @@
 | Architecture | [architecture.md](architecture.md) | Boundaries, layers, evidence rules |
 | Reproducibility | [reproducibility-plan.md](reproducibility-plan.md) | Staged environment/deployment plan |
 | GNU Guile ecosystem | [GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md](GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md) | Curated project survey, WARENA dispositions, source-audit and qualification gates |
+| RDE / DWL-Guile integration | [RDE-DWL-GUILE-REUSE-AUDIT-2026-10-28.md](RDE-DWL-GUILE-REUSE-AUDIT-2026-10-28.md) | Upstream age, dependency pins, Home service lifecycle, REPL risks and qualification gates; X11-first policy remains authoritative |
 | Host inventory | [host-inventory-template.md](host-inventory-template.md) | Hardware, firmware, OS, interfaces |
 | Reproducible environments | [reproducible-environment-runbook.md](reproducible-environment-runbook.md) | Pinning, evaluation, build evidence |
 | Network services | [network-services-runbook.md](network-services-runbook.md) | Topology, access, service checks |

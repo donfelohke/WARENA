@@ -5,7 +5,7 @@
 
 Public GitHub under @donfelohke documents architecture and intent. It does **not**, by itself, prove a production fleet.
 
-Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [GNU Guile ecosystem audit](./GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md) · [Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) · [Guile-WM / WM-NG audit](./GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md) · [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
+Related: [DESKTOP-ARCHITECTURE.md](./DESKTOP-ARCHITECTURE.md) · [RDE + DWL-Guile reuse audit](./RDE-DWL-GUILE-REUSE-AUDIT-2026-10-28.md) · [GNU Guile ecosystem audit](./GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md) · [Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) · [Guile-WM / WM-NG audit](./GUILE-WM-WMNG-GUIX-SESSION-AUDIT-2026-11.md) · [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](./FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) · [VALIDATION.md](./VALIDATION.md) · [feloh-corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
 
 ---
 
