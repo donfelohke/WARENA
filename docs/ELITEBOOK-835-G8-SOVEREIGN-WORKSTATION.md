@@ -20,7 +20,7 @@ This document does not claim that the target laptop has been inspected, upgraded
 | Item | Target / design implication |
 |---|---|
 | CPU | AMD Ryzen 5 PRO 5650U; 6 cores / 12 threads |
-| Graphics | Integrated AMD Radeon; suitable for ordinary Wayland compositing, not a substitute for a dedicated LLM accelerator |
+| Graphics | Integrated AMD Radeon; suitable for ordinary desktop compositing, not a substitute for a dedicated LLM accelerator |
 | Memory | DDR4-3200 SODIMM platform; inspect the actual module population and firmware-reported capacity |
 | Storage | M.2 NVMe; inspect exact device, health, capacity and encryption state |
 | Display | 13.3-inch FHD class; consider an external monitor for dense Emacs layouts |
@@ -73,8 +73,10 @@ GNU Guix + RDE + Guix Home
   pinned channels · declared packages · user services
           |
           v
-Linux host / Wayland session
-  Sway reference fallback · Niri evaluation · dwl-guile research
+Linux host / X11-first session
+  X.Org baseline · XLibre compatibility experiment
+  Gershwin / Guile-WM / WM-NG intended selectable sessions
+  Wayland / dwl-guile secondary experiment · Sway recovery/comparison baseline
 ```
 
 ### Responsibility boundaries
