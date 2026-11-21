@@ -70,7 +70,11 @@ WARENA is the **CAPABILITY** domain in the four-domain F3L0H architecture: NAKEB
 
 IKAI's [REFLECTION± research dossier](https://github.com/donfelohke/Ikai/blob/main/docs/REFLECTION-PLUS-MINUS-LIGHT-IN-LIGHT-OUT-COMPUTE-RESEARCH-2026-11-21.md) defines the reflective optical-computational research programme. WARENA's responsibility is the capability layer: native device interfaces, capture/display pipelines, timing, compute, local infrastructure and reproducible validation. No integrated system or hardware result is claimed.
 
-## Sovereign Movement Systems — energy, compute and mobility\n\nThe [Sovereign Movement Systems research dossier](docs/research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md) studies EV software, embedded control, CAN, charging, matatu/nduthi operating contexts, portable power and off-grid energy as one socio-technical system. It is **RESEARCH** only: no vehicle, charger, battery system, microgrid, V2X network or embedded controller is claimed as selected or validated. Safety-critical vehicle control remains separate from experimental Linux applications.\n\n## Evidence and stack truth
+## Sovereign Movement Systems — energy, compute and mobility
+
+The [Sovereign Movement Systems research dossier](docs/research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md) studies EV software, embedded control, CAN, charging, matatu/nduthi operating contexts, portable power and off-grid energy as one socio-technical system. It is **RESEARCH** only: no vehicle, charger, battery system, microgrid, V2X network or embedded controller is claimed as selected or validated. Safety-critical vehicle control remains separate from experimental Linux applications.
+
+## Evidence and stack truth
 
 | Document | Role |
 |----------|------|
