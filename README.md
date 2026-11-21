@@ -173,3 +173,7 @@ WARENA uses **Sage** as a contemporary design archetype for inquiry, reflection,
 ## Commercial validation and NAKEBUSEN service boundary — 2026-11-20
 
 WARENA is the CAPABILITY domain, not a separate checkout. Technical customer engagements are offered and transacted through **NAKEBUSEN**. The [NAKEBUSEN TAM, MVP & Sales Blueprint](https://github.com/donfelohke/NAKEBUSEN/blob/main/docs/MARKET-ENTRY-TAM-MVP-SALES-BLUEPRINT-2026-11-20.md) defines the commercial sequencing and validation discipline: narrow buyer problems, scoped pilots, explicit deliverables, quote after discovery, and no unsupported pricing or support promises. WARENA's market must be sized from qualified technical buyers and paid engagements—not the entire ICT sector. Research infrastructure and product concepts are not sales evidence.
+
+## Repository upgrade plan
+
+See [the WARENA repository upgrade plan](docs/REPOSITORY-UPGRADE-PLAN-2026-11-21.md). This plan records the next maintenance and quality gates without claiming unfinished work is complete.
