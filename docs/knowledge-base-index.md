@@ -18,6 +18,7 @@
 | Service UX and handover | [digital-service-ux-sop.md](digital-service-ux-sop.md) | Discovery, scope, acceptance tests, evidence, handover and service feedback |
 | Architecture | [architecture.md](architecture.md) | Boundaries, layers, evidence rules |
 | Reproducibility | [reproducibility-plan.md](reproducibility-plan.md) | Staged environment/deployment plan |
+| GNU Guile ecosystem | [GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md](GNU-GUILE-ECOSYSTEM-AUDIT-2026-10-30.md) | Curated project survey, WARENA dispositions, source-audit and qualification gates |
 | Host inventory | [host-inventory-template.md](host-inventory-template.md) | Hardware, firmware, OS, interfaces |
 | Reproducible environments | [reproducible-environment-runbook.md](reproducible-environment-runbook.md) | Pinning, evaluation, build evidence |
 | Network services | [network-services-runbook.md](network-services-runbook.md) | Topology, access, service checks |
