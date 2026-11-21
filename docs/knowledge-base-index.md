@@ -30,6 +30,7 @@
 | Fork and configuration ownership | [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | WARENA as config home; dwl-guile forks; no warena-rde |
 | Stack register | [STACK-REGISTER.md](STACK-REGISTER.md) | Upstream vs Guix vs host evidence |
 | GNU Hurd + Nix research | [research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) | Hurd/Guix status including 64-bit Guix 1.5.0 milestone, Nix feasibility, Childhurd experiment gates |
+| GNU Hurd / Guix tracker | [research/hurd/README.md](research/hurd/README.md) | Upstream Hurd/Mach/Guix activity, ChildHurd integration, package-coverage refresh and reproducible experiment protocol |
 | Master technology register | [FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md](FELOH_Master_Technology_Register_WARENA_Implementation_Handbook_2026.10_R2.md) | Consolidated technology inventory and implementation guidance |
 | Computer science foundations | [FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md](FOUNDATIONAL-CS-LEARNING-AND-SYSTEMS-REFERENCES-2026-11.md) | Nine-subject syllabus scaffold, language study and reproducible learning evidence |
 | LinkStar-H68K network appliance | [research/linkstar-h68k-network-appliance-2026-11.md](research/linkstar-h68k-network-appliance-2026-11.md) | Article-reported hardware, unknowns, candidate roles and qualification gates |
