@@ -42,7 +42,9 @@
 | Identity and Sheng context | [WARENA-NAME-NOTE.md](WARENA-NAME-NOTE.md) | Owner-confirmed technical expansion, Kenyan Sheng resonance and source qualifications |
 | IKAI wearable integration | [IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md](IKAI-WEARABLE-PLATFORM-INTEGRATION-2026-11-18.md) | WARENA infrastructure boundary, Guix/Scheme services, media, IPC, OpenXR and operational qualification |
 
-| Sovereign Movement Systems | [research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md](research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md) | EV software, embedded systems, CAN, charging, nduthi/matatu use cases, off-grid energy, portable storage and Kenyan policy; research only |\n\n## Status vocabulary
+| Sovereign Movement Systems | [research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md](research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md) | EV software, embedded systems, CAN, charging, nduthi/matatu use cases, off-grid energy, portable storage and Kenyan policy; research only |
+
+## Status vocabulary
 
 - `LIVE` — current operation evidenced with owner and review date.
 - `PROTOTYPE` — experimentally implemented; limitations stated.
