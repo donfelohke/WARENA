@@ -29,7 +29,7 @@ Every implementation record should include purpose, upstream attribution, licenc
 
 ## Immediate sequence
 
-1. Reconcile eight open WARENA PRs and identify unique work.
+1. Reconcile the six open WARENA PRs observed on 2026-11-21 and identify unique work. The repository-wide snapshot is recorded in the [FELOH Corpus audit](https://github.com/donfelohke/feloh-corpus/blob/main/docs/REPOSITORY-WIDE-BASELINE-AUDIT-2026-11-21.md); refresh the queue before acting.
 2. Audit current stack claims against upstream and Guix state.
 3. Prioritise reproducible workstation baseline and backup/recovery.
 4. Turn high-value research into testable, bounded prototypes only where evidence supports the gap.
