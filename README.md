@@ -186,3 +186,9 @@ WARENA is the CAPABILITY domain, not a separate checkout. Technical customer eng
 ## Repository upgrade plan
 
 See [the WARENA repository upgrade plan](docs/REPOSITORY-UPGRADE-PLAN-2026-11-21.md). This plan records the next maintenance and quality gates without claiming unfinished work is complete.
+
+
+
+## BLACK HINTERLAND — African technological histories and futures
+
+WARENA's bounded research contribution is [Black Hinterland — Technology, Infrastructure and Sovereign Futures (2026-11-22)](docs/BLACK-HINTERLAND-TECHNOLOGY-AND-SOVEREIGN-FUTURES-2026-11-22.md). It examines historical material systems and contemporary African technological sovereignty without projecting modern computing concepts backwards or claiming historical continuity without evidence. Shared historical framework: [FELOH Corpus master dossier](https://github.com/donfelohke/feloh-corpus/blob/main/docs/BLACK-HINTERLAND-BEFORE-AFRICA-MASTER-DOSSIER-2026-11-22.md). **RESEARCH**; no new deployment or product claim.
