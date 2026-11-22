@@ -77,3 +77,10 @@ Record repository commit, target hardware/software, configuration inputs, comman
 
 - [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md) — WARENA identity, native-first / libre-first / local-first policy, JavaScript prohibition, Stallman reference and IKAI boundary.
 - Current desktop direction: X11-first; X.Org baseline; XLibre compatibility experiment; Guile-WM and Gershwin as intended default selectable sessions. Wayland/dwl-guile is secondary/experimental; Sway is recovery/comparison baseline.
+
+
+
+## African histories and sovereign technological futures
+
+- [Black Hinterland — Technology, Infrastructure and Sovereign Futures (2026-11-22)](BLACK-HINTERLAND-TECHNOLOGY-AND-SOVEREIGN-FUTURES-2026-11-22.md) — WARENA's bounded study of historical technologies, infrastructure, institutions and contemporary technological sovereignty.
+- Shared history, chronology, source register and evidence standards: [FELOH Corpus master dossier](https://github.com/donfelohke/feloh-corpus/blob/main/docs/BLACK-HINTERLAND-BEFORE-AFRICA-MASTER-DOSSIER-2026-11-22.md).
