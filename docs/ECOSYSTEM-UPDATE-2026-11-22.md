@@ -30,3 +30,8 @@ Before inventing, evaluate existing standards, protocols, scholarly work, hardwa
 5. Keep X11 and Wayland qualification records separate.
 
 **Evidence boundary:** this document records direction and tests to perform; it does not claim a build, hardware integration, live service or deployment.
+
+
+## Omarchy / Omaxian and reproducible desktop research — 2026-11-22
+
+The [comparative architecture study](OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) examines Omarchy Quattro's desktop integration, Omaxian's X11/XLibre portability work, Quickshell/QML's policy boundary, Guix generations/provenance and a proposed modular native WARENA architecture. It does not change the current X11-first decision or promote dwl-guile beyond secondary/experimental status. **RESEARCH / ARCHITECTURE ANALYSIS; no implementation, build, hardware validation or deployment claimed.**
