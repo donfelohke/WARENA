@@ -45,3 +45,8 @@ Use archaeological reports, archaeobotany, archaeometallurgy, historical linguis
 Mark every statement VERIFIED, CORROBORATED, DISPUTED, UNVERIFIED or INTERPRETATION. A source file, proposed architecture or historical analogy is not proof of a working modern implementation. Keep WARENA's deployment claims separate from historical research.
 
 **Research boundary:** This note supplements the FELOH Corpus master dossier: https://github.com/donfelohke/feloh-corpus/blob/main/docs/before-africa-research-dossier-2026-11-07.md
+
+
+## BLACK HINTERLAND alignment — 22 November 2026
+
+The current integrated programme map is [BLACK HINTERLAND — BEFORE AFRICA](https://github.com/donfelohke/feloh-corpus/blob/main/docs/BLACK-HINTERLAND-BEFORE-AFRICA-MASTER-DOSSIER-2026-11-22.md). This WARENA note remains the historical-technology and governance research record. Its contemporary extension is [Black Hinterland — Technology, Infrastructure and Sovereign Futures](BLACK-HINTERLAND-TECHNOLOGY-AND-SOVEREIGN-FUTURES-2026-11-22.md). Historical analogies remain questions for investigation, not claims of direct continuity with modern computing.
