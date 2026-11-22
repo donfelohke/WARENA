@@ -28,6 +28,7 @@
 | Backup and restore | [backup-restore-runbook.md](backup-restore-runbook.md) | Integrity and recovery tests |
 | Desktop candidate study | [desktop-stack-decision-2026-11.md](desktop-stack-decision-2026-11.md) | Historical Nix/Niri/Noctalia comparator; current priority is X11-first |
 | Desktop architecture | [DESKTOP-ARCHITECTURE.md](DESKTOP-ARCHITECTURE.md) | Current X11-first policy: X.Org baseline, separate XLibre qualification, Gershwin and Guile-WM/WM-NG session tracks |
+| Omarchy / Omaxian comparative study | [OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md](OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) | Product integration, Quattro shell consolidation, X11 portability, Guix reproducibility and a proposed modular native WARENA architecture; RESEARCH only |
 | Fork and configuration ownership | [FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md](FORK-AND-CONFIGURATION-ARCHITECTURE-2026-11.md) | WARENA as config home; dwl-guile forks; no warena-rde |
 | Stack register | [STACK-REGISTER.md](STACK-REGISTER.md) | Upstream vs Guix vs host evidence |
 | GNU Hurd + Nix research | [research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) | Hurd/Guix status including 64-bit Guix 1.5.0 milestone, Nix feasibility, Childhurd experiment gates |
@@ -78,19 +79,19 @@ Record repository commit, target hardware/software, configuration inputs, comman
 - [Technology Constitution](TECHNOLOGY-CONSTITUTION-2026-11-17.md) — WARENA identity, native-first / libre-first / local-first policy, JavaScript prohibition, Stallman reference and IKAI boundary.
 - Current desktop direction: X11-first; X.Org baseline; XLibre compatibility experiment; Guile-WM and Gershwin as intended default selectable sessions. Wayland/dwl-guile is secondary/experimental; Sway is recovery/comparison baseline.
 
-
-
 ## African histories and sovereign technological futures
 
 - [Black Hinterland — Technology, Infrastructure and Sovereign Futures (2026-11-22)](BLACK-HINTERLAND-TECHNOLOGY-AND-SOVEREIGN-FUTURES-2026-11-22.md) — WARENA's bounded study of historical technologies, infrastructure, institutions and contemporary technological sovereignty.
 - Shared history, chronology, source register and evidence standards: [FELOH Corpus master dossier](https://github.com/donfelohke/feloh-corpus/blob/main/docs/BLACK-HINTERLAND-BEFORE-AFRICA-MASTER-DOSSIER-2026-11-22.md).
 
-
 ## Current systems research alignment — 2026-11-22
 
 See [WARENA systems and infrastructure update](ECOSYSTEM-UPDATE-2026-11-22.md) for REFLECTION± infrastructure responsibilities, real-time bidirectional I/O validation priorities, upstream/fork provenance and the current X11-first desktop boundary.
 
-
 ## Real-time I/O and display pipelines
 
 - [Real-Time Bidirectional I/O and Display Pipelines](REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md) — candidate native interfaces and measurement contract for camera/display/compute systems.
+
+## Omarchy / Omaxian comparative desktop research — 2026-11-22
+
+- [Omarchy, Omaxian and the Reproducible Desktop](OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) — Omarchy Quattro product and shell integration, Omaxian X11 portability case study, Quickshell/QML policy boundary, Guix generations/provenance, proposed modular native architecture, extension threat model and validation gates. **RESEARCH / ARCHITECTURE ANALYSIS; no WARENA implementation or deployment claimed.**
