@@ -195,3 +195,8 @@ See [the WARENA repository upgrade plan](docs/REPOSITORY-UPGRADE-PLAN-2026-11-21
 ## BLACK HINTERLAND — African technological histories and futures
 
 WARENA's bounded research contribution is [Black Hinterland — Technology, Infrastructure and Sovereign Futures (2026-11-22)](docs/BLACK-HINTERLAND-TECHNOLOGY-AND-SOVEREIGN-FUTURES-2026-11-22.md). It examines historical material systems and contemporary African technological sovereignty without projecting modern computing concepts backwards or claiming historical continuity without evidence. Shared historical framework: [FELOH Corpus master dossier](https://github.com/donfelohke/feloh-corpus/blob/main/docs/BLACK-HINTERLAND-BEFORE-AFRICA-MASTER-DOSSIER-2026-11-22.md). **RESEARCH**; no new deployment or product claim.
+
+
+## Real-time bidirectional I/O — 2026-11-22
+
+- [Real-Time Bidirectional I/O and Display Pipelines](docs/REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md) — native camera/display interfaces, timestamps, synchronisation, latency/jitter, throughput, queueing, failure recovery and reproducible test sequence. Research only; no hardware or deployment claim.
