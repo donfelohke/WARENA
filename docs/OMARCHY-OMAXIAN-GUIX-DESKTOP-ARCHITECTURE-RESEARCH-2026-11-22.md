@@ -53,7 +53,7 @@ Source: https://github.com/omacom/omarchy/releases/tag/v4.0.0
 
 ### 3.3 Quickshell is a toolkit, not a distribution
 
-Quickshell describes itself as a toolkit for desktop-shell components. Its official overview says it is based on QtQuick and configured with QML, and lists integrations spanning X11/Wayland windowing, compositor-specific workspace management, PipeWire, BlueZ, authentication, power and media interfaces.
+Quickshell describes itself as a toolkit for desktop-shell components. Its official overview says it is based on QtQuick and configured with QML, and lists integrations spanning X11/Wayland windowing, compositor-specific workspace management, PipeWire, BlueZ, authentication, power and media interfaces. Qt's official QML documentation confirms that property bindings, signal handlers and methods can contain JavaScript expressions executed by the QML engine: https://doc.qt.io/qt-6/qtqml-javascript-topic.html.
 
 This makes Quickshell a useful reference for desktop integration and rapid shell development. It is not itself an operating system, a package manager or a guarantee of cross-compositor equivalence.
 
@@ -301,6 +301,7 @@ Primary sources reviewed 2026-11-22:
 10. RDE upstream repository: https://github.com/abcdw/rde
 11. WARENA Technology Constitution: https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md
 12. WARENA Desktop Architecture: https://github.com/donfelohke/WARENA/blob/main/docs/DESKTOP-ARCHITECTURE.md
+13. Qt QML and JavaScript integration: https://doc.qt.io/qt-6/qtqml-javascript-topic.html
 
 ### Review limitations
 
