@@ -186,3 +186,8 @@ The older Niri + Noctalia evaluation below is retained as a historical comparato
 - GNU Guix + RDE remains the preferred system/configuration research foundation. No migration or host deployment is implied.
 
 This is a policy and research decision. It does not establish a Guix package, successful build, display-manager integration, hardware validation or deployed session.
+
+
+## Comparative desktop product and portability study — 2026-11-22
+
+See [Omarchy, Omaxian and the Reproducible Desktop](OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) for a current comparative case study of desktop-shell integration, X11 portability, Guix reproducibility and native extensibility. This study does not supersede the X11-first policy or select a new WARENA session. All proposed WARENA integration architecture remains RESEARCH / PROPOSAL; no build, host installation or deployment is claimed.
