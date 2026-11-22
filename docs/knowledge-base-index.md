@@ -89,3 +89,8 @@ Record repository commit, target hardware/software, configuration inputs, comman
 ## Current systems research alignment — 2026-11-22
 
 See [WARENA systems and infrastructure update](ECOSYSTEM-UPDATE-2026-11-22.md) for REFLECTION± infrastructure responsibilities, real-time bidirectional I/O validation priorities, upstream/fork provenance and the current X11-first desktop boundary.
+
+
+## Real-time I/O and display pipelines
+
+- [Real-Time Bidirectional I/O and Display Pipelines](REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md) — candidate native interfaces and measurement contract for camera/display/compute systems.
