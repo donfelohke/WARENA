@@ -200,3 +200,8 @@ WARENA's bounded research contribution is [Black Hinterland — Technology, Infr
 ## Real-time bidirectional I/O — 2026-11-22
 
 - [Real-Time Bidirectional I/O and Display Pipelines](docs/REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md) — native camera/display interfaces, timestamps, synchronisation, latency/jitter, throughput, queueing, failure recovery and reproducible test sequence. Research only; no hardware or deployment claim.
+
+
+## Desktop coherence, reproducibility and native extensibility — 2026-11-22
+
+The [Omarchy, Omaxian and Reproducible Desktop comparative study](docs/OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) examines desktop product integration, Quickshell/QML policy boundaries, X11 portability, Guix generations and a proposed modular native architecture. It preserves the existing X11-first policy and treats all new WARENA architecture as RESEARCH / PROPOSAL. No shell, service framework, package build, host configuration or deployment is claimed.
