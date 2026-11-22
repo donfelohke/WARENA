@@ -34,3 +34,9 @@ Every implementation record should include purpose, upstream attribution, licenc
 3. Prioritise reproducible workstation baseline and backup/recovery.
 4. Turn high-value research into testable, bounded prototypes only where evidence supports the gap.
 5. Publish a release/compatibility matrix with explicit UNKNOWN values.
+
+## Execution addendum — 2026-11-22
+
+Direct-to-main documentation and index updates were completed. Added [Real-Time Bidirectional I/O and Display Pipelines](REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md), defining native camera/display candidates, timestamping, synchronisation, latency/jitter, throughput, queueing, recovery and reproducible test gates. The two WARENA fork repositories received provenance/maintenance records; inherited source code was not changed.
+
+**Verification:** repository validation workflow passed. No Guix build, host installation, hardware integration, compositor runtime or production pipeline is claimed. X11-first desktop policy remains in force.
