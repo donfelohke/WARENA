@@ -308,3 +308,8 @@ Primary sources reviewed 2026-11-22:
 This is a documentation and source review. It did not build Omarchy, Omaxian, Quickshell, Guix, RDE or any WARENA configuration; inspect a live desktop session; test hardware; run performance measurements; or audit every source file in the upstream projects. Upstream release and repository metadata are time-sensitive and should be refreshed before implementation decisions.
 
 **Final status: RESEARCH / ARCHITECTURE ANALYSIS. No WARENA implementation or deployment is asserted.**
+
+
+### Corpus source-register cross-reference
+
+The FELOH Corpus source register records these sources as SRC-OMARCHY-RELEASE-2026-001, SRC-OMARCHY-QUATTRO-2026-001, SRC-QUICKSHELL-ABOUT-2026-001, SRC-QT-QML-JS-2026-001, SRC-OMAXIAN-RELEASE-2026-001, SRC-GUIX-MANUAL-DESKTOP-2026-001 and SRC-RDE-UPSTREAM-2026-001. Related bounded claims are CLM-0009 through CLM-0013 in the Corpus claim register.
