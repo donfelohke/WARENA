@@ -131,3 +131,26 @@ This document must be read subject to the current [WARENA Technology Constitutio
 ## Current desktop decision precedence — 2026-11-18
 
 Read all desktop rows subject to the [WARENA Technology Constitution](./TECHNOLOGY-CONSTITUTION-2026-11-17.md) and the current [X11-first desktop architecture decision](./DESKTOP-ARCHITECTURE.md). The intended session tracks are Gershwin (native GNUstep/Objective-C) and Guile-WM / WM-NG (Guile policy; native XCB ownership for WM-NG). X.Org is the initial compatibility baseline; XLibre is a separate compatibility experiment. Sway is a comparison/recovery baseline; dwl-guile/Wayland is secondary and experimental. This records policy and research direction only: Guix package availability, build, session integration, host installation and recovery remain separate evidence gates.
+
+
+## Desktop product and portability comparators — 2026-11-22
+
+The following are upstream reference projects, not WARENA dependencies or deployed components. The source review and architectural implications are recorded in [Omarchy / Omaxian comparative desktop research](OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md).
+
+| Project | Observed upstream evidence | WARENA disposition | WARENA Guix / host / build evidence |
+|---|---|---|---|
+| Omarchy | v4.5.0 release published 2026-11-05; Quattro shell consolidation documented in v4.0.0 | Product-integration and shell-architecture case study only | UNKNOWN / not tested |
+| Quickshell | Official project describes QtQuick/QML desktop-shell toolkit and X11/Wayland-related integrations | Reference implementation only; direct adoption conflicts with current JavaScript/runtime policy pending formal policy change | UNKNOWN / not tested |
+| Omaxian | Official repository describes Debian-family X11/XLibre + i3 port; latest release endpoint v1.2.2 published 2026-11-16 | Portability and adaptation case study only; retains Quickshell/QML | UNKNOWN / not tested |
+| GNU Guix | Official manual documents declarative configuration, generations and rollback | Existing WARENA foundation; exact host/channel evidence remains independently required | WARENA host deployment UNKNOWN |
+| RDE | Upstream Scheme configuration framework; WARENA uses as upstream research dependency | Continue upstream-first evaluation; do not create a duplicate RDE repository | Exact pinned channel/build state UNKNOWN |
+
+Upstream source references:
+- https://github.com/omacom/omarchy/releases/tag/v4.5.0
+- https://github.com/omacom/omarchy/releases/tag/v4.0.0
+- https://quickshell.org/about/
+- https://github.com/aozora/omaxian/releases/tag/v1.2.2
+- https://guix.gnu.org/manual/en/
+- https://github.com/abcdw/rde
+
+**Evidence rule:** upstream release existence is not a Guix package, successful build, installed host, operational service, graphical acceptance test or deployment. Recheck version and channel state before implementation work.
