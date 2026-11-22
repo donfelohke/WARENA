@@ -1,5 +1,8 @@
 # WARENA
 
+> Current alignment: [Ecosystem update — 2026-11-22](docs/ECOSYSTEM-UPDATE-2026-11-22.md). This dated record supplements this README; it does not replace the canonical source documents.
+
+
 **CAPABILITY domain · systems engineering · reproducibility · infrastructure**  
 **Commercial interface:** [NAKEBUSEN](https://donfelohke.github.io/) only  
 **Author:** [@donfelohke](https://github.com/donfelohke) · Felix Lwova · #HisGenjeness
