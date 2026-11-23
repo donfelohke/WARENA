@@ -6,9 +6,11 @@
 
 WARENA is the **CAPABILITY** domain in the F3L0H practice: systems engineering, infrastructure, GNU/Linux, reproducible environments and technical enablement. Its purpose is to make computing understandable, maintainable, recoverable and locally controllable—including where connectivity is unreliable.
 
-**Public-facing direction:** Sovereign systems that work when the internet does not.
+**Public-facing direction:** Sovereign systems that work when the internet does not.  
+**Commercial interface:** NAKEBUSEN.  
+**ONE CORPUS → MANY VIEWS → ONE PRACTICE.**
 
-WARENA is not a separate checkout brand. **ONLY NAKEBUSEN TRANSACTS.** Customer-facing engagements, where offered, are scoped and transacted through [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN). An enquiry is not an accepted project.
+WARENA is not a separate commercial checkout brand. **ONLY NAKEBUSEN TRANSACTS.** Customer-facing engagements, where offered, are scoped and transacted through [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN). An enquiry is not an accepted project.
 
 ## Start here
 
