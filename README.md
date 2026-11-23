@@ -89,4 +89,4 @@ See the [cross-project alignment update](docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md)
 
 ## Brand capability narrative · 2026-11-24
 
-See the [WARENA Capability Narrative](docs/BRAND-CAPABILITY-NARRATIVE-2026-11-24.md) and the [FELOH Corpus Brand Constitution](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-CONSTITUTION-v1.0-2026-11-24.md). Public capability claims remain subject to implementation and validation evidence.
+See the [WARENA Capability Narrative](docs/BRAND-CAPABILITY-NARRATIVE-2026-11-24.md) and the [FELOH Corpus Brand Constitution](https://github.com/donfelohke/feloh-corpus/blob/docs/ecosystem-alignment-2026-11-24/docs/NAKEBUSEN-WARENA-BRAND-CONSTITUTION-v1.0-2026-11-24.md). Public capability claims remain subject to implementation and validation evidence.
