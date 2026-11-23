@@ -80,3 +80,7 @@ WARENA is one distinct practice authored by DON FELOH. It is not the parent comp
 **Freedom Is a System.** Technical maturity and deployment claims remain evidence-based.
 
 Canonical identity specification: [FELOH Corpus — GRACE · GRIT · GLORY](https://github.com/donfelohke/feloh-corpus/blob/main/docs/GRACE-GRIT-GLORY-GENJE-ZA-WARENA-IDENTITY-SYSTEM-2026-11-23.md).
+
+## Cooperative networking and self-hosted services — 2026-11-23
+
+- [Cooperative Networking, Federation and Self-Hosted Services](docs/research/cooperative-networking-and-self-hosted-services-2026-11-23.md) — community Wi-Fi/Bluetooth, GNUnet, Tor, federation, Artanis/NGINX policy boundaries, MariaDB/PostgreSQL/SQLite, USSD and GNU Taler. Research only; no deployment approved.
