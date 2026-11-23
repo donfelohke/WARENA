@@ -49,4 +49,4 @@ Potential work may include GNU/Linux administration, workstation diagnostics and
 
 **ONLY NAKEBUSEN TRANSACTS.**
 
-See the [FELOH Corpus Brand Constitution](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-CONSTITUTION-v1.0-2026-11-24.md).
+See the [FELOH Corpus Brand Constitution](https://github.com/donfelohke/feloh-corpus/blob/docs/ecosystem-alignment-2026-11-24/docs/NAKEBUSEN-WARENA-BRAND-CONSTITUTION-v1.0-2026-11-24.md).
