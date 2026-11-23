@@ -95,3 +95,12 @@ See the [NAKEBUSEN × WARENA Brand Platform](https://github.com/donfelohke/feloh
 ## Cooperative networking and self-hosted services — 2026-11-23
 
 - [Cooperative Networking, Federation and Self-Hosted Services](docs/research/cooperative-networking-and-self-hosted-services-2026-11-23.md) — community Wi-Fi/Bluetooth, GNUnet, Tor, federation, Artanis/NGINX policy boundaries, MariaDB/PostgreSQL/SQLite, USSD and GNU Taler. Research only; no deployment approved.
+
+
+## Ecosystem alignment · 2026-11-24
+
+See the [cross-project alignment update](docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for shared identity, repository boundaries, evidence/maturity rules and documentation priorities.
+
+## Brand capability narrative · 2026-11-24
+
+See the [WARENA Capability Narrative](docs/BRAND-CAPABILITY-NARRATIVE-2026-11-24.md) and the [FELOH Corpus canonical brand platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md). Public capability claims remain subject to implementation and validation evidence.
