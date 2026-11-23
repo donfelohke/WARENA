@@ -1,6 +1,7 @@
 # WARENA — CAPABILITY
 
 **Freedom Is a System.**  
+**NAKEBUSEN · WARENA POWERED** — technical capability endorsement within the primary NAKEBUSEN enterprise identity.  
 **Human author:** Felix Lwova · Don Feloh · [@donfelohke](https://github.com/donfelohke)  
 **Constitutional home:** [FELOH Corpus](https://github.com/donfelohke/feloh-corpus)
 
@@ -80,3 +81,12 @@ WARENA is one distinct practice authored by DON FELOH. It is not the parent comp
 **Freedom Is a System.** Technical maturity and deployment claims remain evidence-based.
 
 Canonical identity specification: [FELOH Corpus — GRACE · GRIT · GLORY](https://github.com/donfelohke/feloh-corpus/blob/main/docs/GRACE-GRIT-GLORY-GENJE-ZA-WARENA-IDENTITY-SYSTEM-2026-11-23.md).
+
+
+## Brand relationship — 2026-11-24
+
+**NAKEBUSEN · WARENA POWERED** is the public enterprise lockup. NAKEBUSEN is the primary customer-facing enterprise; WARENA remains the distinct CAPABILITY / GRIT practice and supplies technical enablement. The endorsement does not make WARENA a parent company, subsidiary or separate checkout brand.
+
+**GRACE · GRIT · GLORY | GENJE ZA WARENA** is the shared ethos and creative signature. GENJE remains an independent creative practice. **ONLY NAKEBUSEN TRANSACTS.**
+
+See the [NAKEBUSEN × WARENA Brand Platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md) for canonical positioning, mission, values, voice and cross-domain governance.
