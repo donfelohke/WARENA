@@ -39,3 +39,10 @@ Related: [BRAND-MANUAL](https://github.com/donfelohke/donfelohke.github.io/blob/
 ## Current technology-policy precedence — 2026-11-17
 
 This document must be read subject to the current [WARENA Technology Constitution](https://github.com/donfelohke/WARENA/blob/main/docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) and [FELOH Corpus technology policy](https://github.com/donfelohke/feloh-corpus/blob/main/docs/technology-policy-2026-11-17.md). JavaScript is prohibited as a language, runtime, framework or dependency; web technologies are excluded as WARENA/IKAI application and runtime architecture. Prefer native, libre, local-first and user-controlled interfaces. Candidate tools listed in this document do not become approved dependencies merely by appearing here. Historical descriptions remain historical; apply this policy to current and future decisions.
+
+
+## Public brand relationship — 2026-11-24
+
+**NAKEBUSEN · WARENA POWERED** is the current public enterprise lockup. NAKEBUSEN remains the primary customer-facing enterprise and only transaction interface. WARENA remains the distinct GRIT / CAPABILITY practice; the endorsement identifies its technical contribution without making WARENA a parent, subsidiary or separate checkout brand. **GENJE ZA WARENA** remains an authored creative relationship; GENJE is an independent creative practice.
+
+See the [canonical NAKEBUSEN × WARENA Brand Platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md).
