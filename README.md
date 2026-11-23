@@ -78,3 +78,5 @@ WARENA is one distinct practice authored by DON FELOH. It is not the parent comp
 > FELOH generates. NAKEBUSEN grounds. IKAI reflects. WARENA enables. GENJE embodies.
 
 **Freedom Is a System.** Technical maturity and deployment claims remain evidence-based.
+
+Canonical identity specification: [FELOH Corpus — GRACE · GRIT · GLORY](https://github.com/donfelohke/feloh-corpus/blob/main/docs/GRACE-GRIT-GLORY-GENJE-ZA-WARENA-IDENTITY-SYSTEM-2026-11-23.md).
