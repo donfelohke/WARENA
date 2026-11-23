@@ -66,3 +66,17 @@ See the [FELOH Sovereign Master Corpus](https://github.com/donfelohke/feloh-corp
 
 **WARENA · CAPABILITY · GRIT**  
 **Freedom Is a System.**
+
+## GRIT — WARENA within the shared identity
+
+**GRIT → WARENA** expresses freedom through engineering: libre-first systems, GNU/Linux, infrastructure, reproducibility, interoperability and human-controlled technology.
+
+WARENA is one distinct practice authored by DON FELOH. It is not the parent company of NAKEBUSEN, GENJE or IKAI, and it is not a separate checkout brand. **ONLY NAKEBUSEN TRANSACTS.**
+
+**GENJE ZA WARENA** names a creative relationship and shared signature; GENJE remains an independent embodied creative practice. IKAI remains reflective-computing research. The FELOH Corpus governs shared canon and provenance.
+
+> FELOH generates. NAKEBUSEN grounds. IKAI reflects. WARENA enables. GENJE embodies.
+
+**Freedom Is a System.** Technical maturity and deployment claims remain evidence-based.
+
+Canonical identity specification: [FELOH Corpus — GRACE · GRIT · GLORY](https://github.com/donfelohke/feloh-corpus/blob/main/docs/GRACE-GRIT-GLORY-GENJE-ZA-WARENA-IDENTITY-SYSTEM-2026-11-23.md).
