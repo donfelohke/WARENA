@@ -90,3 +90,8 @@ Canonical identity specification: [FELOH Corpus — GRACE · GRIT · GLORY](http
 **GRACE · GRIT · GLORY | GENJE ZA WARENA** is the shared ethos and creative signature. GENJE remains an independent creative practice. **ONLY NAKEBUSEN TRANSACTS.**
 
 See the [NAKEBUSEN × WARENA Brand Platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md) for canonical positioning, mission, values, voice and cross-domain governance.
+
+
+## Cooperative networking and self-hosted services — 2026-11-23
+
+- [Cooperative Networking, Federation and Self-Hosted Services](docs/research/cooperative-networking-and-self-hosted-services-2026-11-23.md) — community Wi-Fi/Bluetooth, GNUnet, Tor, federation, Artanis/NGINX policy boundaries, MariaDB/PostgreSQL/SQLite, USSD and GNU Taler. Research only; no deployment approved.
