@@ -1,6 +1,9 @@
 # WARENA — CAPABILITY
 
 **Freedom Is a System.**  
+
+**ONE CORPUS → MANY VIEWS → ONE PRACTICE.**  
+**Commercial interface: NAKEBUSEN.** WARENA is not a separate commercial checkout; it is the CAPABILITY practice.  
 **NAKEBUSEN · WARENA POWERED** — technical capability endorsement within the primary NAKEBUSEN enterprise identity.  
 **Human author:** Felix Lwova · Don Feloh · [@donfelohke](https://github.com/donfelohke)  
 **Constitutional home:** [FELOH Corpus](https://github.com/donfelohke/feloh-corpus)
