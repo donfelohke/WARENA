@@ -63,7 +63,7 @@ Potential engagement areas include GNU/Linux administration, workstation diagnos
 | [IKAI](https://github.com/donfelohke/Ikai) | Reflective-computing research |
 | [GENJE](https://github.com/donfelohke/Genje) | Independent creative and embodied practice |
 
-****FELOH** — Authorship · Intellectual work · Creative direction  
+**FELOH** — Authorship · Intellectual work · Creative direction  
 **NAKEBUSEN** — Beauty · Heritage · Craft · Enterprise  
 **IKAI** — Reflective computing · Perception · Memory · Human experience  
 **WARENA** — Libre technology · Infrastructure · Systems engineering · Digital sovereignty  
