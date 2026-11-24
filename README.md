@@ -120,3 +120,8 @@ See [WARENA Technical and Capability Copy Guide](docs/COPY-APPLICATION-2026-11-2
 ## Brand capability narrative · 2026-11-24
 
 See the [WARENA Capability Narrative](docs/BRAND-CAPABILITY-NARRATIVE-2026-11-24.md) and the [FELOH Corpus canonical brand platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md). Public capability claims remain subject to implementation and validation evidence.
+
+
+## Research addition · 2026-11-24
+
+See [Reproducible Systems and Real-Time I/O Validation](docs/REPRODUCIBLE-SYSTEMS-AND-REALTIME-IO-VALIDATION-2026-11-24.md) for the source-grounded research and proposed validation protocol. This document is research, not an implementation or compliance claim.
