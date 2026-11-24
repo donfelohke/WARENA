@@ -19,7 +19,8 @@ WARENA is not a separate checkout brand. **ONLY NAKEBUSEN TRANSACTS.** Customer-
 - [Technology Constitution](docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) — native-first, libre-first and local-first engineering policy.
 - [Desktop architecture](docs/DESKTOP-ARCHITECTURE.md) — current desktop research boundaries.
 - [Capability map](docs/CAPABILITY-MAP.md) — technical records and research.
-- [Real-Time Bidirectional I/O and Display Pipelines](docs/REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md) — timing, latency, jitter, throughput and reproducible test direction.\n- [Camera, Display and Real-Time I/O at Scale](docs/CAMERA-DISPLAY-REALTIME-IO-SCALE-RESEARCH-2026-11-24.md) — V4L2, libcamera, DMA-BUF, PipeWire, GStreamer, DRM/KMS, buffer ownership, clocks, scale and validation gates.
+- [Real-Time Bidirectional I/O and Display Pipelines](docs/REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md) — timing, latency, jitter, throughput and reproducible test direction.
+- [Camera, Display and Real-Time I/O at Scale](docs/CAMERA-DISPLAY-REALTIME-IO-SCALE-RESEARCH-2026-11-24.md) — V4L2, libcamera, DMA-BUF, PipeWire, GStreamer, DRM/KMS, buffer ownership, clocks, scale and validation gates.
 - [Omarchy / Omaxian / Guix desktop architecture study](docs/OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) — comparative research, not a deployment claim.
 - [Sovereign Movement Systems](docs/research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md) — embedded systems, mobility, energy and locally grounded infrastructure.
 - [Agentic Operating Environment and GNU Hurd](docs/AGENTIC-OPERATING-ENVIRONMENT-GNU-HURD-RESEARCH-2026-11-20.md) — human-governed authority and capability security.
