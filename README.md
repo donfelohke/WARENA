@@ -101,6 +101,10 @@ See the [NAKEBUSEN × WARENA Brand Platform](https://github.com/donfelohke/feloh
 
 See the [cross-project alignment update](docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for shared identity, repository boundaries, evidence/maturity rules and documentation priorities.
 
+## Copy application — 2026-11-24
+
+See [WARENA Technical and Capability Copy Guide](docs/COPY-APPLICATION-2026-11-24.md) for public capability language, technical maturity wording, campaign copy and evidence requirements.
+
 ## Brand capability narrative · 2026-11-24
 
 See the [WARENA Capability Narrative](docs/BRAND-CAPABILITY-NARRATIVE-2026-11-24.md) and the [FELOH Corpus canonical brand platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md). Public capability claims remain subject to implementation and validation evidence.
