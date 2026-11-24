@@ -63,7 +63,11 @@ Potential engagement areas include GNU/Linux administration, workstation diagnos
 | [IKAI](https://github.com/donfelohke/Ikai) | Reflective-computing research |
 | [GENJE](https://github.com/donfelohke/Genje) | Independent creative and embodied practice |
 
-**FELOH generates. NAKEBUSEN grounds. IKAI reflects. WARENA enables. GENJE embodies.**
+**FELOH** — Authorship · Intellectual work · Creative direction  
+**NAKEBUSEN** — Beauty · Heritage · Craft · Enterprise  
+**IKAI** — Reflective computing · Perception · Memory · Human experience  
+**WARENA** — Libre technology · Infrastructure · Systems engineering · Digital sovereignty  
+**GENJE** — Music · Movement · Performance · Creative expression**
 
 See the [FELOH Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md) for shared identity, governance and repository ownership.
 
@@ -80,7 +84,11 @@ WARENA is one distinct practice authored by DON FELOH. It is not the parent comp
 
 **GENJE ZA WARENA** names a creative relationship and shared signature; GENJE remains an independent embodied creative practice. IKAI remains reflective-computing research. The FELOH Corpus governs shared canon and provenance.
 
-> FELOH generates. NAKEBUSEN grounds. IKAI reflects. WARENA enables. GENJE embodies.
+**FELOH** — Authorship · Intellectual work · Creative direction  
+**NAKEBUSEN** — Beauty · Heritage · Craft · Enterprise  
+**IKAI** — Reflective computing · Perception · Memory · Human experience  
+**WARENA** — Libre technology · Infrastructure · Systems engineering · Digital sovereignty  
+**GENJE** — Music · Movement · Performance · Creative expression
 
 **Freedom Is a System.** Technical maturity and deployment claims remain evidence-based.
 
