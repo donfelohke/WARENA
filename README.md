@@ -126,3 +126,8 @@ See the [WARENA Capability Narrative](docs/BRAND-CAPABILITY-NARRATIVE-2026-11-24
 ## Research addition · 2026-11-24
 
 See [Reproducible Systems and Real-Time I/O Validation](docs/REPRODUCIBLE-SYSTEMS-AND-REALTIME-IO-VALIDATION-2026-11-24.md) for the source-grounded research and proposed validation protocol. This document is research, not an implementation or compliance claim.
+
+
+## Shared identity alignment · 26 November 2026
+
+**GRIT → WARENA** is the current pillar mapping. FELOH remains the human author; **GRACE → NAKEBUSEN** and **GLORY → GENJE / GENJENESS** describe distinct practices. WARENA provides technical capability and is not a separate checkout brand. See the [current shared identity clarification](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IDENTITY-CANONICAL-CLARIFICATION-2026-11-26.md). **ONLY NAKEBUSEN TRANSACTS.**
