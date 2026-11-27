@@ -44,6 +44,11 @@ See the [Technology Constitution](docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) fo
 | Storage and networking | Local persistence, backup, federation and cooperative networking | Research is not a deployed service |
 | Human-controlled agents | Explicit authority, capability boundaries and local execution | No autonomous authority is implied |
 
+## Current research additions · 27 November 2026
+
+- [Freedom in machine-learning applications](docs/research/WARENA-FREEDOM-IN-MACHINE-LEARNING-RESEARCH-2026-11-27.md) — research brief on user freedom across the complete ML stack, prompted by the [FSF announcement](https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications). No platform or model has been selected.
+- [Utility Shell, Kernel Boundaries and Composable Systems](docs/research/WARENA-UTILITY-SHELL-KERNEL-AND-COMPOSABLE-SYSTEMS-RESEARCH-2026-11-27.md) — architectural research; not an implemented kernel or shell product.
+
 ## Supporting engineering projects
 
 - [dwl-guile](https://github.com/donfelohke/dwl-guile) — Guile-configurable dwl compositor project; a supporting experiment.
