@@ -2,6 +2,10 @@
 
 **Freedom Is a System.**
 
+**ONE CORPUS → MANY VIEWS → ONE PRACTICE.**
+
+**Commercial interface: NAKEBUSEN.** WARENA is not a separate commercial checkout.
+
 WARENA is the systems-engineering and infrastructure practice authored by Felix Lwova · Don Feloh · [@donfelohke](https://github.com/donfelohke). It develops and evaluates computing systems that are inspectable, reproducible, recoverable, locally controllable and interoperable.
 
 WARENA is not a separate checkout brand or parent company. It provides technical capability within the wider FELOH practice. Customer-facing engagements, where offered, are scoped and transacted through [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN). **ONLY NAKEBUSEN TRANSACTS.**
