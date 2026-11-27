@@ -44,3 +44,7 @@ This index is the navigation layer for WARENA's engineering architecture, resear
 - [GENJE](https://github.com/donfelohke/Genje) — creative and embodied practice.
 
 **Freedom Is a System.** WARENA is capability, not a separate checkout brand. **ONLY NAKEBUSEN TRANSACTS.**
+
+## Cross-domain systems synthesis — 2026-11-27
+
+- [Cooperative, Federated Computing and Embodied Interaction](https://github.com/donfelohke/feloh-corpus/blob/main/docs/research/COOPERATIVE-FEDERATED-COMPUTING-AND-EMBODIED-INTERACTION-SYNTHESIS-2026-11-27.md) — shared Cathedral/Bazaar/Cooperative framing; GNU/Hurd service composition; human-governed agents; federation vs ownership; spatial I/O and GENJE/IKAI interfaces. The Corpus note routes readers to specialist records; WARENA remains authoritative for systems engineering.
