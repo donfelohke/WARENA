@@ -333,6 +333,6 @@ Measure input latency, frame pacing, compositor/GPU cost, tracking stability, re
 
 The cross-project design constitution and public presentation are maintained in the existing website repository:
 - https://github.com/donfelohke/donfelohke.github.io/blob/main/docs/GLASS-TERMINAL-UIUX-RESEARCH.md
-- https://donfelohke.github.io/research/glass-terminal/
+- https://github.com/donfelohke/donfelohke.github.io/blob/main/docs/NAKEBUSEN-EDITORIAL-ROOTED-GLASS-TERMINAL-DESIGN.md
 
 Status remains RESEARCH / DESIGN DIRECTION. No Glass Terminal desktop shell, compositor, XR platform or physical display implementation is claimed.
