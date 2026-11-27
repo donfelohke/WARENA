@@ -273,7 +273,7 @@ Until those facts are recorded, the repository should contain a setup specificat
 - Engstrand Guix dotfiles (reference only): https://github.com/engstrand-config/guix-dotfiles
 - gptel: https://github.com/karthink/gptel
 - GNU Guix manual: https://guix.gnu.org/manual/
-- RDE manual: https://abcdw.github.io/rde/
+- RDE project manual: https://trop.in/rde · source mirror: https://github.com/abcdw/rde
 - GNU Emacs manual: https://www.gnu.org/software/emacs/manual/
 - gptel documentation: https://gptel.org/
 
