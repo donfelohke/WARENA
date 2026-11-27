@@ -1,6 +1,7 @@
 # WARENA — CAPABILITY
 
-**Freedom Is a System.**
+**Freedom Is a System.**  
+**Authored English interpretation:** THE POWERFUL.
 
 **ONE CORPUS → MANY VIEWS → ONE PRACTICE.**
 
