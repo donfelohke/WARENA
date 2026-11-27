@@ -31,6 +31,10 @@ This index is the navigation layer for WARENA's engineering architecture, resear
 - [Validation](VALIDATION.md).
 - [Knowledge base index](knowledge-base-index.md).
 
+## Current research additions · 27 November 2026
+- [Freedom in machine-learning applications](research/WARENA-FREEDOM-IN-MACHINE-LEARNING-RESEARCH-2026-11-27.md) — evaluates freedom across application, model, weights, data, training, runtime, service and governance layers. The FSF announcement is a research lead, not a completed WARENA assessment.
+- [Utility Shell, Kernel Boundaries and Composable Systems](research/WARENA-UTILITY-SHELL-KERNEL-AND-COMPOSABLE-SYSTEMS-RESEARCH-2026-11-27.md) — distinguishes shell, kernel, IPC, services and I/O; evaluates mature projects before proposing new components.
+
 ## Research and comparative studies
 - [Agentic operating environment and GNU Hurd](AGENTIC-OPERATING-ENVIRONMENT-GNU-HURD-RESEARCH-2026-11-20.md).
 - [Distributed storage and AFS comparison](DISTRIBUTED-STORAGE-AFS-COMPARISON-2026-11-20.md).
