@@ -60,6 +60,6 @@ Prefer small, reproducible labs over passive course accumulation. Examples inclu
 ## Links
 
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-- [FELOH Corpus foundational reference map](https://github.com/donfelohke/feloh-corpus/blob/main/docs/foundational-reference-map-2026-11.md)
+- [FELOH Corpus source register](https://github.com/donfelohke/feloh-corpus/blob/main/docs/source-register.md)
 - [WARENA stack register](STACK-REGISTER.md)
 - [WARENA technical knowledge base](knowledge-base-index.md)

@@ -168,7 +168,7 @@ Do not infer:
 - full Guix package support from Guix System integration;
 - a secure agent sandbox from the multi-server design alone.
 
-Use the existing [GNU Hurd + Nix compatibility and cross-build research note](gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) for the separate Nix/Guix comparison. Guix is the primary Hurd integration research path; Nix remains a comparator and possible Linux-hosted cross-build experiment. A historical Nix-built Hurd image is not NixOS on Hurd.
+Use the existing [GNU Hurd + Nix compatibility and cross-build research note](research/gnu-hurd-nix-compatibility-and-cross-build-2026-11.md) for the separate Nix/Guix comparison. Guix is the primary Hurd integration research path; Nix remains a comparator and possible Linux-hosted cross-build experiment. A historical Nix-built Hurd image is not NixOS on Hurd.
 
 ## 4. Proposed WARENA Agentic Operating Environment
 
