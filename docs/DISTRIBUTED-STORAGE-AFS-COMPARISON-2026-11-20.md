@@ -123,7 +123,7 @@ No OpenAFS, Ceph, Syncthing or Tahoe-LAFS deployment is asserted by this documen
 
 - OpenAFS documentation: https://docs.openafs.org/
 - OpenAFS project: https://www.openafs.org/
-- OpenAFS architecture and concepts: https://docs.openafs.org/Reference/1/Concepts/
+- OpenAFS official release and documentation archive: https://www.openafs.org/pages/release/ (the former docs.openafs.org/Reference/1/Concepts/ path returned 404 in the 2026-11-27 link audit; consult the documentation archive shipped with the selected release)
 - AFS operational example (OpenDev): https://docs.opendev.org/opendev/system-config/latest/afs.html
 - Ceph documentation: https://docs.ceph.com/
 - Syncthing documentation: https://docs.syncthing.net/

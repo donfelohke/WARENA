@@ -186,7 +186,7 @@ Every field study requires informed consent, data minimisation and clear limits 
 ## 11. Source and upstream register
 
 - Automotive Grade Linux: https://www.automotivelinux.org/
-- AGL SoDeV source discovery: https://github.com/AGLExport/SoDeV
+- AGL SoDeV source discovery: the previously recorded GitHub URL (https://github.com/AGLExport/SoDeV) returned 404 during the 2026-11-27 link audit. Repository identity, current source and maintainer remain unverified; treat this as an unresolved research lead, not a reusable dependency, until a primary source is located.
 - Eclipse OpenBSW: https://github.com/eclipse-openbsw/openbsw
 - Zephyr Project: https://www.zephyrproject.org/
 - EVerest: https://github.com/EVerest/everest

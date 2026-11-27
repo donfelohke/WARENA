@@ -242,7 +242,7 @@ This survey does not:
 8. Goblins — https://gitlab.com/spritely/goblins
 9. OCapN — https://github.com/ocapn
 10. Hoot — https://gitlab.com/spritely/hoot
-11. GNU Artanis — https://github.com/artanis-org/artanis
+11. GNU Artanis — official project: https://savannah.gnu.org/projects/artanis · project site: https://artanis.dev/ · GitLab source mirror: https://gitlab.com/hardenedlinux/artanis
 12. Haunt — https://dthompson.us/projects/haunt.html
 13. GNU Shepherd — https://www.gnu.org/software/shepherd/
 14. GNU Guix package collection — https://codeberg.org/guix/guix/src/branch/master/gnu/packages
