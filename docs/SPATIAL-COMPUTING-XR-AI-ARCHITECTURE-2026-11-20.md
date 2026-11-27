@@ -297,7 +297,7 @@ For AI, also test default-off state, explicit activation, least privilege, denie
 - Khronos OpenXR: https://www.khronos.org/openxr/
 - Monado project: https://monado.freedesktop.org/
 - Monado developer architecture: https://monado.pages.freedesktop.org/monado/index.html
-- OpenSceneGraph: https://openscenegraph.github.io/
+- OpenSceneGraph: https://www.openscenegraph.com/
 - VulkanSceneGraph: https://github.com/vsg-dev/VulkanSceneGraph
 - Godot XR documentation: https://docs.godotengine.org/en/stable/tutorials/xr/index.html
 
