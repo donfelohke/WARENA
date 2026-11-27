@@ -1,138 +1,72 @@
 # WARENA — CAPABILITY
 
-**Freedom Is a System.**  
+**Freedom Is a System.**
 
-**ONE CORPUS → MANY VIEWS → ONE PRACTICE.**  
-**Commercial interface: NAKEBUSEN.** WARENA is not a separate commercial checkout; it is the CAPABILITY practice.  
-**NAKEBUSEN · WARENA POWERED** — technical capability endorsement within the primary NAKEBUSEN enterprise identity.  
-**Human author:** Felix Lwova · Don Feloh · [@donfelohke](https://github.com/donfelohke)  
-**Constitutional home:** [FELOH Corpus](https://github.com/donfelohke/feloh-corpus)
+**ONE CORPUS → MANY VIEWS → ONE PRACTICE.**
 
-WARENA is the **CAPABILITY** domain in the F3L0H practice: systems engineering, infrastructure, GNU/Linux, reproducible environments and technical enablement. Its purpose is to make computing understandable, maintainable, recoverable and locally controllable—including where connectivity is unreliable.
+**Commercial interface: NAKEBUSEN.** WARENA is not a separate commercial checkout.
 
-**Public-facing direction:** Sovereign systems that work when the internet does not.
+WARENA is the systems-engineering and infrastructure practice authored by Felix Lwova · Don Feloh · [@donfelohke](https://github.com/donfelohke). It develops and evaluates computing systems that are inspectable, reproducible, recoverable, locally controllable and interoperable.
 
-WARENA is not a separate checkout brand. **ONLY NAKEBUSEN TRANSACTS.** Customer-facing engagements, where offered, are scoped and transacted through [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN). An enquiry is not an accepted project.
+WARENA is not a separate checkout brand or parent company. It provides technical capability within the wider FELOH practice. Customer-facing engagements, where offered, are scoped and transacted through [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN). **ONLY NAKEBUSEN TRANSACTS.**
 
 ## Start here
 
-- [Technology Constitution](docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) — native-first, libre-first and local-first engineering policy.
-- [Desktop architecture](docs/DESKTOP-ARCHITECTURE.md) — current desktop research boundaries.
-- [Capability map](docs/CAPABILITY-MAP.md) — technical records and research.
-- [Reproducible Systems and Real-Time I/O Validation (2026-11-24)](docs/REPRODUCIBLE-SYSTEMS-AND-REALTIME-IO-VALIDATION-2026-11-24.md) — reproducible system inputs, software provenance and proposed native media-pipeline validation.
-- [Real-Time Bidirectional I/O and Display Pipelines](docs/REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md) — timing, latency, jitter, throughput and reproducible test direction.
-- [Camera, Display and Real-Time I/O at Scale](docs/CAMERA-DISPLAY-REALTIME-IO-SCALE-RESEARCH-2026-11-24.md) — V4L2, libcamera, DMA-BUF, PipeWire, GStreamer, DRM/KMS, buffer ownership, clocks, scale and validation gates.
-- [Omarchy / Omaxian / Guix desktop architecture study](docs/OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) — comparative research, not a deployment claim.
-- [Sovereign Movement Systems](docs/research/SOVEREIGN-MOVEMENT-SYSTEMS-RESEARCH-2026-11-21.md) — embedded systems, mobility, energy and locally grounded infrastructure.
-- [Agentic Operating Environment and GNU Hurd](docs/AGENTIC-OPERATING-ENVIRONMENT-GNU-HURD-RESEARCH-2026-11-20.md) — human-governed authority and capability security.
-- [Repository upgrade plan](docs/REPOSITORY-UPGRADE-PLAN-2026-11-21.md) — maintenance gates and known work.
+- [Technology Constitution](docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) — binding native-first, libre-first, local-first and human-control policy.
+- [Architecture](docs/architecture.md) · [Capability map](docs/CAPABILITY-MAP.md) · [Stack register](docs/STACK-REGISTER.md).
+- [Desktop architecture](docs/DESKTOP-ARCHITECTURE.md) — current research decisions and compatibility boundaries.
+- [Reproducible systems and real-time I/O validation](docs/REPRODUCIBLE-SYSTEMS-AND-REALTIME-IO-VALIDATION-2026-11-24.md) — proposed evidence and test methods.
+- [Camera, display and real-time I/O at scale](docs/CAMERA-DISPLAY-REALTIME-IO-SCALE-RESEARCH-2026-11-24.md) — native media, display, buffer and clock-domain research.
+- [Documentation index](docs/README.md) — research, runbooks, decisions and source routing.
 
-## Engineering principles
+## Engineering policy
 
-1. **Human authority:** tools and agents assist; the operator retains decision rights.
-2. **Libre-first:** prefer free software, open standards and interoperability; GNU is foundational, not an exclusive boundary.
-3. **Local-first:** prioritise privacy, offline operation, user control and durable ownership.
-4. **Reproducibility:** preserve sources, versions, methods and evidence.
-5. **Do not recreate wheels:** evaluate existing research and projects, reuse and adapt where appropriate, and credit creators.
-6. **Recoverability:** design for inspection, repair, migration and handover.
-7. **Honest maturity:** distinguish research, proposal, prototype, implementation and deployment.
+1. **Human authority:** people retain decision rights; agents and automation operate within explicit, reviewable permissions.
+2. **Libre-first:** prefer free software, open standards and interoperability. GNU is foundational, not an exclusive boundary.
+3. **Local-first:** preserve offline utility, privacy, durable ownership and recoverability.
+4. **Native-first:** use native operating-system interfaces and suitable native application technologies; do not make browser application stacks the systems substrate.
+5. **JavaScript prohibition:** JavaScript is not an approved WARENA or IKAI application language, runtime, framework or architectural dependency. Static publication and documentation are separate from application architecture.
+6. **Reproducibility:** record source revisions, channels, inputs, toolchains, build outputs and validation results.
+7. **Do not recreate wheels:** evaluate existing scholarship, standards, projects and hardware; reuse, adapt, interoperate and credit upstream creators.
+8. **Honest maturity:** distinguish research, proposal, prototype, implementation, validation and deployment.
 
-## Technology boundaries
+See the [Technology Constitution](docs/TECHNOLOGY-CONSTITUTION-2026-11-17.md) for the full policy and its exceptions.
 
-- Prefer native GNU/Linux interfaces, Guile/Scheme, inspectable system services and interoperable standards.
-- JavaScript is not an approved runtime, application language, framework or architectural dependency for WARENA/IKAI systems.
-- Static documentation and public web publication are not the same thing as a web application runtime.
-- Avoid cloud dependency, telemetry, DRM, tivoization and opaque control where they undermine user sovereignty.
-- Select tools on technical and ethical merit; do not limit acceptable software to one ecosystem.
+## Current research directions
 
-## Current desktop research position
+| Area | Current direction | Evidence boundary |
+|---|---|---|
+| GNU/Linux systems | Guix and reproducible configuration; RDE evaluated as a configuration layer | Research and configuration records are not a deployed workstation |
+| Desktop | X11-first compatibility research; X.Org baseline, XLibre experiment, Gershwin case study; Wayland remains a separately labelled track | No universal compatibility claim |
+| Programmable systems | Guile/Scheme and GOOPS where they provide a bounded, maintainable responsibility | Candidate technologies require workload-specific evaluation |
+| Real-time I/O | Camera, display, input, audio, buffers, clocks and bidirectional pipelines | Proposed measurements are not measured performance |
+| Storage and networking | Local persistence, backup, federation and cooperative networking | Research is not a deployed service |
+| Human-controlled agents | Explicit authority, capability boundaries and local execution | No autonomous authority is implied |
 
-The current research baseline is **X11-first**: X.Org as the initial compatibility baseline, XLibre as a drop-in compatibility experiment, Gershwin as a desktop case study, and Guile-WM / WM-NG as research directions. Wayland is secondary/experimental; dwl-guile is an experiment and Sway a comparison/recovery baseline. Guix + RDE remains the preferred systems/configuration research foundation.
+## Supporting engineering projects
 
-These are research decisions and candidate directions—not claims of a finished workstation, tested deployment or guaranteed customer compatibility.
+- [dwl-guile](https://github.com/donfelohke/dwl-guile) — Guile-configurable dwl compositor project; a supporting experiment.
+- [home-service-dwl-guile](https://github.com/donfelohke/home-service-dwl-guile) — GNU Guix Home integration for dwl-guile.
 
-## Capability and commercial boundary
+These projects retain their own upstream histories and licences. A fork or configuration layer does not transfer upstream ownership. Consult their source and validation records before treating a build or activation as verified.
 
-Potential engagement areas include GNU/Linux administration, workstation diagnostics and recovery, small-office networking, local-first infrastructure and technical guidance. Scope, feasibility, deliverables, price and support expectations must be agreed before work begins. Do not imply availability, credentials, client outcomes or guarantees without current evidence.
+## Relationship to the wider practice
 
-## Ecosystem
+- [FELOH Corpus](https://github.com/donfelohke/feloh-corpus) — shared identity, governance, evidence and provenance.
+- [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN) — ROOT enterprise and sole transaction interface.
+- [IKAI](https://github.com/donfelohke/Ikai) — MIRROR / reflective-computing research.
+- [GENJE](https://github.com/donfelohke/Genje) — EXPRESSION / creative and embodied practice.
+- [Gallery](https://github.com/donfelohke/Gallery) — asset rights, consent and approval.
 
-| Identity | Relationship |
-|---|---|
-| [FELOH Corpus](https://github.com/donfelohke/feloh-corpus) | Shared constitution, evidence and provenance |
-| [NAKEBUSEN](https://github.com/donfelohke/NAKEBUSEN) | ROOT practice and sole commercial interface |
-| [IKAI](https://github.com/donfelohke/Ikai) | Reflective-computing research |
-| [GENJE](https://github.com/donfelohke/Genje) | Independent creative and embodied practice |
+**GRIT → WARENA.** FELOH remains the human author. WARENA is one distinct practice, not the owner of the other practices.
 
-**FELOH** — Authorship · Intellectual work · Creative direction  
-**NAKEBUSEN** — Beauty · Heritage · Craft · Enterprise  
-**IKAI** — Reflective computing · Perception · Memory · Human experience  
-**WARENA** — Libre technology · Infrastructure · Systems engineering · Digital sovereignty  
-**GENJE** — Music · Movement · Performance · Creative expression**
+## Validation and contribution
 
-See the [FELOH Sovereign Master Corpus](https://github.com/donfelohke/feloh-corpus/blob/main/docs/FELOH-SOVEREIGN-MASTER-CORPUS-2026-11-20.md) for shared identity, governance and repository ownership.
+Before reporting a result, record the exact repository revision, host or target, toolchain/channel versions, commands, complete outcome and known limitations. A successful compile is not runtime validation; a passing test suite is not a deployment; a research note is not an implementation.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), [SECURITY.md](SECURITY.md) and [docs/VALIDATION.md](docs/VALIDATION.md).
 
 ---
 
 **WARENA · CAPABILITY · GRIT**  
 **Freedom Is a System.**
-
-## GRIT — WARENA within the shared identity
-
-**GRIT → WARENA** expresses freedom through engineering: libre-first systems, GNU/Linux, infrastructure, reproducibility, interoperability and human-controlled technology.
-
-WARENA is one distinct practice authored by DON FELOH. It is not the parent company of NAKEBUSEN, GENJE or IKAI, and it is not a separate checkout brand. **ONLY NAKEBUSEN TRANSACTS.**
-
-**GENJE ZA WARENA** names a creative relationship and shared signature; GENJE remains an independent embodied creative practice. IKAI remains reflective-computing research. The FELOH Corpus governs shared canon and provenance.
-
-**FELOH** — Authorship · Intellectual work · Creative direction  
-**NAKEBUSEN** — Beauty · Heritage · Craft · Enterprise  
-**IKAI** — Reflective computing · Perception · Memory · Human experience  
-**WARENA** — Libre technology · Infrastructure · Systems engineering · Digital sovereignty  
-**GENJE** — Music · Movement · Performance · Creative expression
-
-**Freedom Is a System.** Technical maturity and deployment claims remain evidence-based.
-
-Canonical identity specification: [FELOH Corpus — GRACE · GRIT · GLORY](https://github.com/donfelohke/feloh-corpus/blob/main/docs/GRACE-GRIT-GLORY-GENJE-ZA-WARENA-IDENTITY-SYSTEM-2026-11-23.md).
-
-
-## Brand relationship — 2026-11-24
-
-**NAKEBUSEN · WARENA POWERED** is the public enterprise lockup. NAKEBUSEN is the primary customer-facing enterprise; WARENA remains the distinct CAPABILITY / GRIT practice and supplies technical enablement. The endorsement does not make WARENA a parent company, subsidiary or separate checkout brand.
-
-**GRACE · GRIT · GLORY | GENJE ZA WARENA** is the shared ethos and creative signature. GENJE remains an independent creative practice. **ONLY NAKEBUSEN TRANSACTS.**
-
-See the [NAKEBUSEN × WARENA Brand Platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md) for canonical positioning, mission, values, voice and cross-domain governance.
-
-
-## Cooperative networking and self-hosted services — 2026-11-23
-
-- [Cooperative Networking, Federation and Self-Hosted Services](docs/research/cooperative-networking-and-self-hosted-services-2026-11-23.md) — community Wi-Fi/Bluetooth, GNUnet, Tor, federation, Artanis/NGINX policy boundaries, MariaDB/PostgreSQL/SQLite, USSD and GNU Taler. Research only; no deployment approved.
-
-
-## Ecosystem alignment · 2026-11-24
-
-See the [cross-project alignment update](docs/ECOSYSTEM-ALIGNMENT-2026-11-24.md) for shared identity, repository boundaries, evidence/maturity rules and documentation priorities.
-
-## Copy application — 2026-11-24
-
-See [WARENA Technical and Capability Copy Guide](docs/COPY-APPLICATION-2026-11-24.md) for public capability language, technical maturity wording, campaign copy and evidence requirements.
-
-## Brand capability narrative · 2026-11-24
-
-See the [WARENA Capability Narrative](docs/BRAND-CAPABILITY-NARRATIVE-2026-11-24.md) and the [FELOH Corpus canonical brand platform](https://github.com/donfelohke/feloh-corpus/blob/main/docs/NAKEBUSEN-WARENA-BRAND-PLATFORM-2026-11-24.md). Public capability claims remain subject to implementation and validation evidence.
-
-
-## Research addition · 2026-11-24
-
-See [Reproducible Systems and Real-Time I/O Validation](docs/REPRODUCIBLE-SYSTEMS-AND-REALTIME-IO-VALIDATION-2026-11-24.md) for the source-grounded research and proposed validation protocol. This document is research, not an implementation or compliance claim.
-
-
-## Shared identity alignment · 26 November 2026
-
-**GRIT → WARENA** is the current pillar mapping. FELOH remains the human author; **GRACE → NAKEBUSEN** and **GLORY → GENJE / GENJENESS** describe distinct practices. WARENA provides technical capability and is not a separate checkout brand. See the [current shared identity clarification](https://github.com/donfelohke/feloh-corpus/blob/main/docs/IDENTITY-CANONICAL-CLARIFICATION-2026-11-26.md). **ONLY NAKEBUSEN TRANSACTS.**
-
-
-## Documentation index
-
-See [docs/README.md](docs/README.md) for the current repository documentation map and source-of-record links.
