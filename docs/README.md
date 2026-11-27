@@ -19,6 +19,7 @@ This index is the navigation layer for WARENA's engineering architecture, resear
 - [Reproducible environment runbook](reproducible-environment-runbook.md).
 
 ## Real-time I/O and media systems
+- [Real-time bidirectional I/O — standards and interface update (2026-11-27)](research/REALTIME-BIDIRECTIONAL-IO-REFERENCE-UPDATE-2026-11-27.md) — V4L2, DMA-BUF, DRM/KMS, PipeWire, OpenXR and measurable validation contracts.
 - [Camera, display and real-time I/O at scale](CAMERA-DISPLAY-REALTIME-IO-SCALE-RESEARCH-2026-11-24.md).
 - [Real-time bidirectional I/O and display pipelines](REALTIME-BIDIRECTIONAL-IO-AND-DISPLAY-PIPELINES-2026-11-22.md).
 - [Reproducible systems and real-time I/O validation](REPRODUCIBLE-SYSTEMS-AND-REALTIME-IO-VALIDATION-2026-11-24.md).
