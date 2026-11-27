@@ -11,6 +11,11 @@
 5. Record exact commands, revisions, observed results, and limitations.
 6. Change status only when evidence supports it.
 
+## Current research additions · 27 November 2026
+
+- [Freedom in machine-learning applications](research/WARENA-FREEDOM-IN-MACHINE-LEARNING-RESEARCH-2026-11-27.md) — full-stack user-freedom evaluation, prompted by the FSF announcement.
+- [Utility Shell, Kernel Boundaries and Composable Systems](research/WARENA-UTILITY-SHELL-KERNEL-AND-COMPOSABLE-SYSTEMS-RESEARCH-2026-11-27.md) — reuse-first architecture research across shells, kernels, IPC, services and real-time I/O.
+
 ## Domain map
 
 | Area | Document | Purpose |
