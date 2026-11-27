@@ -95,3 +95,7 @@ See [WARENA systems and infrastructure update](ECOSYSTEM-UPDATE-2026-11-22.md) f
 ## Omarchy / Omaxian comparative desktop research — 2026-11-22
 
 - [Omarchy, Omaxian and the Reproducible Desktop](OMARCHY-OMAXIAN-GUIX-DESKTOP-ARCHITECTURE-RESEARCH-2026-11-22.md) — Omarchy Quattro product and shell integration, Omaxian X11 portability case study, Quickshell/QML policy boundary, Guix generations/provenance, proposed modular native architecture, extension threat model and validation gates. **RESEARCH / ARCHITECTURE ANALYSIS; no WARENA implementation or deployment claimed.**
+
+## Cooperative and federated infrastructure — 2026-11-27
+
+- [Cooperative, Federated Computing and Embodied Interaction — cross-domain synthesis](https://github.com/donfelohke/feloh-corpus/blob/main/docs/research/COOPERATIVE-FEDERATED-COMPUTING-AND-EMBODIED-INTERACTION-SYNTHESIS-2026-11-27.md) — navigation across Hurd service architecture, agent permissions, federation, cooperative ownership, real-time I/O, IKAI and GENJE. Detailed WARENA network/federation research remains in [Cooperative networking and self-hosted services](research/cooperative-networking-and-self-hosted-services-2026-11-23.md).
